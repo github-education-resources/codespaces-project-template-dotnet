@@ -5,7 +5,7 @@
     "dockerfile": "./Dockerfile",
     "context": ".",
     "args": {
-      "VARIANT": "7.0-jammy"
+      "VARIANT": "7.0-bullseye-slim"
     }
   },
 
