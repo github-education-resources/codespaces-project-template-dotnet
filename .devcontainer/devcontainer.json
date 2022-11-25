@@ -11,8 +11,6 @@
 
   // Use 'forwardPorts' to make a list of ports inside the container available locally.
   "forwardPorts": [
-    // Azure Functions
-    7071,
     // ASP.NET Core Web/API App, Blazor App
     5000, 5001,
     // Azure Static Web Apps

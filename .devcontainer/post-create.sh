@@ -35,7 +35,7 @@ done
 
 ## AZURE FUNCTIONS CORE TOOLS ##
 # Uncomment the below to install Azure Functions Core Tools. Make sure you have installed node.js
-npm i -g azure-functions-core-tools@4 --unsafe-perm true
+# npm i -g azure-functions-core-tools@4 --unsafe-perm true
 
 ## Azurite ##
 # Uncomment the below to install Azurite. Make sure you have installed node.js
