@@ -1,9 +1,10 @@
 ﻿@page "/"
+@inject HttpClient Http
 
-<PageTitle>Index</PageTitle>
+<PageTitle>Portfolio</PageTitle>
 
-<h1>Hello, world!</h1>
-
-Welcome to your new app.
-
-<SurveyPrompt Title="How is Blazor working for you?" />
+<Header />
+<Home Http="@Http" />
+<About Http="@Http" />
+<Portfolio Http="@Http" />
+<Footer Http="@Http" PrimaryColor="#4E567E" SecondaryColor="#D2F1E4" />

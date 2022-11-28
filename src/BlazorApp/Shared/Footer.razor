@@ -1,0 +1,80 @@
+<div id="contact" style="background-color: @PrimaryColor;">
+    @if (property == null)
+    {
+        <div style="display: flex; justify-content: center; gap: 2.5rem;">
+            <p><em>Loading...</em></p>
+        </div>
+    }
+    else
+    {
+        <div style="display: flex; justify-content: center; gap: 2.5rem;">
+            @if (string.IsNullOrWhiteSpace(property.Email) != true)
+            {
+                <a href="mailto:@(property.Email)">
+                    <img src="../images/socials/envelope.svg" alt="email" class="socialIcon" />
+                </a>
+            }
+            @if (string.IsNullOrWhiteSpace(property.DevDotTo) != true)
+            {
+                <a href="https://dev.to/@(property.DevDotTo)" target="_blank" rel="noopener noreferrer">
+                    <img src="../images/socials/devdotto.svg" alt="Dev.to" class="socialIcon" />
+                </a>
+            }
+            @if (string.IsNullOrWhiteSpace(property.GitHub) != true)
+            {
+                <a href="https://github.com/@(property.GitHub)" target="_blank" rel="noopener noreferrer">
+                    <img src="../images/socials/github.svg" alt="GitHub" class="socialIcon" />
+                </a>
+            }
+            @if (string.IsNullOrWhiteSpace(property.Instagram) != true)
+            {
+                <a href="https://instagram.com/@(property.Instagram)" target="_blank" rel="noopener noreferrer">
+                    <img src="../images/socials/instagram.svg" alt="Instagram" class="socialIcon" />
+                </a>
+            }
+            @if (string.IsNullOrWhiteSpace(property.LinkedIn) != true)
+            {
+                <a href="https://linkedin.com/in/@(property.LinkedIn)" target="_blank" rel="noopener noreferrer">
+                    <img src="../images/socials/linkedin.svg" alt="Dev.to" class="socialIcon" />
+                </a>
+            }
+            @if (string.IsNullOrWhiteSpace(property.Medium) != true)
+            {
+                <a href="https://medium.com/@@@(property.Medium)" target="_blank" rel="noopener noreferrer">
+                    <img src="../images/socials/medium.svg" alt="Dev.to" class="socialIcon" />
+                </a>
+            }
+            @if (string.IsNullOrWhiteSpace(property.Twitter) != true)
+            {
+                <a href="https://twitter.com/@(property.Twitter)" target="_blank" rel="noopener noreferrer">
+                    <img src="../images/socials/twitter.svg" alt="Dev.to" class="socialIcon" />
+                </a>
+            }
+            @if (string.IsNullOrWhiteSpace(property.YouTube) != true)
+            {
+                <a href="https://youtube.com/@(property.YouTube)" target="_blank" rel="noopener noreferrer">
+                    <img src="../images/socials/youtube.svg" alt="Dev.to" class="socialIcon" />
+                </a>
+            }
+        </div>
+        <p class="small" style="margin-top: 0; color: white;">Created by @property.Name</p>
+    }
+</div>
+
+@code {
+    [Parameter]
+    public HttpClient? Http { get; set; } = default;
+
+    [Parameter]
+    public string PrimaryColor { get; set; } = string.Empty;
+
+    [Parameter]
+    public string SecondaryColor { get; set; } = string.Empty;
+
+    private SiteProperty? property;
+
+    protected override async Task OnInitializedAsync()
+    {
+        property = await Http.GetFromJsonAsync<SiteProperty>("sample-data/siteproperty.json");
+    }
+}

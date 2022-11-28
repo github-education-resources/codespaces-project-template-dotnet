@@ -1,0 +1,29 @@
+<section class="dark" id="home">
+    <img class="background" src="../images/server-wall.jpg" alt="" />
+    <div style="position: absolute; top: 30%; left: 2rem;">
+        @if (property == null)
+        {
+            <p><em>Loading...</em></p>
+        }
+        else
+        {
+            <h1>@property.Name</h1>
+            <h2>@property.Title</h2>
+        }
+    </div>
+    <div style="position: absolute; bottom: 8rem; left: 50%;">
+        <img src="../images/down-arrow.svg" style="height: 3rem; width: 3rem;" alt="woman holding laptop standing by server room with glass wall" />
+    </div>
+</section>
+
+@code {
+    [Parameter]
+    public HttpClient? Http { get; set; } = default;
+
+    private SiteProperty? property;
+
+    protected override async Task OnInitializedAsync()
+    {
+        property = await Http.GetFromJsonAsync<SiteProperty>("sample-data/siteproperty.json");
+    }
+}
