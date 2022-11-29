@@ -55,6 +55,8 @@ jobs:
 
   deploy:
     name: Deploy App to GitHub Pages
+    needs:
+    - build_test_artifact
 
     runs-on: ubuntu-latest
 
