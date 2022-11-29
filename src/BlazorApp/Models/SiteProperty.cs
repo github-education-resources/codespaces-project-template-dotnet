@@ -1,6 +1,6 @@
 namespace BlazorApp.Models
 {
-    public class SiteProperty
+    public class SiteProperties
     {
         public virtual string Name { get; set; } = string.Empty;
         public virtual string Title { get; set; } = string.Empty;

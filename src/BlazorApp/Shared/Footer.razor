@@ -71,10 +71,10 @@
     [Parameter]
     public string SecondaryColor { get; set; } = string.Empty;
 
-    private SiteProperty? property;
+    private SiteProperties? property;
 
     protected override async Task OnInitializedAsync()
     {
-        property = await Http.GetFromJsonAsync<SiteProperty>("sample-data/siteproperty.json");
+        property = await Http.GetFromJsonAsync<SiteProperties>("sample-data/siteproperties.json");
     }
 }

@@ -5,7 +5,7 @@
     "dockerfile": "./Dockerfile",
     "context": ".",
     "args": {
-      "VARIANT": "7.0-bullseye-slim"
+      "VARIANT": "7.0"
     }
   },
 
@@ -18,11 +18,6 @@
   ],
 
   "features": {
-    // AWS CLI
-    // "ghcr.io/devcontainers/features/aws-cli:1": {
-    //   "version": "latest"
-    // },
-
     // Azure CLI
     "ghcr.io/devcontainers/features/azure-cli:1": {
       "version": "latest"
@@ -62,37 +57,9 @@
     "vscode": {
       // Add the IDs of extensions you want installed when the container is created.
       "extensions": [
-        // Extensions - GitHub
-        "cschleiden.vscode-github-actions",
-        "GitHub.vscode-pull-request-github",
-
-        // Extensions - Azure
-        // "Azurite.azurite",
-        // "ms-azuretools.vscode-bicep",
-        "ms-vscode.vscode-node-azure-pack",
-
-        // Extensions - Collaboration
-        "eamodio.gitlens",
-        "EditorConfig.EditorConfig",
-        // "MS-vsliveshare.vsliveshare-pack",
-        "streetsidesoftware.code-spell-checker",
-
-        // Extensions - .NET
-        "Fudge.auto-using",
-        "jongrant.csharpsortusings",
-        "kreativ-software.csharpextensions",
-
-        // Extensions - Markdown
-        // "bierner.github-markdown-preview",
-        // "DavidAnson.vscode-markdownlint",
-        // "docsmsft.docs-linting",
-        // "johnpapa.read-time",
-        // "yzhang.markdown-all-in-one",
-
-        // Extensions - REQUIRED
-        "GitHub.copilot",
         "ms-dotnettools.csharp",
         "ms-vscode.PowerShell",
+        "ms-vscode.vscode-node-azure-pack",
         "VisualStudioExptTeam.vscodeintellicode"
       ],
       "settings": {
@@ -104,24 +71,13 @@
         //   }
         // },
 
-        // Uncomment if you want to use CaskaydiaCove Nerd Font as the default terminal font
-        "terminal.integrated.fontFamily": "CaskaydiaCove Nerd Font",
-
         // Uncomment if you want to disable the minimap view
-        "editor.minimap.enabled": false,
-
-        // Uncomment if you want to disable the welcome page of GitLens
-        "gitlens.showWelcomeOnInstall": false,
-        "gitlens.showWhatsNewAfterUpgrades": false,
-
-        // Uncomment if you prefer the light colour theme
-        // "workbench.colorTheme": "Default Light+",
+        // "editor.minimap.enabled": false,
 
         // Recommended settings for the explorer pane
         "explorer.sortOrder": "type",
         "explorer.fileNesting.enabled": true,
         "explorer.fileNesting.patterns": {
-          // "*.bicep": "${capture}.json",
           "*.js": "${capture}.js.map",
           "*.razor": "${capture}.razor.cs,${capture}.razor.css"
         }

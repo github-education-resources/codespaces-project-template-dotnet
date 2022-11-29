@@ -9,25 +9,15 @@ git config --global core.autocrlf input
 dotnet dev-certs https --trust
 
 ## Restore .NET packages and build the default solution
-dotnet restore .
-dotnet build .
-
-## CaskaydiaCove Nerd Font
-# Uncomment the below to install the CaskaydiaCove Nerd Font
-mkdir $HOME/.local
-mkdir $HOME/.local/share
-mkdir $HOME/.local/share/fonts
-wget https://github.com/ryanoasis/nerd-fonts/releases/latest/download/CascadiaCode.zip
-unzip CascadiaCode.zip -d $HOME/.local/share/fonts
-rm CascadiaCode.zip
+dotnet restore && dotnet build
 
 ## AZURE CLI EXTENSIONS ##
 # Uncomment the below to install Azure CLI extensions
-extensions=(account alias deploy-to-azure functionapp subscription webapp)
-for extension in $extensions;
-do
-    az extension add --name $extension
-done
+# extensions=(account alias deploy-to-azure functionapp subscription webapp)
+# for extension in $extensions;
+# do
+#     az extension add --name $extension
+# done
 
 ## AZURE BICEP CLI ##
 # Uncomment the below to install Azure Bicep CLI.

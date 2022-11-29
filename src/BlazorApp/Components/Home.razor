@@ -23,12 +23,12 @@
     [Parameter]
     public HttpClient? Http { get; set; } = default;
 
-    private SiteProperty? property;
+    private SiteProperties? property;
     private HeroImage? hero;
 
     protected override async Task OnInitializedAsync()
     {
-        property = await Http.GetFromJsonAsync<SiteProperty>("sample-data/siteproperty.json");
+        property = await Http.GetFromJsonAsync<SiteProperties>("sample-data/siteproperties.json");
 
         var heros = await Http.GetFromJsonAsync<List<HeroImage>>("sample-data/heroimages.json");
         hero = heros.SingleOrDefault(p => p.Name == "home");
