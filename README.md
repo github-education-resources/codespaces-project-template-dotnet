@@ -223,23 +223,17 @@ With your project open in Codespaces:
 
 ### GitHub Pages
 
-⬇️⬇️⬇️ This part needs to be updated to reflect newer way of deploying apps to GH Pages through GitHub Actions ⬇️⬇️⬇️
-
 [GitHub Pages](https://pages.github.com/) allows you to host websites directly from your GitHub repository. This project is already set up for you to get your portfolio deployed to GitHub pages with minimal steps.
 
-With your project open in Codespaces:
+On your GitHub repository:
 
-1. Open `package.json` and update the following values:
-    1. **homepage**: set to `http://{github-username}.github.io/{repo-name}`, where `github-username` is your GitHub username and `repo-name` is the what you named this portfolio repo when you created it
-    1. **build-gh**: replace `github-username` with your GitHub username and `repo-name` with the repository name
-1. Commit and push those changes to `package.json` to your GitHub remote repo.
-1. Open a new terminal from the menu or by pressing `ctrl` + `shift` + ` (or open top left menu, select "Terminal" and "New Terminal")
-1. Within the terminal window run `npm run deploy`. This will first run the pre-deploy script to build the project, followed by the deploy script that will push those bundled files to a new branch on your repo (gh-pages) that will be used for you GitHub Pages site.
-1. When completed, within your repo, go to Settings and Pages. There you will see that a page has been set up to for you against the gh-pages branch, and you should see the URL (that should match the "homepage" value you set in package.json)
-
-![Azure Static Web App deploy](/__images__/github-pages-deploy.gif "Azure Static Web App deploy")
-
-⬆️⬆️⬆️ This part needs to be updated to reflect newer way of deploying apps to GH Pages through GitHub Actions ⬆️⬆️⬆️
+1. Go to the "Settings" tab and navigate to the "Pages" menu.
+1. Under the _Build and deployment_ section, select the source to **GitHub Actions**.
+    <img src="./images/deploy-to-ghpages-01.png" alt="Choose GitHub Actions for deployment to GitHub Pages" style="width: 500px;" />
+1. Ensure your GitHub Pages visibility to **Public**.
+1. Run a GitHub Action workflow by pushing code or manually invoke it.
+1. Visit your GitHub Pages.
+    <img src="./images/deploy-to-ghpages-02.png" alt="Visit GitHub Pages" style="width: 500px;" />
 
 > 🤩 **Bonus**: [Setup a custom domain for your GitHub pages site](https://docs.github.com/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site)
 
