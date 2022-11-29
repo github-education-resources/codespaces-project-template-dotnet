@@ -208,7 +208,8 @@ You'll need both Azure and GitHub accounts to deploy your web application. If yo
 With your project open in Codespaces:
 
 1. Click Azure icon in the left sidebar. Log in if you are not already, and if new to Azure, follow the prompts to create your account.
-1. From Azure menu click "➕" sign and then "Create Static Web App".
+1. From Azure menu click "➕" sign and then choose "Create Static Web App".
+   <img src="./images/deploy-to-azure.png" alt="Create Static Web App" style="width: 300px;" />
 1. If you are not logged into GitHub you will be prompted to log in. If you have any pending file changes you will then be prompted to commit those changes.
 1. Set you application information when prompted:
     1. **Name for Static Web App**: enter the name for the Static Web App. Default to your GitHub repository name.
