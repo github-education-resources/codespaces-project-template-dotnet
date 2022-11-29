@@ -1,5 +1,8 @@
 <section class="light" id="about">
-    <img class="background" src="../images/mosaic.svg" alt="purple and blue abstract background" />
+    @if (hero != null)
+    {
+        <img class="background" src="@(hero.Src)" alt="@(hero.Alt)" />
+    }
     <h2>About Myself</h2>
     <div style="backgroundColor: white; width: 50%; padding: 4rem; margin: 3rem auto; text-align: center;">
         @if (aboutme == null)
@@ -27,9 +30,13 @@
     public HttpClient? Http { get; set; } = default;
 
     private AboutMe? aboutme;
+    private HeroImage? hero;
 
     protected override async Task OnInitializedAsync()
     {
         aboutme = await Http.GetFromJsonAsync<AboutMe>("sample-data/aboutme.json");
+
+        var heros = await Http.GetFromJsonAsync<List<HeroImage>>("sample-data/heroimages.json");
+        hero = heros.SingleOrDefault(p => p.Name == "about");
     }
 }
