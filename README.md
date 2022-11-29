@@ -209,7 +209,9 @@ With your project open in Codespaces:
 
 1. Click Azure icon in the left sidebar. Log in if you are not already, and if new to Azure, follow the prompts to create your account.
 1. From Azure menu click "➕" sign and then choose "Create Static Web App".
+
    <img src="./images/deploy-to-azure.png" alt="Create Static Web App" style="width: 300px;" />
+
 1. If you are not logged into GitHub you will be prompted to log in. If you have any pending file changes you will then be prompted to commit those changes.
 1. Set you application information when prompted:
     1. **Name for Static Web App**: enter the name for the Static Web App. Default to your GitHub repository name.
@@ -229,11 +231,14 @@ On your GitHub repository:
 
 1. Go to the "Settings" tab and navigate to the "Pages" menu.
 1. Under the _Build and deployment_ section, select the source to **GitHub Actions**.
-    <img src="./images/deploy-to-ghpages-01.png" alt="Choose GitHub Actions for deployment to GitHub Pages" style="width: 500px;" />
+
+    <img src="./images/deploy-to-ghpages-01.png" alt="Choose GitHub Actions for deployment to GitHub Pages" style="width: 600px;" />
+
 1. Ensure your GitHub Pages visibility to **Public**.
 1. Run a GitHub Action workflow by pushing code or manually invoke it.
 1. Visit your GitHub Pages.
-    <img src="./images/deploy-to-ghpages-02.png" alt="Visit GitHub Pages" style="width: 500px;" />
+
+    <img src="./images/deploy-to-ghpages-02.png" alt="Visit GitHub Pages" style="width: 600px;" />
 
 > 🤩 **Bonus**: [Setup a custom domain for your GitHub pages site](https://docs.github.com/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site)
 
@@ -300,6 +305,7 @@ Your site should already be running in your Codespaces, and the change will relo
 Animations are a way you can easily add some motion to elements on your page to increase user interactivity and highlight items you want to make sure they notice. Let's animate the desk photo in the portfolio section. 
 
 1. Open your site's stylesheet, `/src/BlazorApp/wwwroot/css/app.css` within your Codespaces. Add the animation sequence by adding a `@keyframes` definition to slide in from the left:
+
     ```css
     @keyframes slideInLeft {
       0% {
@@ -309,7 +315,8 @@ Animations are a way you can easily add some motion to elements on your page to 
         transform: translateX(0);
       }
     }
-    ``` 
+    ```
+
 1. Now that we have defined our `slideInLeft` animation sequence we can tell our desk photo to animate itself with that sequence. Open `/src/BlazorApp/Components/Portfolio.razor` and locate the `img` tag. You will see it utilizes inline CSS to set it's styling. Within it's style definition add the following:
 
     ```css
@@ -342,7 +349,9 @@ For an example, let's add an education section to your portfolio site.
         <h2>Education</h2>
     </section>
     ```
-3. In `Index.razor` add the `Education` component where you would like it to render within the page by inserting:
+
+1. In `Index.razor` add the `Education` component where you would like it to render within the page by inserting:
+
     ```razor
     <Education />
     ```
