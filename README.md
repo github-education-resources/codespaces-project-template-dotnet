@@ -203,7 +203,7 @@ Project includes the setup needed for you to deploy **free** to both [Azure Stat
 You'll need both Azure and GitHub accounts to deploy your web application. If you don't yet have an Azure account you can create it from within during the deploy process, or from below links:
 
 * [Create a (no Credit Card required) Azure For Students account](https://azure.microsoft.com/free/students/?WT.mc_id=dotnet-82024-juyoo)
-* [Create a new Azure account](https://azure.microsoft.com/?WT.mc_id=dotnet-82024-juyoo)
+* [Create a new Azure account](https://azure.microsoft.com/free/?WT.mc_id=dotnet-82024-juyoo)
 
 With your project open in Codespaces:
 
