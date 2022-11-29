@@ -211,10 +211,11 @@ With your project open in Codespaces:
 1. From Azure menu click "➕" sign and then "Create Static Web App".
 1. If you are not logged into GitHub you will be prompted to log in. If you have any pending file changes you will then be prompted to commit those changes.
 1. Set you application information when prompted:
-    1. **Region**: pick the one closest to you
+    1. **Name for Static Web App**: enter the name for the Static Web App. Default to your GitHub repository name.
+    1. **Region**: pick the one closest to your region
     1. **Project structure**: select "Blazor"
-    1. **Location of application code**: `/src/BlazorApp`
-    1. **Build location**: `wwwroot`
+    1. **Location of application code**: enter `/src/BlazorApp`
+    1. **Output location**: enter `wwwroot`
 1. When complete you will see notification at the bottom of your screen, and a new GitHub Action workflow will be added to your project. If you click "Open Action in GitHub" you will see the action that was created for you, and it is currently running.
 
 > 🤩 **Bonus**: [Setup a custom domain for your Azure Static Web App](https://learn.microsoft.com/shows/azure-tips-and-tricks-static-web-apps/how-to-set-up-a-custom-domain-name-in-azure-static-web-apps-10-of-16--azure-tips-and-tricks-static-w/?WT.mc_id=dotnet-82024-juyoo)
