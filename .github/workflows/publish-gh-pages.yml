@@ -28,6 +28,26 @@ jobs:
       with:
         dotnet-version: '7.x'
 
+    - name: Set basepath on index.html
+      shell: pwsh
+      run: |
+        $filepath = "./src/BlazorApp/wwwroot/index.html"
+        $repository = ${{ github.repository }} -replace "${{ github.repository_owner }}", ""
+
+        $html = Get-Content -Path $filepath
+        $html -replace "<base href=`"/`" />", "<base href=`"$repository/`" />" | Out-File -Path $filepath -Force
+
+    - name: Set basepath on JSON objects
+      shell: pwsh
+      run: |
+        $filepath = "./src/BlazorApp/wwwroot/sample-data"
+        $repository = ${{ github.repository }} -replace "${{ github.repository_owner }}", ""
+
+        Get-ChildItem -Path $filepath -Filter "*.json" | ForEach-Object {
+          $json = Get-Content -Path $_.FullName
+          $json.Replace("../", "$repository/") | Out-File -Path $_.FullName -Force
+        }
+
     - name: Restore NuGet packages
       shell: bash
       run: |
