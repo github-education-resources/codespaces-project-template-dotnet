@@ -236,9 +236,12 @@ On your GitHub repository:
 
 1. Ensure your GitHub Pages visibility to **Public**.
 1. Run a GitHub Action workflow by pushing code or manually invoke it.
+
+    <img src="./images/deploy-to-ghpages-02.png" alt="Invoke GitHub Actions" style="width: 600px;" />
+
 1. Visit your GitHub Pages.
 
-    <img src="./images/deploy-to-ghpages-02.png" alt="Visit GitHub Pages" style="width: 600px;" />
+    <img src="./images/deploy-to-ghpages-03.png" alt="Visit GitHub Pages" style="width: 600px;" />
 
 > 🤩 **Bonus**: [Setup a custom domain for your GitHub pages site](https://docs.github.com/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site)
 
