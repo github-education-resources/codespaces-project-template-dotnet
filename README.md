@@ -128,21 +128,21 @@ Open `/src/BlazorApp/wwwroot/sample-data/heroimages.json` and update images with
     // Home component
     // section at top of the page, main image you will see when site loads (woman standing by server wall in sample)
     "name": "home",
-    "src": "../images/server-wall.jpg",
+    "src": "images/server-wall.jpg",
     "alt": "woman holding laptop standing by server room with glass wall"
   },
   {
     // About me component
     // background behind the detailed "about me" section (abstract mosaic in sample)
     "name": "about",
-    "src": "../images/mosaic.svg",
+    "src": "images/mosaic.svg",
     "alt": "purple and blue abstract background"
   },
   {
     // Portfolio component
     // image highted in left hand side of section (design desk photo in sample)
     "name": "portfolio",
-    "src": "../images/design-desk.jpeg",
+    "src": "images/design-desk.jpeg",
     "alt": "desktop with books and laptop"
   }
 ]
