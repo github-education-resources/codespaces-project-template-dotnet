@@ -1,0 +1,36 @@
+<section class="dark" id="home">
+    @if (hero != null)
+    {
+        <img class="background" src="@(hero.Src)" alt="@(hero.Alt)" />
+    }
+    <div style="position: absolute; top: 30%; left: 2rem;">
+        @if (property == null)
+        {
+            <p><em>Loading...</em></p>
+        }
+        else
+        {
+            <h1>@property.Name</h1>
+            <h2>@property.Title</h2>
+        }
+    </div>
+    <div style="position: absolute; bottom: 8rem; left: 50%;">
+        <img src="images/down-arrow.svg" style="height: 3rem; width: 3rem;" alt="scroll down" />
+    </div>
+</section>
+
+@code {
+    [Parameter]
+    public HttpClient? Http { get; set; } = default;
+
+    private SiteProperties? property;
+    private HeroImage? hero;
+
+    protected override async Task OnInitializedAsync()
+    {
+        property = await Http.GetFromJsonAsync<SiteProperties>("sample-data/siteproperties.json");
+
+        var heros = await Http.GetFromJsonAsync<List<HeroImage>>("sample-data/heroimages.json");
+        hero = heros.SingleOrDefault(p => p.Name == "home");
+    }
+}
