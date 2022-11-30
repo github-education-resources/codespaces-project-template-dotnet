@@ -7,6 +7,7 @@
     <title>Portfolio</title>
     <base />
     <script>
+        // https://blog.elmah.io/how-to-fix-blazor-wasm-base-path-problems/
         var path = window.location.pathname.split('/');
         var base = document.getElementsByTagName('base')[0];
         if (window.location.host.includes('localhost')) {
