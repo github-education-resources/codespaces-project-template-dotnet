@@ -1,56 +1,56 @@
 <div id="contact" style="background-color: @PrimaryColor;">
-    @if (property == null)
+    @if (property is null)
     {
         <div style="display: flex; justify-content: center; gap: 2.5rem;">
             <p><em>Loading...</em></p>
         </div>
     }
-    else
+    else if (icons is not null)
     {
         <div style="display: flex; justify-content: center; gap: 2.5rem;">
-            @if (string.IsNullOrWhiteSpace(property.Email) != true)
+            @if (string.IsNullOrWhiteSpace(property.Email) is false)
             {
                 <a href="mailto:@(property.Email)">
                     <img src="@icons.Email" alt="email" class="socialIcon" />
                 </a>
             }
-            @if (string.IsNullOrWhiteSpace(property.DevDotTo) != true)
+            @if (string.IsNullOrWhiteSpace(property.DevDotTo) is false)
             {
                 <a href="https://dev.to/@(property.DevDotTo)" target="_blank" rel="noopener noreferrer">
                     <img src="@icons.DevDotTo" alt="Dev.to" class="socialIcon" />
                 </a>
             }
-            @if (string.IsNullOrWhiteSpace(property.GitHub) != true)
+            @if (string.IsNullOrWhiteSpace(property.GitHub) is false)
             {
                 <a href="https://github.com/@(property.GitHub)" target="_blank" rel="noopener noreferrer">
                     <img src="@icons.GitHub" alt="GitHub" class="socialIcon" />
                 </a>
             }
-            @if (string.IsNullOrWhiteSpace(property.Instagram) != true)
+            @if (string.IsNullOrWhiteSpace(property.Instagram) is false)
             {
                 <a href="https://instagram.com/@(property.Instagram)" target="_blank" rel="noopener noreferrer">
                     <img src="@icons.Instagram" alt="Instagram" class="socialIcon" />
                 </a>
             }
-            @if (string.IsNullOrWhiteSpace(property.LinkedIn) != true)
+            @if (string.IsNullOrWhiteSpace(property.LinkedIn) is false)
             {
                 <a href="https://linkedin.com/in/@(property.LinkedIn)" target="_blank" rel="noopener noreferrer">
                     <img src="@icons.LinkedIn" alt="Dev.to" class="socialIcon" />
                 </a>
             }
-            @if (string.IsNullOrWhiteSpace(property.Medium) != true)
+            @if (string.IsNullOrWhiteSpace(property.Medium) is false)
             {
                 <a href="https://medium.com/@@@(property.Medium)" target="_blank" rel="noopener noreferrer">
                     <img src="@icons.Medium" alt="Dev.to" class="socialIcon" />
                 </a>
             }
-            @if (string.IsNullOrWhiteSpace(property.Twitter) != true)
+            @if (string.IsNullOrWhiteSpace(property.Twitter) is false)
             {
                 <a href="https://twitter.com/@(property.Twitter)" target="_blank" rel="noopener noreferrer">
                     <img src="@icons.Twitter" alt="Dev.to" class="socialIcon" />
                 </a>
             }
-            @if (string.IsNullOrWhiteSpace(property.YouTube) != true)
+            @if (string.IsNullOrWhiteSpace(property.YouTube) is false)
             {
                 <a href="https://youtube.com/@(property.YouTube)" target="_blank" rel="noopener noreferrer">
                     <img src="@icons.YouTube" alt="Dev.to" class="socialIcon" />
@@ -62,8 +62,8 @@
 </div>
 
 @code {
-    [Parameter]
-    public HttpClient? Http { get; set; } = default;
+    [Parameter, EditorRequired]
+    public required HttpClient Http { get; set; }
 
     [Parameter]
     public string PrimaryColor { get; set; } = string.Empty;

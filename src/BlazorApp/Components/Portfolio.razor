@@ -1,37 +1,37 @@
-﻿<section class="light" id="portfolio">
+<section class="light" id="portfolio">
     <h2>Portfolio</h2>
-    <div style="display: flex; flex-direction: row; paddingTop: 3rem;">
-        @if (projects == null)
-        {
-            <p><em>Loading...</em></p>
-        }
-        else
-        {
-            <div style="max-width: 40%; align-self: center;">
-                @if (hero != null)
-                {
-                    <img src="@(hero.Src)" style="height: 90%; width: 100%; object-fit: cover;" alt="@(hero.Alt)" />
-                }
+    <div style="display: flex; flex-direction: row; padding-top: 3rem;">
+        @if (projects is null)
+    {
+        <p><em>Loading...</em></p>
+    }
+    else
+    {
+        <div style="max-width: 40%; align-self: center;">
+            @if (hero is not null)
+            {
+                <img src="@(hero.Src)" style="height: 90%; width: 100%; object-fit: cover;" alt="@(hero.Alt)" />
+            }
             </div>
-            <div class="container">
-                @foreach (var project in projects)
-                {
-                    <div class="box" key="@project.Title">
-                        <a href="@project.Url" target="_blank" rel="noopener noreferrer"><h3 style="flex-basis: 40px;">@project.Title</h3></a>
+        <div class="container">
+            @foreach (var project in projects)
+            {
+                <div class="box" key="@project.Title">
+                        <a href="@project.Url" target="_blank" rel="noopener noreferrer">
+                            <h3 style="flex-basis: 40px;">@project.Title</h3>
+                        </a>
                         <p class="small">@project.Description</p>
-                    </div>
+                </div>
 
-                }
+            }
             </div>
-        }
+    }
     </div>
 </section>
 
-
-
 @code {
-    [Parameter]
-    public HttpClient? Http { get; set; } = default;
+    [Parameter, EditorRequired]
+    public required HttpClient Http { get; set; }
 
     private List<Project>? projects;
     private HeroImage? hero;
@@ -39,8 +39,7 @@
     protected override async Task OnInitializedAsync()
     {
         projects = await Http.GetFromJsonAsync<List<Project>>("sample-data/projects.json");
-
         var heros = await Http.GetFromJsonAsync<List<HeroImage>>("sample-data/heroimages.json");
-        hero = heros.SingleOrDefault(p => p.Name == "portfolio");
+        hero = heros?.SingleOrDefault(p => p.Name is "portfolio");
     }
 }
