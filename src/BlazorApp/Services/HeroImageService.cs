@@ -1,27 +1,27 @@
-using System.ComponentModel.DataAnnotations;
 using System.Net.Http.Json;
 using BlazorApp.Models;
-using Microsoft.Extensions.Caching.Memory;
 
 namespace BlazorApp.Services;
 
-public sealed class HeroImageService
+public sealed class HeroImageService : IDisposable
 {
     private readonly HttpClient _client;
-    private readonly IMemoryCache _cache;
+    private readonly Task<List<HeroImage>?> _getHeroImagesTask;
 
-    public HeroImageService(HttpClient client, IMemoryCache cache) =>
-        (_client, _cache) = (client, cache);
+    public HeroImageService(HttpClient client)
+    {
+        _client = client;
+        _getHeroImagesTask =
+            _client.GetFromJsonAsync<List<HeroImage>>(
+                "sample-data/heroimages.json");
+    }
 
-    internal Task<HeroImage?> GetHeroAsync(Func<HeroImage, bool> predicate) => 
-        _cache.GetOrCreateAsync("hero-images",
-            async entry =>
-            {
-                entry.AbsoluteExpirationRelativeToNow = TimeSpan.FromMinutes(30);
-                var heros =
-                    await _client.GetFromJsonAsync<List<HeroImage>>(
-                        "sample-data/heroimages.json");
+    internal async Task<HeroImage?> GetHeroAsync(Func<HeroImage, bool> predicate)
+    {
+        var heros = await _getHeroImagesTask;
+        return heros?.FirstOrDefault(predicate);
+    }
+        
 
-                return heros?.FirstOrDefault(predicate);
-            });
+    public void Dispose() => _client.Dispose();
 }
