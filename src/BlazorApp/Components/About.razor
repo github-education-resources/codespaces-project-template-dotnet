@@ -1,5 +1,5 @@
 <section class="light" id="about">
-    @if (hero != null)
+    @if (hero is not null)
     {
         <img class="background" src="@(hero.Src)" alt="@(hero.Alt)" />
     }
@@ -14,11 +14,11 @@
         <p class="large">@aboutme.Description</p>
         <hr />
         <ul style="text-align: left; columns: 2; font-size: 1.25rem; margin: 2rem 3rem; gap: 3rem;">
-                @foreach (var skill in aboutme.Skills)
-            {
-                <li key="@skill">@skill</li>
-            }
-            </ul>
+        @foreach (var skill in aboutme.Skills)
+        {
+            <li key="@skill">@skill</li>
+        }
+        </ul>
         <hr />
         <p style="padding: 1rem 3rem 0;">@aboutme.DetailOrQuote</p>
     }
@@ -29,13 +29,16 @@
     [Parameter, EditorRequired]
     public required HttpClient Http { get; set; }
 
+    [Parameter, EditorRequired]
+    public required HeroImageService HeroImageService { get; set; }
+
     private AboutMe? aboutme;
     private HeroImage? hero;
 
     protected override async Task OnInitializedAsync()
     {
         aboutme = await Http.GetFromJsonAsync<AboutMe>("sample-data/aboutme.json");
-        var heros = await Http.GetFromJsonAsync<List<HeroImage>>("sample-data/heroimages.json");
-        hero = heros?.SingleOrDefault(p => p.Name is "about");
+        hero = await HeroImageService.GetHeroAsync(img => img.Name is "about");
+
     }
 }
