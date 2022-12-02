@@ -1,14 +1,13 @@
-namespace BlazorApp.Models
+namespace BlazorApp.Models;
+
+public class SocialIcons
 {
-    public class SocialIcons
-    {
-        public virtual string Email { get; set; } = string.Empty;
-        public virtual string DevDotTo { get; set; } = string.Empty;
-        public virtual string GitHub { get; set; } = string.Empty;
-        public virtual string Instagram { get; set; } = string.Empty;
-        public virtual string LinkedIn { get; set; } = string.Empty;
-        public virtual string Medium { get; set; } = string.Empty;
-        public virtual string Twitter { get; set; } = string.Empty;
-        public virtual string YouTube { get; set; } = string.Empty;
-    }
+    public string Email { get; set; } = string.Empty;
+    public string DevDotTo { get; set; } = string.Empty;
+    public string GitHub { get; set; } = string.Empty;
+    public string Instagram { get; set; } = string.Empty;
+    public string LinkedIn { get; set; } = string.Empty;
+    public string Medium { get; set; } = string.Empty;
+    public string Twitter { get; set; } = string.Empty;
+    public string YouTube { get; set; } = string.Empty;
 }

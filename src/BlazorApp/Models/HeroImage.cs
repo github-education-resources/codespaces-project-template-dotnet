@@ -1,9 +1,8 @@
-namespace BlazorApp.Models
+namespace BlazorApp.Models;
+
+public class HeroImage
 {
-    public class HeroImage
-    {
-        public virtual string Name { get; set; } = string.Empty;
-        public virtual string Src { get; set; } = string.Empty;
-        public virtual string Alt { get; set; } = string.Empty;
-    }
+    public string Name { get; set; } = string.Empty;
+    public string Src { get; set; } = string.Empty;
+    public string Alt { get; set; } = string.Empty;
 }
