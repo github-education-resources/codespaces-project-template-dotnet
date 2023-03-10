@@ -20,6 +20,7 @@ In this "choose your own adventure" template portfolio, we have a [Blazor](https
 ### Quick Start
 
 1. Click the **Use this Template** button
+   
    [![Use this Template](/images/template-button.svg)](https://github.com/education/codespaces-project-template-dotnet/generate)
 2. Select the repository owner (e.g. your GitHub account)
 3. Enter a unique name for your new repository
