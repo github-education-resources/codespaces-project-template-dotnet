@@ -1,13 +1,13 @@
 <section class="light" id="portfolio">
     <h2>Portfolio</h2>
-    <div style="display: flex; flex-direction: row; padding-top: 3rem;">
+    <div class="portfolio-container">
     @if (projects is null)
     {
         <p><em>Loading...</em></p>
     }
     else
     {
-        <div style="max-width: 40%; align-self: center;">
+        <div class="portfolio-hero">
             @if (hero is not null)
             {
                 <img src="@(hero.Src)" style="height: 90%; width: 100%; object-fit: cover;" 
