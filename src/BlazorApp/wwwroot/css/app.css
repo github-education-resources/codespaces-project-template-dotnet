@@ -53,6 +53,33 @@ h1 {
   margin: 0;
 }
 
+@media screen and (max-width: 300px) {
+  h1 {
+    font-weight: 300;
+    font-family: "Cormorant Garamond", serif;
+    font-size: 3rem;
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 301px) and (max-width: 360px) {
+  h1 {
+    font-weight: 300;
+    font-family: "Cormorant Garamond", serif;
+    font-size: 4rem;
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 361px) and (max-width: 420px) {
+  h1 {
+    font-weight: 300;
+    font-family: "Cormorant Garamond", serif;
+    font-size: 5rem;
+    margin: 0;
+  }
+}
+
 h2 {
   font-weight: 400;
   font-size: 2rem;
@@ -102,11 +129,44 @@ a:hover {
   color: #4e567e;
 }
 
+.portfolio-container {
+  display: flex;
+  flex-direction: row;
+  padding-top: 3rem;
+}
+
+@media screen and (max-width: 420px) {
+  .portfolio-container {
+    flex-direction: column;
+  }
+}
+
+.portfolio-hero {
+  max-width: 40%;
+  align-self: center;
+}
+
+@media screen and (max-width: 420px) {
+  .portfolio-hero {
+    max-width: 100%;
+    align-self: center;
+  }
+}
+
 .container {
   margin: 20px auto;
   display: grid;
   grid-template-columns: 330px 300px;
   grid-gap: 20px;
+}
+
+@media screen and (max-width: 420px) {
+  .container {
+    margin: 20px auto;
+    display: inline;
+    grid-template-columns: 330px 300px;
+    grid-gap: 20px;
+  }
 }
 
 .container .box {
