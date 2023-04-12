@@ -1,4 +1,4 @@
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?hide_repo_select=true&ref=main&repo=TO_BE_UPDATED)
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?hide_repo_select=true&ref=main&repo=education/codespaces-project-template-dotnet) 
 
 # .NET (Blazor) Portfolio Site with GitHub Codespaces
 
@@ -20,10 +20,12 @@ In this "choose your own adventure" template portfolio, we have a [Blazor](https
 ### Quick Start
 
 1. Click the **Use this Template** button
-2. Select the repository owner (e.g. your GitHub account)
-3. Enter a unique name for your new repository
-4. Click the **Code** button
-5. Click **Create Codespace on main** button
+   
+   [![Use this Template](/images/template-button.svg)](https://github.com/education/codespaces-project-template-dotnet/generate)
+1. Select the repository owner (e.g. your GitHub account)
+1. Enter a unique name for your new repository
+1. Click the **Code** button
+1. Click **Create Codespace on main** button
 1. [Customize your portfolio site](#-customize-your-site-in-4-steps)
 1. [Deploy your site](#-deploy-your-web-application)
 
