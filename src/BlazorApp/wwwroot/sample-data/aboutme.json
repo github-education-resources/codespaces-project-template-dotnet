@@ -1,12 +1,17 @@
 {
-  "description": "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.",
+  "description": "I am a BI developer with a passion for data analytics and visualization. I enjoy writing data stories to inform and drive decision-making.",
   "skills": [
-    "Web design",
-    "User experience",
-    "Inclusive design",
-    "Focus group testing",
-    "Mobile user interfaces",
-    "Graphic design"
+    "SQL",
+    "Python",
+    "Power BI",
+    "SSRS",
+    "Data Mining & Machine Learning",
+    "Data Warehouse",
+    "Dbt Cloud",
+    "Hightouch",
+    "Fivetran",
+    "Snowflake",
+    "Power Platforms"
   ],
-  "detailOrQuote": "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all."
+  "detailOrQuote": "I am passionate about solving problems in new creative ways to drive innovation."
 }

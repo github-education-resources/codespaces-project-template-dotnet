@@ -1,22 +1,22 @@
 [
   {
-    "title": "10 Things To Know About Azure Static Web Apps 🎉",
-    "description": "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    "url": "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i"
+    "title": "Chatbot with Streamlit and OpenAI's ChatGPT-3 API 🎉",
+    "description": "This project uses Streamlit and OpenAI's ChatGPT-3 API to create a chatbot that can converse with users and answer questions using advanced natural language processing.",
+    "url": "https://github.com/raomohsin54/Projects/blob/main/Chatbot.py"
   },
   {
-    "title": "Web Development for Beginners",
-    "description": "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    "url": "https://github.com/microsoft/web-dev-for-beginners"
+    "title": "Kaggle Portfolio",
+    "description": " In my portfolio, you'll find some of my past projects, including predictive modeling and exploratory data analysis.",
+    "url": "https://www.kaggle.com/mohsinmukhtiar"
   },
   {
-    "title": "My Resume Site",
-    "description": "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    "url": "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website"
+    "title": "DataCamp Portfolio",
+    "description": "DataCamp portfolio that includes completed courses and projects in various topics, such as data manipulation, visualization, and machine learning.",
+    "url": "https://www.datacamp.com/profile/RaoMohsin"
   },
   {
-    "title": "GitHub Codespaces and github.dev",
-    "description": "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    "url": "https://www.youtube.com/watch?v=c3hHhRME_XI"
+    "title": "My Medium Profile",
+    "description": "Data stories to inform and drive decision-making.",
+    "url": "https://medium.com/@rao.mohsin.54"
   }
 ]
