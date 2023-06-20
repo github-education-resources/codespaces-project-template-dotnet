@@ -36,3 +36,13 @@ En este portafolio de plantillas "elige tu propia aventura", tenemos una aplicac
 </details>
 
 <br />
+
+## 🚀 Empezando
+
+Este proyecto de sitio de portafolio está lleno de datos de muestra para que pueda abrir Codespaces inmediatamente, verlo en ejecución e implementarlo en cualquier momento.
+
+Su entorno de desarrollo está listo para que comience. Basado en nuestra [plantilla .NET CodesPaces](https://github.com/education/codespaces-teaching-template-dotnet), aquí está lo que ya está configurado y listo para que use:
+
+* Simple [Blazor WebAssembly](https://dotnet.microsoft.com/apps/aspnet/web-apps/blazor?wt.mc_id=dotnet-82024-juyoo) Aplicación con componentes para cada sección del sitio de portafolio
+* [SWA CLI](https://azure.github.io/static-web-apps-cli/) en su lugar para construir su sitio cuando se implementa
+* Código linting y en formato usando [EditorConfig](https://editorconfig.org/) para la consistencia del código.
