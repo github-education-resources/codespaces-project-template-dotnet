@@ -37,6 +37,24 @@ En este portafolio de plantillas "elige tu propia aventura", tenemos una aplicac
 
 <br />
 
+## 🗃️ .NET (Blazor) Plantilla de Portafolio
+
+Este repositorio es una plantilla de GitHub para crear una aplicación web frontend de portafolio personal de .NET utilizando el framework Blazor WebAssembly. El objetivo es brindarle una plantilla para que pueda utilizar de inmediato para crear su propio sitio web a través de Codespaces.
+
+El repositorio contiene lo siguiente:
+
+* `/.DevContainer`
+   - `.DevContainer/DockerFile`: archivo de configuración utilizado por Codespaces para determinar el sistema operativo y otros detalles.
+   - `.DevContainer/DevContainer.json`: archivo de configuración utilizado por Codespaces para configurar la configuración del código de Visual Studio, como la habilitación de extensiones adicionales.
+   - `.devcontainer/post-create.sh`: archivo de configuración utilizado por Codespaces para instalar herramientas adicionales, como PowerShell.
+* `/SRC`: Proyecto Blazor WebAssembly para construir su sitio de portafolio.
+* `.EditorConfig`: Configuración para [EditorConfig] (https://editorconfig.org/) que ayuda a mantener estilos de codificación consistentes en CodeSpaces.
+* `Global.json`: Configuración para la aplicación Blazor WebAssembly para evitar el uso de la versión .NET pre-lanzada.
+* `swa-cli.config.json`: Configuración para [Azure SWA CLI](https://azure.github.io/static-web-apps-cli/) para ejecutar la aplicación Blazor WebAssembly en Codespaces.
+* `Myportfolio.sln`: el archivo de solución que contiene el proyecto de aplicación Blazor WebAssembly.
+
+<br />
+
 ## 🚀 Empezando
 
 Este proyecto de sitio de portafolio está lleno de datos de muestra para que pueda abrir Codespaces inmediatamente, verlo en ejecución e implementarlo en cualquier momento.
