@@ -29,10 +29,10 @@ En este portafolio de plantillas "elige tu propia aventura", tenemos una aplicac
 1. [Personalice el sitio de su portafolio}(#-personalice-su-sitio-en-4-pasos)
 1. [Implemente su sitio](#-implemente-su-aplicación-web)
 
-<detalles>
+<details>
     <summary><b>🎥 Para obtener más información sobre Codespaces, vea nuestra serie de tutoriales en video</b></summary>
    
-    [![Tutorial de Codespaces](https://img.youtube.com/vi/ozuDPmcC1io/0.jpg)](https://aka.ms/CodespacesVideoTutorial "Tutorial de Codespaces")
-</detalles>
+[![Tutorial de Codespaces](https://img.youtube.com/vi/ozuDPmcC1io/0.jpg)](https://aka.ms/CodespacesVideoTutorial "Tutorial de Codespaces")
+</details>
 
 <br />
