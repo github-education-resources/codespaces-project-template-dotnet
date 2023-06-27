@@ -26,7 +26,7 @@ En este portafolio de plantillas "elige tu propia aventura", tenemos una aplicac
 1. Ingrese un nombre único para su nuevo repositorio
 1. Haga clic en el botón **Código**
 1. Haga clic en **Crear Codespace en el botón principal**
-1. [Personalice el sitio de su portafolio}(#-personalice-su-sitio-en-4-pasos)
+1. [Personalice el sitio de su portafolio](#-personalice-su-sitio-en-4-pasos)
 1. [Implemente su sitio](#-implemente-su-aplicación-web)
 
 <details>
@@ -75,7 +75,7 @@ Su entorno de desarrollo está listo para que comience. Basado en nuestra [plant
     
 4. Espere mientras GitHub inicializa Codespaces.
 
-     <img src="./blob/main/images/codespaces-initializing.png" alt="Codespaces initializing" style="width: 600px;"/>
+     <img src="./LucioMSP/codespaces-project-template-dotnet/blob/main/images/codespaces-initializing.png" alt="Codespaces initializing" style="width: 600px;"/>
     
 5. Cuando termine, verá que sus Codespaces se cargan con una sección de terminal en la parte inferior. Aquí verá la ejecución de `dotnet restore && dotnet build`. Cuando termine, volverá al indicador de terminal donde puede ejecutar la aplicación web ejecutando: `swa start`.
 
@@ -91,7 +91,7 @@ Este proyecto está construido para ser fácilmente personalizable. Cada secció
 
 Para cada paso, abra el proyecto en Codespaces, luego puede realizar y confirmar sus cambios dentro de sus Codespaces.
 
-> Consulte [Uso del control de código fuente en sus espacios de código] (https://docs.github.com/codespaces/developing-in-codespaces/using-source-control-in-your-codespace) para obtener más instrucciones sobre el control de código fuente de Codespaces
+> Consulte [Uso del control de código fuente en sus espacios de código](https://docs.github.com/codespaces/developing-in-codespaces/using-source-control-in-your-codespace) para obtener más instrucciones sobre el control de código fuente de Codespaces
 
 ### 1️⃣ Agrega tus datos y cuentas de redes sociales
 
@@ -194,7 +194,7 @@ El diseño de la muestra tiene 4, pero el número que incluya depende de usted.
 
 ## 🏃 Implementa tu aplicación web
 
-Project incluye la configuración necesaria para implementar **gratis** en ambas [Azure Static Web Apps](https://azure.microsoft.com/products/app-service/static/?WT.mc_id=dotnet-82024- juyoo) y [Páginas de GitHub](https://pages.github.com/)</a>.
+Project incluye la configuración necesaria para implementar **gratis** en ambas [Azure Static Web Apps](https://azure.microsoft.com/products/app-service/static/?WT.mc_id=dotnet-82024-juyoo) y [Páginas de GitHub](https://pages.github.com/)</a>.
 
 ### Aplicaciones web estáticas de Azure
 
