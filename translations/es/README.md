@@ -71,7 +71,7 @@ Su entorno de desarrollo está listo para que comience. Basado en nuestra [plant
 2. Navegue a la página principal del repositorio recién creado.
 3. Debajo del nombre del repositorio, use el menú desplegable Código y, en la pestaña Espacios de códigos, seleccione "Crear espacio de códigos en principal".
 
-     <img src="https://docs.github.com/assets/cb-138303/images/help/codespaces/new-codespace-button.png" alt="Crear codespace" style="width:270px;"/ >
+     <img src="https://docs.github.com/assets/cb-138303/images/help/codespaces/new-codespace-button.png" alt="Crear codespace" style="width:270px;"/>
     
 4. Espere mientras GitHub inicializa Codespaces.
 
@@ -308,7 +308,7 @@ Las animaciones son una forma en que puede agregar fácilmente algo de movimient
 
 1. Abra la hoja de estilo de su sitio, `/src/BlazorApp/wwwroot/css/app.css` dentro de sus Codespaces. Agregue la secuencia de animación agregando una definición `@keyframes` para deslizar desde la izquierda:
 
-```css
+    ```css
     @keyframes slideInLeft {
       0% {
         transform: translateX(-100%);
@@ -318,20 +318,19 @@ Las animaciones son una forma en que puede agregar fácilmente algo de movimient
       }
     }
     ```
-
+    
     1. Ahora que hemos definido nuestra secuencia de animación `slideInLeft` podemos decirle a nuestra foto de escritorio que se anime con esa secuencia. Abra `/src/BlazorApp/Components/Portfolio.razor` y localice la etiqueta `img`. Verá que utiliza CSS en línea para configurar su estilo. Dentro de su definición de estilo, agregue lo siguiente:
-
+    
         ```css
         animation: 1s ease-out 0s 1 slideInLeft;
         ```
-
     La etiqueta de tu imagen debería ser algo como:
 
-    ```html
+     ```html
     <img src="@(hero.Src)" style="height: 90%; width: 100%; object-fit: cover; animation: 1s ease-out 0s 1 slideInLeft;" alt="@(hero.Alt)" />
     ```
 
-    Su sitio ya debería estar ejecutándose en sus Codespaces, y el cambio se volverá a cargar en la página automáticamente. Desplácese hacia arriba y hacia abajo en la página y observe cómo se desliza la foto de su escritorio en la página.
+Su sitio ya debería estar ejecutándose en sus Codespaces, y el cambio se volverá a cargar en la página automáticamente. Desplácese hacia arriba y hacia abajo en la página y observe cómo se desliza la foto de su escritorio en la página.
 
 > 🤩 **Bonificación**: Flecha de desplazamiento hacia abajo animada
 
@@ -365,8 +364,8 @@ En sus Codespaces, su aplicación de cartera debería estar ejecutándose y reca
 
 ## 📚 Recursos
 
-* [Resumen de documentos de GitHub Codespaces] (https://docs.github.com/codespaces/overview)
-* [Guías de espacios de código de GitHub] (https://docs.github.com/codespaces/guides)
+* [Resumen de documentos de GitHub Codespaces](https://docs.github.com/codespaces/overview)
+* [Guías de espacios de código de GitHub](https://docs.github.com/codespaces/guides)
 * [Usar contenedores de desarrollo localmente con VS Code y Docker](https://github.com/microsoft/vscode-remote-try-dotnet#vs-code-dev-containers)
 * [Empezar con Blazor](https://learn.microsoft.com/training/paths/build-web-apps-with-blazor/?WT.mc_id=dotnet-82024-juyoo)
 * [Desarrollo web para principiantes](https://github.com/microsoft/Web-Dev-For-Beginners)
