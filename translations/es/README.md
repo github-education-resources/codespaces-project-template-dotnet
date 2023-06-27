@@ -67,7 +67,7 @@ Su entorno de desarrollo está listo para que comience. Basado en nuestra [plant
 
 ### Crea tu portafolio
 
-1. Cree un repositorio a partir de esta plantilla. Use este [crear enlace de repositorio] (https://github.com/education/codespaces-teaching-template-dotnet/generate). Seleccione el propietario del repositorio, proporcione un nombre, una descripción si lo desea y si desea que el nuevo repositorio sea público o privado.
+1. Cree un repositorio a partir de esta plantilla. Use este [crear enlace de repositorio](https://github.com/education/codespaces-teaching-template-dotnet/generate). Seleccione el propietario del repositorio, proporcione un nombre, una descripción si lo desea y si desea que el nuevo repositorio sea público o privado.
 2. Navegue a la página principal del repositorio recién creado.
 3. Debajo del nombre del repositorio, use el menú desplegable Código y, en la pestaña Espacios de códigos, seleccione "Crear espacio de códigos en principal".
 
@@ -75,7 +75,7 @@ Su entorno de desarrollo está listo para que comience. Basado en nuestra [plant
     
 4. Espere mientras GitHub inicializa Codespaces.
 
-     <img src="./images/codespaces-initializing.png" alt="Codespaces initializing" style="width: 600px;"/>
+     <img src="./blob/main/images/codespaces-initializing.png" alt="Codespaces initializing" style="width: 600px;"/>
     
 5. Cuando termine, verá que sus Codespaces se cargan con una sección de terminal en la parte inferior. Aquí verá la ejecución de `dotnet restore && dotnet build`. Cuando termine, volverá al indicador de terminal donde puede ejecutar la aplicación web ejecutando: `swa start`.
 
