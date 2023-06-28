@@ -5,22 +5,22 @@
     }
     <h2>About Myself</h2>
     <div style="background-color: white; width: 50%; padding: 4rem; margin: 3rem auto; text-align: center;">
-    @if (aboutme is null)
+    @if (aboutMe is null)
     {
         <p><em>Loading...</em></p>
     }
     else
     {
-        <p class="large">@aboutme.Description</p>
+        <p class="large">@aboutMe.Description</p>
         <hr />
         <ul style="text-align: left; columns: 2; font-size: 1.25rem; margin: 2rem 3rem; gap: 3rem;">
-        @foreach (var skill in aboutme.Skills)
+        @foreach (var skill in aboutMe.Skills)
         {
             <li key="@skill">@skill</li>
         }
         </ul>
         <hr />
-        <p style="padding: 1rem 3rem 0;">@aboutme.DetailOrQuote</p>
+        <p style="padding: 1rem 3rem 0;">@aboutMe.DetailOrQuote</p>
     }
     </div>
 </section>
@@ -32,12 +32,12 @@
     [Parameter, EditorRequired]
     public required HeroImageService HeroImageService { get; set; }
 
-    private AboutMe? aboutme;
+    private AboutMe? aboutMe;
     private HeroImage? hero;
 
     protected override async Task OnInitializedAsync()
     {
-        aboutme = await Http.GetFromJsonAsync<AboutMe>("sample-data/aboutme.json");
+        aboutMe = await Http.GetFromJsonAsync<AboutMe>("sample-data/aboutme.json");
         hero = await HeroImageService.GetHeroAsync(img => img.Name is "about");
 
     }
