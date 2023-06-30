@@ -15,7 +15,7 @@ Neste modelo de repositório temos o ambiente de desenvolvimento, base de códig
 
 Neste portfólio de modelos "escolha sua própria aventura", temos um Aplicativo Web baseado em [Blazor](https://dotnet.microsoft.com/apps/aspnet/web-apps/blazor?WT.mc_id=dotnet-82024-juyoo) pronto para você personalizar e implantar facilmente usando apenas seu navegador da Web.
 
-![Blazor WebAssembly profile web application](../../../../images/blazorwasm-portfolio-site.gif "Blazor WebAssembly profile web application")
+![Blazor WebAssembly profile web application](../../images/blazorwasm-portfolio-site.gif "Blazor WebAssembly profile web application")
 
 ### Inicio
 
@@ -73,13 +73,13 @@ Seu ambiente de desenvolvimento está pronto para você começar. Com base em no
     
 4. Aguarde enquanto o GitHub inicializa os Codespaces.
 
-    <img src="../../../../images/codespaces-initializing.png" alt="Codespaces inicializando" style="width: 600px;"/>
+    <img src="../../images/codespaces-initializing.png" alt="Codespaces inicializando" style="width: 600px;"/>
     
 5. Quando estiver concluído, você verá seu Codespaces carregados com uma seção de terminal na parte inferior. Aqui você vai ver `dotnet restore && dotnet build` execução. Quando concluído, você retornará ao prompt do terminal, onde poderá executar o aplicativo Web executando: `swa start`.
 
    Quando o aplicativo Web for iniciado, você verá um prompt informando que ele foi iniciado com êxito na porta 4280 e poderá abrir esse site em seu navegador:
 
-   <img src="../../../../images/app-running-in-codespaces.png" alt="Web application started on port 4280" style="width: 340px;"/>
+   <img src="../../images/app-running-in-codespaces.png" alt="Web application started on port 4280" style="width: 340px;"/>
 
 <br />
 
@@ -210,7 +210,7 @@ Com seu projeto aberto no Codespaces:
 1. Clique no ícone do Azure na barra lateral esquerda. Faça logon se ainda não estiver e, se for novo no Azure, siga os prompts para criar sua conta.
 2. No menu do Azure, clique em "➕" assinar e, em seguida, escolher "Create Static Web App".
 
-   <img src="../../../../images/deploy-to-azure.png" alt="Create Static Web App" style="width: 300px;" />
+   <img src="../../images/deploy-to-azure.png" alt="Create Static Web App" style="width: 300px;" />
 
 3. Se você não estiver logado no GitHub, você será solicitado a fazer login. Se você tiver alguma alteração de arquivo pendente, você será solicitado a confirmar essas alterações.
 4. Defina as informações do aplicativo quando solicitado:
@@ -228,18 +228,18 @@ Com seu projeto aberto no Codespaces:
 No repositório do GitHub:
 
 1. Vá para a guia "Configurações" e navegue até o menu "Páginas".
-1. Sob _Compilação e implantação_ selecione a origem para **GitHub Actions**.
+2. Sob _Compilação e implantação_ selecione a origem para **GitHub Actions**.
 
-    <img src="../../../../images/deploy-to-ghpages-01.png" alt="Choose GitHub Actions for deployment to GitHub Pages" style="width: 600px;" />
+    <img src="../../images/deploy-to-ghpages-01.png" alt="Choose GitHub Actions for deployment to GitHub Pages" style="width: 600px;" />
 
-1. Garanta a visibilidade de suas Páginas do GitHub para **Publicar**.
-1. Execute um fluxo de trabalho do Github Actions enviando o código por push ou invocando-o manualmente.
+3. Garanta a visibilidade de suas Páginas do GitHub para **Publicar**.
+4. Execute um fluxo de trabalho do Github Actions enviando o código por push ou invocando-o manualmente.
 
-    <img src="../../../../images/deploy-to-ghpages-02.png" alt="Invoke GitHub Actions" style="width: 600px;" />
+    <img src="../../images/deploy-to-ghpages-02.png" alt="Invoke GitHub Actions" style="width: 600px;" />
 
 1. Visite sua pagina no GitHub Pages.
 
-    <img src="../../../../images/deploy-to-ghpages-03.png" alt="Visit GitHub Pages" style="width: 600px;" />
+    <img src="../../images/deploy-to-ghpages-03.png" alt="Visit GitHub Pages" style="width: 600px;" />
 
 > 🤩 **Bonus**: [Configurar um domínio personalizado para o seu Azure Static Web App](https://learn.microsoft.com/shows/azure-tips-and-tricks-static-web-apps/how-to-set-up-a-custom-domain-name-in-azure-static-web-apps-10-of-16--azure-tips-and-tricks-static-w/?WT.mc_id=dotnet-82024-juyoo)
 
@@ -372,7 +372,7 @@ Em seu Codespaces, seu aplicativo de portfólio deve estar em execução e recar
 >
 > Se você estiver usando o Edge ou o Chrome, verá uma opção para instalar o aplicativo Codespaces ao iniciar o Codespaces. O aplicativo Codespaces permite que você inicie seus Codespaces dentro do aplicativo para que você possa trabalhar fora do navegador. Procure o ícone do aplicativo e instale o pop-up para experimentá-lo.
 >
-> <img src="../../../../images/codespaces-app.png" alt="Codespaces browser app" style="width: 400px;"/>
+> <img src="../../images/codespaces-app.png" alt="Codespaces browser app" style="width: 400px;"/>
 
 <br />
 
