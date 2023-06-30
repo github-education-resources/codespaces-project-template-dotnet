@@ -43,7 +43,7 @@ eval "$(github-copilot-cli alias -- "$0")"
 ' >> $HOME/.bashrc
 
 ### Add GitHub Copilot CLI alias to PowerShell profile
-mkdir $HOME/.config/powershell
+sudo mkdir -p $HOME/.config/powershell
 echo '
 # Add GitHub Copilot CLI alias to PowerShell profile
 Set-Alias ghcp /usr/local/share/nvm/current/bin/github-copilot-cli
