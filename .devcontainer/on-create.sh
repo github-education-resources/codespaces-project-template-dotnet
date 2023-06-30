@@ -53,7 +53,7 @@ function gh-assist { ghcp gh-assist $args }
 Set-Alias ?? what-the-shell
 Set-Alias git? git-assist
 Set-Alias gh? gh-assist
-' >> $HOME/.config/powershell/Microsoft.PowerShell_profile.ps1
+' | sudo tee -a $HOME/.config/powershell/Microsoft.PowerShell_profile.ps1
 
 ### Add GitHub Copilot CLI alias to Integrated PowerShell profile
 echo '
@@ -65,4 +65,4 @@ function gh-assist { ghcp gh-assist $args }
 Set-Alias ?? what-the-shell
 Set-Alias git? git-assist
 Set-Alias gh? gh-assist
-' >> $HOME/.config/powershell/Microsoft.VSCode_profile.ps1
+' | sudo tee -a $HOME/.config/powershell/Microsoft.VSCode_profile.ps1
