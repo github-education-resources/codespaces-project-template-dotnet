@@ -254,9 +254,9 @@ No repositório do GitHub:
 Abaixo estão 4 maneiras adicionais que você pode continuar a personalizar seu site de portfólio e aprender mains sobre Codespaces, CSS, HTML e JavaScript ao longo do caminho.
 
   1. [Personalizar seu Codespaces](#1-personalizar-seu-codespaces)
-  2. [Atualizar a rolagem suave para uma seção](#2-atualizar-a-rolagem-suave-para-uma-secao)
+  2. [Atualizar a rolagem suave para uma seção](#2-atualizar-a-rolagem-suave-para-uma-seção)
   3. [Animar a foto da backgroud](#3-animar-a-foto-da-backgroud)
-  4. [Adicionar uma nova seção](#4-adicionar-uma-nova-secao)
+  4. [Adicionar uma nova seção](#4-adicionar-uma-nova-seção)
 
 ### 1. Personalizar seu Codespaces
 
