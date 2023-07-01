@@ -4,30 +4,30 @@
 
 _Crie, personalize e implante seu próprio site de portfólio em minutos._ ✨
 
-Neste modelo de repositório temos o ambiente de desenvolvimento, base de código definidos e prontos para uso. Para que você possa iniciar imediatamente o Codespaces para personalizar sem necessidade de configuração.
+Neste modelo de repositório temos o ambiente de desenvolvimento, e uma base de codigos prontos para uso, para que você possa iniciar imediatamente o Codespaces e personalizar sem necessidade de configuração.
 
-* **A quem se destina?** __Todos__ procurando criar um site de portfólio, aprender desenvolvimento web ou testar Codespaces.
+* **A quem se destina?** __Todos__ que tenham interesse em criar um site de portfólio, aprender desenvolvimento web ou testar o Codespaces.
 * **De quanta experiência você precisa?** __Zero__. Você decide o quanto deseja personalizar com base em sua experiência e tempo disponível.
 * **Ferramentas necessárias:** _Nenhuma_. Não precisa instalar nada! Tudo o que você precisa é de um navegador da web.
 * **Prerequisitos:** _Nenhum_. Este modelo inclui seu ambiente de desenvolvimento e aplicativo Web implantável para você criar seu próprio site.
 
 ## Sobre este modelo de portfólio
 
-Neste portfólio de modelos "escolha sua própria aventura", temos um Aplicativo Web baseado em [Blazor](https://dotnet.microsoft.com/apps/aspnet/web-apps/blazor?WT.mc_id=dotnet-82024-juyoo) pronto para você personalizar e implantar facilmente usando apenas seu navegador da Web.
+Nestes modelos de portfólio "escolha sua própria aventura", temos um Aplicativo Web baseado em [Blazor](https://dotnet.microsoft.com/apps/aspnet/web-apps/blazor?WT.mc_id=dotnet-82024-juyoo) pronto para você personalizar e implantar(publicar) facilmente usando apenas seu navegador da Web.
 
 ![Blazor WebAssembly profile web application](../../images/blazorwasm-portfolio-site.gif "Blazor WebAssembly profile web application")
 
-### Inicio
+### Primeiros passos
 
 1. Clique no botão **Use esse Template**
    
    [![Use esse Template](/images/template-button.svg)](https://github.com/education/codespaces-project-template-dotnet/generate)
-1. Selecione o proprietário do repositório (e.g. sua conta do GitHub)
-1. Entre com um nome único para o repositório
-1. Clique no botão **Code**
-1. Clique no botão **Create Codespace on main**
-1. [Personalize seu site de portfólio](#-customize-your-site-in-4-steps)
-1. [Publique seu site](#-deploy-your-web-application)
+2. Selecione o proprietário do repositório (exemplo: sua conta do GitHub)
+3. Defina um nome para o repositório
+4. Clique no botão **Code**
+5. Clique no botão **Create Codespace on main**
+6. [Personalize seu site de portfólio](#-personalize-seu-site-em-4-passos)
+7. [Publique seu site](#-publique-seu-aplicativo-web)
 
 <details>
    <summary><b>🎥 Para saber mais sobre o Codespaces, assista à nossa série de tutoriais em vídeo</b></summary>
@@ -39,7 +39,7 @@ Neste portfólio de modelos "escolha sua própria aventura", temos um Aplicativo
 
 ## 🗃️ .NET (Blazor) Template de portfólio
 
-Esse repositório é um modelo do GitHub para criar um aplicativo Web front-end de portfólio pessoal sobre .NET, usando a estrutura do Blazor WebAssembly. O objetivo é entregar um modelo para que você possa utilizar imediatamente para criar seu próprio site através do Codespaces.
+Esse repositório é um modelo do GitHub para criar um site para portfólio pessoal, usando o framework Blazor WebAssembly. O objetivo é entregar um modelo para que você possa utilizar imediatamente para criar seu próprio site através do Codespaces.
 
 O repositório contém o seguinte:
 
@@ -48,34 +48,36 @@ O repositório contém o seguinte:
   - `.devcontainer/devcontainer.json`: Arquivo de configuração usado pelo Codespaces para definir as configurações do Visual Studio Code, como a habilitação de extensões adicionais.
   - `.devcontainer/post-create.sh`: Arquivo de configuração usado pelo Codespaces para instalar ferramentas adicionais, como o PowerShell.
 * `/src`: Projeto Blazor WebAssembly para construir seu site de portfólio.
-* `.editorconfig`: Configurações do [EditorConfig](https://editorconfig.org/) que ajuda a manter estilos de codificação consistentes no Codespaces.
+* `.editorconfig`: Configurações do [EditorConfig](https://editorconfig.org/) que ajuda a manter um padrão de codificação consistentes no Codespaces, padronizando formato de indentação, entre outros.
 * `global.json`: Configurações para o aplicativo Blazor WebAssembly para evitar o uso da versão.NET pré-lançada.
 * `swa-cli.config.json`: Configurações do [Azure SWA CLI](https://azure.github.io/static-web-apps-cli/) para executar o aplicativo Blazor WebAssembly em seus Codespaces.
 * `MyPortfolio.sln`: O arquivo de solução que contém o projeto de aplicativo Blazor WebAssembly.
 
 <br />
 
-Este projeto de site de portfólio é preenchido com dados de exemplo para que você possa abrir imediatamente o Codespaces, e vê-lo em execução e implantá-lo a qualquer momento.
+## 🚀 Começando seu projeto
 
-Seu ambiente de desenvolvimento está pronto para você começar. Com base em nossos[.NET Codespaces Template](https://github.com/education/codespaces-teaching-template-dotnet), aqui está o que já está configurado e pronto para você usar:
+Este projeto de site de portfólio é criado com dados de exemplo para que você possa abrir imediatamente o Codespaces, vê-lo em execução e fazer a implantação(publicação) a qualquer momento.
+
+Seu ambiente de desenvolvimento está pronto para uso. Com base em nossos [Modelos de Codespaces .NET](https://github.com/education/codespaces-teaching-template-dotnet), ja temos as seguintes configurações:
 
 * Aplicação simples de [Blazor WebAssembly](https://dotnet.microsoft.com/apps/aspnet/web-apps/blazor?WT.mc_id=dotnet-82024-juyoo) com componentes para cada seção do site de portfólio
-* [SWA CLI](https://azure.github.io/static-web-apps-cli/) no local para criar seu site ao implantar
+* [SWA CLI](https://azure.github.io/static-web-apps-cli/) no local para criar seu site ao implantar(publicar) no Azure
 * Formatação e alinhamento de código usando [EditorConfig](https://editorconfig.org/) para consistência de código.
 
 ### Crie seu portfólio
 
-1. Crie um repositório a partir deste modelo. Use isso [link do repo](https://github.com/education/codespaces-teaching-template-dotnet/generate). Selecione o proprietário do repositório, forneça um nome, uma descrição, se desejar e se quiser que o novo repositório seja público ou privado.
+1. Crie um repositório a partir deste modelo. Use isso [link do repo](https://github.com/education/codespaces-teaching-template-dotnet/generate). Selecione o proprietário do repositório, defina um nome, descrição e, se desejar a visibilidade do repositório para público ou privado.
 2. Navegue até a página principal do repositório recém-criado. 
-3. Sob o nome do repositório, use o menu suspenso Código e, na guia Codespaces, selecione "Criar espaço de código na main".
+3. Sob o nome do repositório, use o menu suspenso Code e, na guia Codespaces, selecione "Create codespace on main" (Criar espaço de código na main).
 
     <img src="https://docs.github.com/assets/cb-138303/images/help/codespaces/new-codespace-button.png" alt="Criar codespace" style="width:270px;"/>
     
-4. Aguarde enquanto o GitHub inicializa os Codespaces.
+4. Aguarde enquanto o GitHub inicializa o Codespaces.
 
-    <img src="../../images/codespaces-initializing.png" alt="Codespaces inicializando" style="width: 600px;"/>
+    <img src="../../images/codespaces-initializing.png" alt="Codespaces carregando" style="width: 600px;"/>
     
-5. Quando estiver concluído, você verá seu Codespaces carregados com uma seção de terminal na parte inferior. Aqui você vai ver `dotnet restore && dotnet build` execução. Quando concluído, você retornará ao prompt do terminal, onde poderá executar o aplicativo Web executando: `swa start`.
+5. Quando estiver concluído, você verá seu Codespaces carregados com uma seção de terminal na parte inferior. Aqui você vai ver `dotnet restore && dotnet build` em execução. Quando concluído, você retornará ao prompt do terminal, onde poderá executar o aplicativo Web executando o comando: `swa start`.
 
    Quando o aplicativo Web for iniciado, você verá um prompt informando que ele foi iniciado com êxito na porta 4280 e poderá abrir esse site em seu navegador:
 
@@ -87,13 +89,13 @@ Seu ambiente de desenvolvimento está pronto para você começar. Com base em no
 
 Este projeto foi construído para ser facilmente personalizável. Cada seção do site é um componente separado e suas informações precisam ser definidas em apenas um local. Isso não é apenas para facilitar a atualização, mas para que você possa ver como os valores de props são passados para os componentes do React.
 
-Para cada etapa, abra o projeto no Codespaces, então você pode fazer e confirmar suas alterações enquanto estiver dentro do swu Codespaces.
+Para cada etapa, abra o projeto no Codespaces, faça suas alterações enquanto estiver dentro do Codespaces.
 
 > Veja [Usando o controle do código-fonte em seu Codespaces](https://docs.github.com/codespaces/developing-in-codespaces/using-source-control-in-your-codespace) para obter mais instruções de controle de código-fonte do Codespaces
 
-### 1️⃣ Adicione seus detalhes e contas de mídia social
+### 1️⃣ Adicione suas informações e contas de mídia social
 
-Abra `/src/BlazorApp/wwwroot/sample-data/siteproperties.json`. Este é um objeto JSON que contém os pares de valores de chave necessários para personalizar seu nome, título, email e contas de mídia social.
+Abra `/src/BlazorApp/wwwroot/sample-data/siteproperties.json`. Este é um objeto JSON que contém os pares de cahave-valor necessários para personalizar seu nome, título, email e contas de mídia social.
 
 ```jsonc
 {
@@ -112,13 +114,13 @@ Abra `/src/BlazorApp/wwwroot/sample-data/siteproperties.json`. Este é um objeto
 
 Atualize para o nome e o título que você deseja exibir na parte superior do seu site.
 
-_Valores opcionais_ são endereço de e-mail e contas sociais. Eles são usados no componente `Footer`. Se algum item não for incluído na lista ou definido como uma cadeia de caracteres vazia (""), ele não exibirá o ícone e o link.
+_Valores opcionais_ são endereço de e-mail e contas sociais. Eles são usados no componente `Footer`(Rodapé). Se qualquer item não estiver incluído na lista ou definido como uma string vazia (""), não será exibido o ícone e o link.
 
 ### 2️⃣ Atualizando imagens
 
-Este site de portfólio inclui 3 imagens: fundo da seção superior, fundo "Sobre mim" e seção de portfólio (mesa). Estes podem ser qualquer imagens de **paisagem** dimensionadas de sua escolha de sua própria coleção, ou perquise algo que tenham uma licença que lhe permita usar sem atribuição.
+Este site de portfólio inclui 3 imagens: fundo da seção superior, fundo "Sobre mim" e a seção de portfólio. As imagens devem ser em formato de **paisagem** e podem ser sua escolha de sua própria coleção, ou encontradas em um banco de imagens que permita usar sem atribuição.
 
-Alguns sites possíveis para encontrar fotos são [Pixabay](https://pixabay.com/) e [Unsplash](https://unsplash.com). Fotos, ilustrações, vetores, sua escolha! Quando você encontrar suas imagens, salve cada uma delas em `/src/BlazorApp/wwwroot/images` com um nome curto e significativo.
+Alguns sites possíveis para encontrar fotos são [Pixabay](https://pixabay.com/) e [Unsplash](https://unsplash.com). Fotos, ilustrações e vetores, sua escolha! Quando você encontrar suas imagens, salve cada uma delas em `/src/BlazorApp/wwwroot/images` com um nome curto e significativo.
 
 Abra `/src/BlazorApp/wwwroot/sample-data/heroimages.json` e atualize as imagens com as suas preferidas, bem como o texto alternativo para cada imagem:
 
@@ -150,20 +152,20 @@ Abra `/src/BlazorApp/wwwroot/sample-data/heroimages.json` e atualize as imagens 
 
 ### 3️⃣ Adicione o seu "sobre mim"
 
-A seção sobre min, ajuda a dar às pessoas um pouco mais de informações sobre suas habilidades e paixões. Abra `/src/BlazorApp/wwwroot/sample-data/aboutme.json` e atualize essas 3 propriedades:
+A seção "Sobre min" ajuda as pessoas a conhecer um pouco mais sobre suas habilidades e paixões. Abra `/src/BlazorApp/wwwroot/sample-data/aboutme.json` e atualize essas 3 propriedades:
 
-* `description`: frase curta ou duas descrevendo a si mesmo, objetivo de carreira e/ou paixões
-* `skillsList`: E [array](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array) de suas habilidades para listar no site, pode ser quantas você desejar
+* `description`: uma ou duas frases curtas, descrevendo a si mesmo, seus objetivos de carreira e/ou paixões
+* `skillsList`: um [array](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array) de suas habilidades para listar no site, pode ser quantas você desejar
 * `detailOrQuote`: bloco mais longo para você adicionar mais detalhes sobre si mesmo, ou até mesmo uma citação que você gosta.
 
 
 ### 4️⃣ Adicionar itens nos quais você trabalhou e detalhar o texto
 
-Esta seção a ser atualizada é o portfólio, onde você destaca itens nos quais trabalhou. Seriam artigos, vídeos, logotipos, projetos do GitHub, qualquer coisa que te destaque!
+Esta seção que será atualizada é o portfólio, onde você destaca itens nos quais trabalhou. Seriam artigos, vídeos, design de logos, projetos do GitHub, qualquer coisa que te destaque!
 
-Abra `/src/BlazorApp/wwwroot/sample-data/projects.json` que é uma matriz JSON. Cada item que você deseja destacar precisa: título, descrição e URL.
+Abra `/src/BlazorApp/wwwroot/sample-data/projects.json` que é uma array (matriz) de JSON. Cada item que você deseja destacar precisa: título, descrição e URL.
 
-O experimento de amostra tem 4, mas o número que você inclui depende de você.
+O experimento de exemplo tem 4, mas o número que você inclui depende de você.
 
 ```jsonc
 [
@@ -194,32 +196,34 @@ O experimento de amostra tem 4, mas o número que você inclui depende de você.
 
 ## 🏃 Publique seu aplicativo Web
 
-Project inclui a configuração necessária para você publicar **grátis** em ambos lugares, no [Azure Static Web Apps](https://azure.microsoft.com/products/app-service/static/?WT.mc_id=dotnet-82024-juyoo) e no [GitHub Pages](https://pages.github.com/)</a>.
+O projeto inclui a configuração necessária para você publicar **gratuitamente** em ambos lugares, no [Azure Static Web Apps](https://azure.microsoft.com/products/app-service/static/?WT.mc_id=dotnet-82024-juyoo) e no [GitHub Pages](https://pages.github.com/)</a>.
 
 ### Azure Static Web Apps
 
-[Azure Static Web Apps](https://azure.microsoft.com/products/app-service/static/?WT.mc_id=dotnet-82024-juyoo) é a solução de hospedagem da Microsoft para sites estáticos (ou sites que são renderizados no navegador do usuário, não em um servidor) por meio do Azure. Esse serviço oferece oportunidades adicionais para expandir seu site por meio do Azure Functions, autenticação, versões de preparo e muito mais.
+[Azure Static Web Apps](https://azure.microsoft.com/products/app-service/static/?WT.mc_id=dotnet-82024-juyoo) é a solução de hospedagem da Microsoft para sites estáticos (ou sites que são renderizados no navegador do usuário, não em um servidor) no Azure. Esse serviço oferece oportunidades adicionais para expandir seu site atrávez de Azure Functions, autenticação, versões de staging(ambientes pre-produção / pre-publicação) e muito mais.
 
 Você precisará de contas do Azure e do GitHub para implantar seu aplicativo Web. Se você ainda não tiver uma conta do Azure, poderá criá-la de dentro durante o processo de implantação ou nos links abaixo:
 
-* [Criar uma (Cartao de Crédito nao necessário) conta do Azure For Students](https://azure.microsoft.com/free/students/?WT.mc_id=dotnet-82024-juyoo)
-* [Criar uma nova conta Azure](https://azure.microsoft.com/free/?WT.mc_id=dotnet-82024-juyoo)
+* [Criar uma conta no Azure For Students (Não é necessário ter cartão de crédito)](https://azure.microsoft.com/free/students/?WT.mc_id=dotnet-82024-juyoo)
+* [Criar uma nova conta de teste Azure (requer cartão de crédito)](https://azure.microsoft.com/free/?WT.mc_id=dotnet-82024-juyoo)
 
 Com seu projeto aberto no Codespaces:
 
-1. Clique no ícone do Azure na barra lateral esquerda. Faça logon se ainda não estiver e, se for novo no Azure, siga os prompts para criar sua conta.
-2. No menu do Azure, clique em "➕" assinar e, em seguida, escolher "Create Static Web App".
+1. Clique no ícone do Azure na barra lateral esquerda. Faça login se ainda não estiver, e se for novo no Azure, siga as instruções para criar sua conta.
+2. No menu do Azure, clique no simbolo "➕" e, em seguida, escolha "Create Static Web App" (Criar Aplicativo Web Estático).
 
    <img src="../../images/deploy-to-azure.png" alt="Create Static Web App" style="width: 300px;" />
 
-3. Se você não estiver logado no GitHub, você será solicitado a fazer login. Se você tiver alguma alteração de arquivo pendente, você será solicitado a confirmar essas alterações.
+3. Se você não estiver logado no GitHub, será solicitado que você faça login. Se você tiver alguma alteração de arquivo pendente, será solicitado que você faça o commit dessas alterações.
 4. Defina as informações do aplicativo quando solicitado:
-    1. **Name para Static Web App**: insira o nome do Aplicativo Web Estático. Padrão para o nome do repositório do GitHub.
-    2. **Regiao**: escolha o mais próximo da sua região
-    3. **Estrutura do projeto**: selecione "Blazor"
-    4. **Localizaçao do codigdo da aplicacao**: entre `/src/BlazorApp`
-    5. **Localizaçaõ de saida**: entre `wwwroot`
+    1. **Name for Static Web App**: insira o nome do Aplicativo Web Estático. Padrão para o nome do repositório do GitHub.
+    2. **Region**: escolha o mais próximo da sua região
+    3. **Project structure**: selecione "Blazor"
+    4. **Location of application code**: entre `/src/BlazorApp`
+    5. **Output location**: entre `wwwroot`
 5. Quando concluído, você verá uma notificação na parte inferior da tela e um novo fluxo de trabalho do GitHub Actions será adicionado ao seu projeto. Se você clicar em "Abrir Github Actions", verá a ação que foi criada para você e está em execução no momento.
+
+> 🤩 **Bonus**: [Configurar um domínio personalizado para o seu Azure Static Web App](https://learn.microsoft.com/shows/azure-tips-and-tricks-static-web-apps/how-to-set-up-a-custom-domain-name-in-azure-static-web-apps-10-of-16--azure-tips-and-tricks-static-w/?WT.mc_id=dotnet-82024-juyoo)
 
 ### GitHub Pages
 
@@ -241,7 +245,7 @@ No repositório do GitHub:
 
     <img src="../../images/deploy-to-ghpages-03.png" alt="Visit GitHub Pages" style="width: 600px;" />
 
-> 🤩 **Bonus**: [Configurar um domínio personalizado para o seu Azure Static Web App](https://learn.microsoft.com/shows/azure-tips-and-tricks-static-web-apps/how-to-set-up-a-custom-domain-name-in-azure-static-web-apps-10-of-16--azure-tips-and-tricks-static-w/?WT.mc_id=dotnet-82024-juyoo)
+> 🤩 **Bonus**: [Configurar um dominio poersonalizado para seu site no GitHub pages](https://docs.github.com/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site)
 
 <br />
 
