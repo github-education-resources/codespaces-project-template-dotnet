@@ -19,50 +19,11 @@ dotnet restore && dotnet build
 # Uncomment the below to install Azure Static Web Apps CLI. Make sure you have installed node.js
 npm install -g @azure/static-web-apps-cli
 
-## OH-MY-POSH ##
-# Uncomment the below to install oh-my-posh
-sudo wget https://github.com/JanDeDobbeleer/oh-my-posh/releases/latest/download/posh-linux-amd64 -O /usr/local/bin/oh-my-posh
-sudo chmod +x /usr/local/bin/oh-my-posh
-
 ## GitHub Copilot CLI ##
 npm install -g @githubnext/github-copilot-cli
 eval "$(github-copilot-cli alias -- "$0")"
 
-### Add GitHub Copilot CLI alias to .zshrc
-echo '
-# Add GitHub Copilot CLI alias to .zshrc
-alias ghcp='github-copilot-cli'
-eval "$(github-copilot-cli alias -- "$0")"
-' >> $HOME/.zshrc
-
-### Add GitHub Copilot CLI alias to .bashrc
-echo '
-# Add GitHub Copilot CLI alias to .bashrc
-alias ghcp='github-copilot-cli'
-eval "$(github-copilot-cli alias -- "$0")"
-' >> $HOME/.bashrc
-
-### Add GitHub Copilot CLI alias to PowerShell profile
-sudo mkdir -p $HOME/.config/powershell
-echo '
-# Add GitHub Copilot CLI alias to PowerShell profile
-Set-Alias ghcp /usr/local/share/nvm/current/bin/github-copilot-cli
-function what-the-shell { ghcp what-the-shell $args }
-function git-assist { ghcp git-assist $args }
-function gh-assist { ghcp gh-assist $args }
-Set-Alias ?? what-the-shell
-Set-Alias git? git-assist
-Set-Alias gh? gh-assist
-' | sudo tee -a $HOME/.config/powershell/Microsoft.PowerShell_profile.ps1
-
-### Add GitHub Copilot CLI alias to Integrated PowerShell profile
-echo '
-# Add GitHub Copilot CLI alias to Integrated PowerShell profile
-Set-Alias ghcp /usr/local/share/nvm/current/bin/github-copilot-cli
-function what-the-shell { ghcp what-the-shell $args }
-function git-assist { ghcp git-assist $args }
-function gh-assist { ghcp gh-assist $args }
-Set-Alias ?? what-the-shell
-Set-Alias git? git-assist
-Set-Alias gh? gh-assist
-' | sudo tee -a $HOME/.config/powershell/Microsoft.VSCode_profile.ps1
+## OH-MY-POSH ##
+# Uncomment the below to install oh-my-posh
+sudo wget https://github.com/JanDeDobbeleer/oh-my-posh/releases/latest/download/posh-linux-amd64 -O /usr/local/bin/oh-my-posh
+sudo chmod +x /usr/local/bin/oh-my-posh
