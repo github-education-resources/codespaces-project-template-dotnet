@@ -16,6 +16,7 @@ eval "$(github-copilot-cli alias -- "$0")"
 ### Add GitHub Copilot CLI alias to PowerShell profile
 ghcp=$(which github-copilot-cli)
 sudo mkdir -p $HOME/.config/powershell
+sudo touch $HOME/.config/powershell/Microsoft.PowerShell_profile.ps1
 echo "
 # Add GitHub Copilot CLI alias to PowerShell profile
 Set-Alias ghcp $ghcp
@@ -25,9 +26,10 @@ function gh-assist { ghcp gh-assist \$args }
 Set-Alias ?? what-the-shell
 Set-Alias git? git-assist
 Set-Alias gh? gh-assist
-" | sudo tee -a $HOME/.config/powershell/Microsoft.PowerShell_profile.ps1
+" >> $HOME/.config/powershell/Microsoft.PowerShell_profile.ps1
 
 ### Add GitHub Copilot CLI alias to Integrated PowerShell profile
+sudo touch $HOME/.config/powershell/Microsoft.VSCode_profile.ps1
 echo "
 # Add GitHub Copilot CLI alias to Integrated PowerShell profile
 Set-Alias ghcp $ghcp
@@ -37,4 +39,4 @@ function gh-assist { ghcp gh-assist \$args }
 Set-Alias ?? what-the-shell
 Set-Alias git? git-assist
 Set-Alias gh? gh-assist
-" | sudo tee -a $HOME/.config/powershell/Microsoft.VSCode_profile.ps1
+" >> $HOME/.config/powershell/Microsoft.VSCode_profile.ps1
