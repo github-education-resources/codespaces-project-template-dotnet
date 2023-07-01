@@ -227,21 +227,21 @@ Com seu projeto aberto no Codespaces:
 
 ### GitHub Pages
 
-[GitHub Pages](https://pages.github.com/) permite que você hospede sites diretamente do seu repositório GitHub. Este projeto já está configurado para você publicar seu portfólio em páginas do GitHub com etapas mínimas.
+[GitHub Pages](https://pages.github.com/) permite que você hospede sites diretamente do seu repositório GitHub. Este projeto já está configurado para você publicar seu portfólio em páginas do GitHub em poucos passos.
 
 No repositório do GitHub:
 
-1. Vá para a guia "Configurações" e navegue até o menu "Páginas".
-2. Sob _Compilação e implantação_ selecione a origem para **GitHub Actions**.
+1. Vá para a guia "Settings" e navegue até o menu "Pages".
+2. Sob _Build and deployment_ selecione a origem para **GitHub Actions**.
 
     <img src="../../images/deploy-to-ghpages-01.png" alt="Choose GitHub Actions for deployment to GitHub Pages" style="width: 600px;" />
 
-3. Garanta a visibilidade de suas Páginas do GitHub para **Publicar**.
-4. Execute um fluxo de trabalho do Github Actions enviando o código por push ou invocando-o manualmente.
+3. Garanta a visibilidade de sua Página do GitHub para o **Publico**.
+4. Execute um fluxo de trabalho do Github Actions enviando o código por push ou adicionando manualmente.
 
     <img src="../../images/deploy-to-ghpages-02.png" alt="Invoke GitHub Actions" style="width: 600px;" />
 
-1. Visite sua pagina no GitHub Pages.
+5. Visite sua pagina no GitHub Pages.
 
     <img src="../../images/deploy-to-ghpages-03.png" alt="Visit GitHub Pages" style="width: 600px;" />
 
@@ -251,12 +251,12 @@ No repositório do GitHub:
 
 ## 🏆 Desafios
 
-Abaixo estão 4 maneiras adicionais que você pode continuar a personalizar seu site de portfólio e aprender alguns Codespaces, CSS, HTML e JavaScript ao longo do caminho.
+Abaixo estão 4 maneiras adicionais que você pode continuar a personalizar seu site de portfólio e aprender mains sobre Codespaces, CSS, HTML e JavaScript ao longo do caminho.
 
-  1. [Personalize seu Codespaces](#1-customize-your-codespaces)
-  2. [Atualizar a rolagem suave para uma seção](#2-update-to-smooth-scroll-to-a-section)
-  3. [Animar a foto da backgroud](#3-animate-desk-photo)
-  4. [Adicionar uma nova seção](#4-add-a-new-section)
+  1. [Personalizar seu Codespaces](#1-personalizar-seu-codespaces)
+  2. [Atualizar a rolagem suave para uma seção](#2-atualizar-a-rolagem-suave-para-uma-secao)
+  3. [Animar a foto da backgroud](#3-animar-a-foto-da-backgroud)
+  4. [Adicionar uma nova seção](#4-adicionar-uma-nova-secao)
 
 ### 1. Personalizar seu Codespaces
 
@@ -273,7 +273,7 @@ Seu ambiente vem com extensões pré-instaladas. Você pode alterar com quais ex
    ]
    ```
 
-2. Vamos adicionar a extençao `indent-rainbow`. Para fazer isso, vá para a lista de **extensions** e adicione-o:
+2. Vamos adicionar a extenção `indent-rainbow`. Para fazer isso, vá para a lista de **extensions** e adicione-o:
 
    ```jsonc
    "oderwat.indent-rainbow"
@@ -281,16 +281,16 @@ Seu ambiente vem com extensões pré-instaladas. Você pode alterar com quais ex
   
    O que você fez acima foi adicionar o identificador exclusivo de uma extensão do [indent-rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow&WT.mc_id=dotnet-82024-juyoo). Isso permitirá que o Codespaces saiba que essa extensão deve ser pré-instalada na inicialização.
 
-Para localizar o identificador exclusivo de uma extensão:
+Como localizar o identificador exclusivo de uma extensão:
 
-* Navegue até a página da Web da extensão, assim [https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow&WT.mc_id=dotnet-82024-juyoo)
+* Navegue até a página da Web da extensão, como [https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow&WT.mc_id=dotnet-82024-juyoo)
 * Localize o campo _Unique Identifier_ sob a seção **More info** no lado direito.
    
 > 💡 Learn more here, <https://docs.github.com/codespaces/customizing-your-codespace/personalizing-github-codespaces-for-your-account>
 
 ### 2. Atualizar a rolagem suave para uma seção
 
-No cabeçalho do seu site, você tem links para cada seção abaixo. Clique em um desses links e assista, role a página até essa seção. Não é realmente uma rolagem, certo?
+No cabeçalho do seu site, você tem links para cada seção abaixo. Clique em um desses links e veja a rolagem da página até essa seção. Não é realmente uma rolagem, certo?
 
 Vamos tornar isso uma experiência de usuário melhor, diminuindo a velocidade para que o usuário tenha uma noção do que está acontecendo e para onde está navegando na página.
 
@@ -321,7 +321,7 @@ As animações são uma maneira de adicionar facilmente algum movimento aos elem
     }
     ```
 
-2. Agora que definimos o nosso `slideInLeft` sequência de animação podemos dizer a nossa foto de background para se animar com essa sequência. Abri `/src/BlazorApp/Components/Portfolio.razor` e localize a tag `img`. Você verá que ele utiliza CSS embutido para definir seu estilo. Dentro de sua definição de estilo, adicione o seguinte:
+2. Agora que definimos o nossa sequência de animação `slideInLeft`, podemos dizer à  nossa foto da mesa para animar-se com essa sequência. Abrir `/src/BlazorApp/Components/Portfolio.razor` e localize a tag `img`. Você verá que ele utiliza CSS embutido para definir seu estilo. Dentro de sua definição de estilo, adicione o seguinte:
 
     ```css
     animation: 1s ease-out 0s 1 slideInLeft;
@@ -345,7 +345,7 @@ Por exemplo, vamos adicionar uma seção de educação ao seu site de portfólio
 
 1. Crie um novo componente para a seção dentro da pasta `Components`. Adicione um novo arquivo com nome de `Education.razor`.
 
-1. Em `Education.razor` adicione a função do componente, a exportação e as informações que você gostaria de incluir:
+2. Em `Education.razor` adicione a função do componente, a exportação e as informações que você gostaria de incluir:
 
     ```razor
     <section class="light" id="portfolio">
@@ -353,7 +353,7 @@ Por exemplo, vamos adicionar uma seção de educação ao seu site de portfólio
     </section>
     ```
 
-1. No arquivo `Index.razor` adicione o componente `Education` onde você gostaria que ele fosse renderizado dentro da página, inserindo:
+3. No arquivo `Index.razor` adicione o componente `Education` onde você gostaria que ele fosse renderizado dentro da página, inserindo:
 
     ```razor
     <Education />
@@ -372,7 +372,7 @@ Em seu Codespaces, seu aplicativo de portfólio deve estar em execução e recar
 * [Iniciando com Blazor](https://learn.microsoft.com/training/paths/build-web-apps-with-blazor/?WT.mc_id=dotnet-82024-juyoo)
 * [Desenvolvimento web para Iniciantes](https://github.com/microsoft/Web-Dev-For-Beginners)
 
-> #### Appicativo Codespaces
+> #### Aplicativo Codespaces
 >
 > Se você estiver usando o Edge ou o Chrome, verá uma opção para instalar o aplicativo Codespaces ao iniciar o Codespaces. O aplicativo Codespaces permite que você inicie seus Codespaces dentro do aplicativo para que você possa trabalhar fora do navegador. Procure o ícone do aplicativo e instale o pop-up para experimentá-lo.
 >
@@ -382,4 +382,4 @@ Em seu Codespaces, seu aplicativo de portfólio deve estar em execução e recar
 
 ## 🔎 Encontrou um problema ou tem uma ideia de melhoria?
 
-Ajude-nos a melhorar este repositório de modelos[letting us know and opening an issue!](/../../issues/new).
+Ajude-nos a melhorar este repositório de modelos[nos diga como melhorar, e abra um PR!](https://github.com/education/codespaces-project-template-dotnet/issues/new).
