@@ -382,4 +382,4 @@ Em seu Codespaces, seu aplicativo de portfólio deve estar em execução e recar
 
 ## 🔎 Encontrou um problema ou tem uma ideia de melhoria?
 
-Ajude-nos a melhorar este repositório de modelos[nos diga como melhorar, e abra um PR!](https://github.com/education/codespaces-project-template-dotnet/issues/new).
+Ajude-nos a melhorar este repositório de modelos [nos diga como melhorar, e abra um PR!](https://github.com/education/codespaces-project-template-dotnet/issues/new).
