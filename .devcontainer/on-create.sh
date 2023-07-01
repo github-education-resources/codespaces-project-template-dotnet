@@ -27,3 +27,17 @@ eval "$(github-copilot-cli alias -- "$0")"
 # Uncomment the below to install oh-my-posh
 sudo wget https://github.com/JanDeDobbeleer/oh-my-posh/releases/latest/download/posh-linux-amd64 -O /usr/local/bin/oh-my-posh
 sudo chmod +x /usr/local/bin/oh-my-posh
+
+## Add GitHub Copilot CLI alias to .zshrc
+echo '
+# Add GitHub Copilot CLI alias to .zshrc
+alias ghcp='github-copilot-cli'
+eval "$(github-copilot-cli alias -- "$0")"
+' >> $HOME/.zshrc
+
+## Add GitHub Copilot CLI alias to .bashrc
+echo '
+# Add GitHub Copilot CLI alias to .bashrc
+alias ghcp='github-copilot-cli'
+eval "$(github-copilot-cli alias -- "$0")"
+' >> $HOME/.bashrc
