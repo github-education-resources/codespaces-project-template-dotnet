@@ -59,7 +59,7 @@ O repositório contém o seguinte:
 
 Este projeto de site de portfólio é criado com dados de exemplo para que você possa abrir imediatamente o Codespaces, vê-lo em execução e fazer a implantação(publicação) a qualquer momento.
 
-Seu ambiente de desenvolvimento está pronto para uso. Com base em nossos [Modelos de Codespaces .NET](https://github.com/education/codespaces-teaching-template-dotnet), ja temos as seguintes configurações:
+Seu ambiente de desenvolvimento está pronto para uso. Com base em nossos [Modelos de Codespaces .NET](https://github.com/education/codespaces-teaching-template-dotnet), já temos as seguintes configurações:
 
 * Aplicação simples de [Blazor WebAssembly](https://dotnet.microsoft.com/apps/aspnet/web-apps/blazor?WT.mc_id=dotnet-82024-juyoo) com componentes para cada seção do site de portfólio
 * [SWA CLI](https://azure.github.io/static-web-apps-cli/) no local para criar seu site ao implantar(publicar) no Azure
@@ -77,7 +77,7 @@ Seu ambiente de desenvolvimento está pronto para uso. Com base em nossos [Model
 
     <img src="../../images/codespaces-initializing.png" alt="Codespaces carregando" style="width: 600px;"/>
     
-5. Quando estiver concluído, você verá seu Codespaces carregados com uma seção de terminal na parte inferior. Aqui você vai ver `dotnet restore && dotnet build` em execução. Quando concluído, você retornará ao prompt do terminal, onde poderá executar o aplicativo Web executando o comando: `swa start`.
+5. Quando estiver concluído, você verá seu Codespace carregado com uma seção de terminal na parte inferior. Aqui você vai ver `dotnet restore && dotnet build` em execução. Quando concluído, você retornará ao prompt do terminal, onde poderá executar o aplicativo Web executando o comando: `swa start`.
 
    Quando o aplicativo Web for iniciado, você verá um prompt informando que ele foi iniciado com êxito na porta 4280 e poderá abrir esse site em seu navegador:
 
@@ -95,7 +95,7 @@ Para cada etapa, abra o projeto no Codespaces, faça suas alterações enquanto 
 
 ### 1️⃣ Adicione suas informações e contas de mídia social
 
-Abra `/src/BlazorApp/wwwroot/sample-data/siteproperties.json`. Este é um objeto JSON que contém os pares de cahave-valor necessários para personalizar seu nome, título, email e contas de mídia social.
+Abra `/src/BlazorApp/wwwroot/sample-data/siteproperties.json`. Este é um objeto JSON que armazena os pares de cahave-valor necessários para personalizar seu nome, título, email e contas de mídia social.
 
 ```jsonc
 {
@@ -152,7 +152,7 @@ Abra `/src/BlazorApp/wwwroot/sample-data/heroimages.json` e atualize as imagens 
 
 ### 3️⃣ Adicione o seu "sobre mim"
 
-A seção "Sobre min" ajuda as pessoas a conhecer um pouco mais sobre suas habilidades e paixões. Abra `/src/BlazorApp/wwwroot/sample-data/aboutme.json` e atualize essas 3 propriedades:
+A seção "Sobre mim" ajuda as pessoas a conhecer um pouco mais sobre suas habilidades e paixões. Abra `/src/BlazorApp/wwwroot/sample-data/aboutme.json` e atualize essas 3 propriedades:
 
 * `description`: uma ou duas frases curtas, descrevendo a si mesmo, seus objetivos de carreira e/ou paixões
 * `skillsList`: um [array](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array) de suas habilidades para listar no site, pode ser quantas você desejar
@@ -196,11 +196,11 @@ O experimento de exemplo tem 4, mas o número que você inclui depende de você.
 
 ## 🏃 Publique seu aplicativo Web
 
-O projeto inclui a configuração necessária para você publicar **gratuitamente** em ambos lugares, no [Azure Static Web Apps](https://azure.microsoft.com/products/app-service/static/?WT.mc_id=dotnet-82024-juyoo) e no [GitHub Pages](https://pages.github.com/)</a>.
+O projeto inclui a configuração necessária para você publicar gratuitamente em ambos lugares, no [Azure Static Web Apps](https://azure.microsoft.com/products/app-service/static/?WT.mc_id=dotnet-82024-juyoo) e no [GitHub Pages](https://pages.github.com/)</a>.
 
 ### Azure Static Web Apps
 
-[Azure Static Web Apps](https://azure.microsoft.com/products/app-service/static/?WT.mc_id=dotnet-82024-juyoo) é a solução de hospedagem da Microsoft para sites estáticos (ou sites que são renderizados no navegador do usuário, não em um servidor) no Azure. Esse serviço oferece oportunidades adicionais para expandir seu site atrávez de Azure Functions, autenticação, versões de staging(ambientes pre-produção / pre-publicação) e muito mais.
+[Azure Static Web Apps](https://azure.microsoft.com/products/app-service/static/?WT.mc_id=dotnet-82024-juyoo) é a solução de hospedagem da Microsoft para sites estáticos (ou sites que são renderizados no navegador do usuário, não em um servidor) no Azure. Esse serviço oferece oportunidades adicionais para expandir seu site atrávez de Azure Functions, autenticação, versões de staging(ambientes pré-produção / pré-publicação) e muito mais.
 
 Você precisará de contas do Azure e do GitHub para implantar seu aplicativo Web. Se você ainda não tiver uma conta do Azure, poderá criá-la de dentro durante o processo de implantação ou nos links abaixo:
 
@@ -223,7 +223,7 @@ Com seu projeto aberto no Codespaces:
     5. **Output location**: entre `wwwroot`
 5. Quando concluído, você verá uma notificação na parte inferior da tela e um novo fluxo de trabalho do GitHub Actions será adicionado ao seu projeto. Se você clicar em "Abrir Github Actions", verá a ação que foi criada para você e está em execução no momento.
 
-> 🤩 **Bonus**: [Configurar um domínio personalizado para o seu Azure Static Web App](https://learn.microsoft.com/shows/azure-tips-and-tricks-static-web-apps/how-to-set-up-a-custom-domain-name-in-azure-static-web-apps-10-of-16--azure-tips-and-tricks-static-w/?WT.mc_id=dotnet-82024-juyoo)
+> 🤩 **Bônus**: [Configurar um domínio personalizado para o seu Azure Static Web App](https://learn.microsoft.com/shows/azure-tips-and-tricks-static-web-apps/how-to-set-up-a-custom-domain-name-in-azure-static-web-apps-10-of-16--azure-tips-and-tricks-static-w/?WT.mc_id=dotnet-82024-juyoo)
 
 ### GitHub Pages
 
