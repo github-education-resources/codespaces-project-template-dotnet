@@ -18,10 +18,9 @@ public sealed class HeroImageService : IDisposable
 
     internal async Task<HeroImage?> GetHeroAsync(Func<HeroImage, bool> predicate)
     {
-        var heros = await _getHeroImagesTask;
-        return heros?.FirstOrDefault(predicate);
+        var heroes = await _getHeroImagesTask;
+        return heroes?.FirstOrDefault(predicate);
     }
-        
-
+    
     public void Dispose() => _client.Dispose();
 }
