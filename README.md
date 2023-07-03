@@ -46,7 +46,7 @@ The repo contains the following:
 * `/.devcontainer`
   - `.devcontainer/Dockerfile`: Configuration file used by Codespaces to determine operating system and other details.
   - `.devcontainer/devcontainer.json`: Configuration file used by Codespaces to configure Visual Studio Code settings, such as the enabling of additional extensions.
-  - `.devcontainer/post-create.sh`: Configuration file used by Codespaces to install additional tools, such as PowerShell.
+  - `.devcontainer/on-create.sh`: Configuration file used by Codespaces to install additional tools, such as PowerShell.
 * `/src`: Blazor WebAssembly project to build your portfolio site.
 * `.editorconfig`: Settings for [EditorConfig](https://editorconfig.org/) that helps maintain consistent coding styles in Codespaces.
 * `global.json`: Settings for the Blazor WebAssembly app to avoid using pre-released .NET version.
@@ -266,6 +266,9 @@ Your environment comes with preinstalled extensions. You can change which extens
 
    ```jsonc
    "extensions": [
+     "GitHub.copilot",
+     "GitHub.copilot-chat",
+     "GitHub.copilot-labs",
      "ms-dotnettools.csharp",
      "ms-vscode.PowerShell",
      "ms-vscode.vscode-node-azure-pack",
