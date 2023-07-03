@@ -245,7 +245,7 @@ No repositório do GitHub:
 
     <img src="../../images/deploy-to-ghpages-03.png" alt="Visit GitHub Pages" style="width: 600px;" />
 
-> 🤩 **Bonus**: [Configurar um dominio poersonalizado para seu site no GitHub pages](https://docs.github.com/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site)
+> 🤩 **Bônus**: [Configurar um dominio poersonalizado para seu site no GitHub pages](https://docs.github.com/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site)
 
 <br />
 
@@ -335,7 +335,7 @@ As animações são uma maneira de adicionar facilmente algum movimento aos elem
 
 Seu site já deve estar em execução em seu Codespaces e a alteração será recarregada na página automaticamente. Role a página para cima e para baixo e veja sua foto de mesa deslizar para a página.
 
-> 🤩 **Bonus**: Animar seta de rolagem para baixo
+> 🤩 **Bônus**: Animar seta de rolagem para baixo
 
 ### 4. Adicionar uma nova seção
 
