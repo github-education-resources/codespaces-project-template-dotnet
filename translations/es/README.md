@@ -229,21 +229,21 @@ Con su proyecto abierto en Codespaces:
 
 En tu repositorio de GitHub:
 
-1. Vaya a la pestaña "Configuración" y navegue hasta el menú "Páginas".
-1. En la sección _Crear e implementar_, seleccione el origen de **Acciones de GitHub**.
+1. Vaya a la pestaña "Settings(Configuración)" y navegue hasta el menú "Pages(Páginas)".
+1. En la sección _Crear e implementar_, seleccione el origen de **GitHub Actions (Acciones de GitHub)**.
 
      <img src="./images/deploy-to-ghpages-01.png" alt="Elegir acciones de GitHub para implementar en páginas de GitHub" style="width: 600px;" />
 
-1. Asegure la visibilidad de sus Páginas de GitHub para **Público**.
+1. Asegure la visibilidad de sus Páginas de GitHub (Github Pages) este en **Público (Public)**.
 1. Ejecute un flujo de trabajo de GitHub Action insertando código o invocándolo manualmente.
 
-     <img src="./images/deploy-to-ghpages-02.png" alt="Invocar acciones de GitHub" style="width: 600px;" />
+     <img src="./images/deploy-to-ghpages-02.png" alt="Invocar GitHub Actions" style="width: 600px;" />
 
-1. Visite sus páginas de GitHub.
+1. Visite sus GitHub Pages (Páginas de GitHub).
 
-     <img src="./images/deploy-to-ghpages-03.png" alt="Visita páginas de GitHub" style="width: 600px;" />
+     <img src="./images/deploy-to-ghpages-03.png" alt="Visite GitHub Pages" style="width: 600px;" />
 
-> 🤩 **Bonificación**: [Configure un dominio personalizado para su sitio de páginas de GitHub](https://docs.github.com/pages/configuring-a-custom-domain-for-your-github-pages-site/ administrar-un-dominio-personalizado-para-su-sitio-github-pages)
+> 🤩 **Bonificación**: [Configure un dominio personalizado para su sitio de páginas de GitHub](https://docs.github.com/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site)
 
 <br />
 
