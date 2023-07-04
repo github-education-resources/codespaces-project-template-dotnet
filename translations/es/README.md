@@ -55,7 +55,7 @@ El repositorio contiene lo siguiente:
 
 <br />
 
-## 🚀 Empezando
+## 🚀 Comenzando
 
 Este proyecto de sitio de portafolio está lleno de datos de muestra para que pueda abrir Codespaces inmediatamente, verlo en ejecución e implementarlo en cualquier momento.
 
@@ -69,7 +69,7 @@ Su entorno de desarrollo está listo para que comience. Basado en nuestra [plant
 
 1. Cree un repositorio a partir de esta plantilla. Use este [crear enlace de repositorio](https://github.com/education/codespaces-teaching-template-dotnet/generate). Seleccione el propietario del repositorio, proporcione un nombre, una descripción si lo desea y si desea que el nuevo repositorio sea público o privado.
 2. Navegue a la página principal del repositorio recién creado.
-3. Debajo del nombre del repositorio, use el menú desplegable Código y, en la pestaña Espacios de códigos, seleccione "Crear espacio de códigos en principal".
+3. Debajo del nombre del repositorio, use el menú desplegable Código y, en la pestaña Espacios de códigos, seleccione "Crear codespace en principal".
 
      <img src="https://docs.github.com/assets/cb-138303/images/help/codespaces/new-codespace-button.png" alt="Crear codespace" style="width:270px;"/>
     
@@ -225,11 +225,11 @@ Con su proyecto abierto en Codespaces:
 
 ### Páginas de GitHub
 
-[Páginas de GitHub](https://pages.github.com/) le permite alojar sitios web directamente desde su repositorio de GitHub. Este proyecto ya está configurado para que pueda implementar su cartera en las páginas de GitHub con pasos mínimos.
+[Las GitHub Pages (Páginas de GitHub)](https://pages.github.com/) le permite alojar sitios web directamente desde su repositorio de GitHub. Este proyecto ya está configurado para que pueda implementar su cartera en las GitHub Pages con pasos mínimos.
 
 En tu repositorio de GitHub:
 
-1. Vaya a la pestaña "Settings(Configuración)" y navegue hasta el menú "Pages(Páginas)".
+1. Vaya a la pestaña "Settings (Configuración)" y navegue hasta el menú "Pages (Páginas)".
 1. En la sección _Crear e implementar_, seleccione el origen de **GitHub Actions (Acciones de GitHub)**.
 
      <img src="./images/deploy-to-ghpages-01.png" alt="Elegir acciones de GitHub para implementar en páginas de GitHub" style="width: 600px;" />
@@ -340,7 +340,7 @@ Comenzamos con algunas secciones básicas para su sitio de cartera, pero tiene l
 
 Por ejemplo, agreguemos una sección de educación a su sitio de cartera.
 
-1. Cree un nuevo componente para la sección dentro de la carpeta `Componentes`. Agrega un nuevo archivo llamado `Education.razor`.
+1. Cree un nuevo componente para la sección dentro de la carpeta `Components (Componentes)`. Agrega un nuevo archivo llamado `Education.razor`.
 
 1. En `Education.razor` agregue la función del componente, la exportación y la información que le gustaría incluir:
 
@@ -350,7 +350,7 @@ Por ejemplo, agreguemos una sección de educación a su sitio de cartera.
     </section>
     ```
 
-1. En `Index.razor` agregue el componente `Educación` donde le gustaría que se muestre dentro de la página insertando:
+1. En `Index.razor` agregue el componente `Education` donde le gustaría que se muestre dentro de la página insertando:
 
 
     ```razor
@@ -365,7 +365,7 @@ En sus Codespaces, su aplicación de cartera debería estar ejecutándose y reca
 ## 📚 Recursos
 
 * [Resumen de documentos de GitHub Codespaces](https://docs.github.com/codespaces/overview)
-* [Guías de espacios de código de GitHub](https://docs.github.com/codespaces/guides)
+* [Guías de GitHub Codespaces](https://docs.github.com/codespaces/guides)
 * [Usar contenedores de desarrollo localmente con VS Code y Docker](https://github.com/microsoft/vscode-remote-try-dotnet#vs-code-dev-containers)
 * [Empezar con Blazor](https://learn.microsoft.com/training/paths/build-web-apps-with-blazor/?WT.mc_id=dotnet-82024-juyoo)
 * [Desarrollo web para principiantes](https://github.com/microsoft/Web-Dev-For-Beginners)
