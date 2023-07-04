@@ -48,7 +48,7 @@ El repositorio contiene lo siguiente:
    - `.devcontainer/devcontainer.json`: archivo de configuración utilizado por Codespaces para configurar la configuración del código de Visual Studio, como la habilitación de extensiones adicionales.
    - `.devcontainer/post-create.sh`: archivo de configuración utilizado por Codespaces para instalar herramientas adicionales, como PowerShell.
 * `/src`: Proyecto Blazor WebAssembly para construir su sitio de portafolio.
-* `.editorconfig`: Configuración para [EditorConfig](https://editorconfig.org/) que ayuda a mantener estilos de codificación consistentes en CodeSpaces.
+* `.editorconfig`: Configuración para [EditorConfig](https://editorconfig.org/) que ayuda a mantener estilos de codificación consistentes en Codespaces.
 * `global.json`: Configuración para la aplicación Blazor WebAssembly para evitar el uso de la versión .NET pre-lanzada.
 * `swa-cli.config.json`: Configuración para [Azure SWA CLI](https://azure.github.io/static-web-apps-cli/) para ejecutar la aplicación Blazor WebAssembly en Codespaces.
 * `MyPortfolio.sln`: el archivo de solución que contiene el proyecto de aplicación Blazor WebAssembly.
@@ -374,7 +374,7 @@ En sus Codespaces, su aplicación de cartera debería estar ejecutándose y reca
 >
 > Si está utilizando Edge o Chrome, verá una opción para instalar la aplicación Codespaces cuando inicie su Codespaces. La aplicación Codespaces le permite iniciar sus Codespaces dentro de la aplicación para que pueda trabajar fuera del navegador. Busque el icono de la aplicación e instale la ventana emergente para probarla.
 >
-> <img src="./images/codespaces-app.png" alt="Aplicación de navegador Codespaces" style="width: 400px;"/>
+> <img src=".codespaces-project-template-dotnet/blob/main/images/codespaces-app.png" alt="Aplicación de navegador Codespaces" style="width: 400px;"/>
 
 <br />
 
