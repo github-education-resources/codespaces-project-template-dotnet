@@ -71,7 +71,7 @@ Seu ambiente de desenvolvimento está pronto para uso. Com base em nossos [Model
 2. Navegue até a página principal do repositório recém-criado. 
 3. Sob o nome do repositório, use o menu suspenso Code e, na guia Codespaces, selecione "Create codespace on main" (Criar espaço de código na main).
 
-    <img src="https://docs.github.com/assets/cb-138303/images/help/codespaces/new-codespace-button.png" alt="Criar codespace" style="width:270px;"/>
+    <img src="https://github.com/education/codespaces-project-template-dotnet/assets/2198735/7e35b981-b983-47d4-af9e-f2e0af207103" alt="Criar codespace" style="width:270px;"/>
     
 4. Aguarde enquanto o GitHub inicializa o Codespaces.
 
@@ -95,7 +95,7 @@ Para cada etapa, abra o projeto no Codespaces, faça suas alterações enquanto 
 
 ### 1️⃣ Adicione suas informações e contas de mídia social
 
-Abra `/src/BlazorApp/wwwroot/sample-data/siteproperties.json`. Este é um objeto JSON que armazena os pares de cahave-valor necessários para personalizar seu nome, título, email e contas de mídia social.
+Abra `/src/BlazorApp/wwwroot/sample-data/siteproperties.json`. Este é um objeto JSON que armazena os pares de chave-valor necessários para personalizar seu nome, título, email e contas de mídia social.
 
 ```jsonc
 {
