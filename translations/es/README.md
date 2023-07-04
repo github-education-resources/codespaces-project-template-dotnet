@@ -43,15 +43,15 @@ Este repositorio es una plantilla de GitHub para crear una aplicación web front
 
 El repositorio contiene lo siguiente:
 
-* `/.DevContainer`
-   - `.DevContainer/DockerFile`: archivo de configuración utilizado por Codespaces para determinar el sistema operativo y otros detalles.
-   - `.DevContainer/DevContainer.json`: archivo de configuración utilizado por Codespaces para configurar la configuración del código de Visual Studio, como la habilitación de extensiones adicionales.
+* `/.devcontainer`
+   - `.devcontainer/Dockerfile`: archivo de configuración utilizado por Codespaces para determinar el sistema operativo y otros detalles.
+   - `.devcontainer/devcontainer.json`: archivo de configuración utilizado por Codespaces para configurar la configuración del código de Visual Studio, como la habilitación de extensiones adicionales.
    - `.devcontainer/post-create.sh`: archivo de configuración utilizado por Codespaces para instalar herramientas adicionales, como PowerShell.
-* `/SRC`: Proyecto Blazor WebAssembly para construir su sitio de portafolio.
-* `.EditorConfig`: Configuración para [EditorConfig](https://editorconfig.org/) que ayuda a mantener estilos de codificación consistentes en CodeSpaces.
-* `Global.json`: Configuración para la aplicación Blazor WebAssembly para evitar el uso de la versión .NET pre-lanzada.
+* `/src`: Proyecto Blazor WebAssembly para construir su sitio de portafolio.
+* `.editorconfig`: Configuración para [EditorConfig](https://editorconfig.org/) que ayuda a mantener estilos de codificación consistentes en CodeSpaces.
+* `global.json`: Configuración para la aplicación Blazor WebAssembly para evitar el uso de la versión .NET pre-lanzada.
 * `swa-cli.config.json`: Configuración para [Azure SWA CLI](https://azure.github.io/static-web-apps-cli/) para ejecutar la aplicación Blazor WebAssembly en Codespaces.
-* `Myportfolio.sln`: el archivo de solución que contiene el proyecto de aplicación Blazor WebAssembly.
+* `MyPortfolio.sln`: el archivo de solución que contiene el proyecto de aplicación Blazor WebAssembly.
 
 <br />
 
@@ -59,7 +59,7 @@ El repositorio contiene lo siguiente:
 
 Este proyecto de sitio de portafolio está lleno de datos de muestra para que pueda abrir Codespaces inmediatamente, verlo en ejecución e implementarlo en cualquier momento.
 
-Su entorno de desarrollo está listo para que comience. Basado en nuestra [plantilla .NET CodesPaces](https://github.com/education/codespaces-teaching-template-dotnet), aquí está lo que ya está configurado y listo para que use:
+Su entorno de desarrollo está listo para que comience. Basado en nuestra [plantilla de .NET CodesPaces](https://github.com/education/codespaces-teaching-template-dotnet), aquí está lo que ya está configurado y listo para que use:
 
 * Simple [Blazor WebAssembly](https://dotnet.microsoft.com/apps/aspnet/web-apps/blazor?wt.mc_id=dotnet-82024-juyoo) Aplicación con componentes para cada sección del sitio de portafolio
 * [SWA CLI](https://azure.github.io/static-web-apps-cli/) en su lugar para construir su sitio cuando se implementa
@@ -282,8 +282,8 @@ Su entorno viene con extensiones preinstaladas. Puede cambiar con qué extension
 
 Para encontrar el identificador único de una extensión:
 
-* Vaya a la página web de la extensión, así [https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent- arco iris&WT.mc_id=dotnet-82024-juyoo)
-* Ubique el campo _Identificador único_ en la sección **Más información** en su lado derecho.
+* Vaya a la página web de la extensión, así [https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow&WT.mc_id=dotnet-82024-juyoo)
+* Ubique el campo _Unique Identifier_ (_Identificado Único_) en la sección **Más información** en su lado derecho.
    
 > 💡 Más información aquí, <https://docs.github.com/codespaces/customizing-your-codespace/personalizing-github-codespaces-for-your-account>
 
