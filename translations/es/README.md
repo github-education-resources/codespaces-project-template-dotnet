@@ -113,7 +113,7 @@ Abra `/src/BlazorApp/wwwroot/sample-data/siteproperties.json`. Este es un objeto
 ```
 Actualice el nombre y el título que desea mostrar en la parte superior de su sitio.
 
-_Valores opcionales_ son la dirección de correo electrónico y las cuentas sociales. Estos se utilizan en el componente `Pie de página`. Si algún elemento no está incluido en la lista o se establece en una cadena vacía (""), no mostrará el icono ni el enlace.
+_Valores opcionales_ son la dirección de correo electrónico y las cuentas sociales. Estos se utilizan en el componente `Footer (Pie de página)`. Si algún elemento no está incluido en la lista o se establece en una cadena vacía (""), no mostrará el icono ni el enlace.
 
 ### 2️⃣ Actualizar imágenes
 
@@ -150,10 +150,10 @@ Abra `/src/BlazorApp/wwwroot/sample-data/heroimages.json` y actualice las imáge
 ```
 ### 3️⃣ Añade tu "acerca de mí"
 
-La sección Acerca de ayuda a brindar a las personas un poco más de información sobre tus habilidades y pasiones. Abra `/src/BlazorApp/wwwroot/sample-data/aboutme.json` y actualice esas 3 propiedades:
+La sección "Acerca de" ayuda a brindar a las personas un poco más de información sobre tus habilidades y pasiones. Abra `/src/BlazorApp/wwwroot/sample-data/aboutme.json` y actualice estas 3 propiedades:
 
 * `descripción`: frase corta o dos que te describen a ti mismo, objetivo profesional y/o pasiones
-* `skillsList`: una [matriz](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array) de sus habilidades para enumerar en el sitio, puede ser tantas o tan pocas como desee
+* `skillsList`: un [array](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array) de sus habilidades para enumerar en el sitio, puede ser tantas o tan pocas como desee
 * `detailOrQuote`: bloque más largo para que agregues más detalles sobre ti, o incluso una cita que te guste
 
 
@@ -221,7 +221,7 @@ Con su proyecto abierto en Codespaces:
      1. **Ubicación de salida**: ingrese `wwwroot`
 1. Cuando termine, verá una notificación en la parte inferior de su pantalla y se agregará un nuevo flujo de trabajo de GitHub Action a su proyecto. Si hace clic en "Abrir acción en GitHub", verá la acción que se creó para usted y que se está ejecutando actualmente.
 
-> 🤩 **Bonificación**: [Configure un dominio personalizado para su aplicación web estática de Azure](https://learn.microsoft.com/shows/azure-tips-and-tricks-static-web-apps/how-to -configurar-un-nombre-de-dominio-personalizado-en-azure-static-web-apps-10-of-16--azure-tips-and-tricks-static-w/?WT.mc_id=dotnet-82024 -juyoo)
+> 🤩 **Bonificación**: [Configure un dominio personalizado para su aplicación web estática de Azure](https://docs.github.com/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site)
 
 ### Páginas de GitHub
 
