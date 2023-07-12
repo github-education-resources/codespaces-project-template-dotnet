@@ -68,7 +68,7 @@ Su entorno de desarrollo está listo para que comience. Basado en nuestra [plant
 ### Crea tu portafolio
 
 1. Cree un repositorio a partir de esta plantilla. Use este [crear enlace de repositorio](https://github.com/education/codespaces-teaching-template-dotnet/generate). Seleccione el propietario del repositorio, proporcione un nombre, una descripción si lo desea y si desea que el nuevo repositorio sea público o privado.
-2. Navegue a la página principal del repositorio recién creado.
+2. Ve a la página principal del repositorio recién creado.
 3. Debajo del nombre del repositorio, use el menú desplegable Código y, en la pestaña Espacios de códigos, seleccione "Crear codespace en principal".
 
      <img src="https://docs.github.com/assets/cb-138303/images/help/codespaces/new-codespace-button.png" alt="Crear codespace" style="width:270px;"/>
