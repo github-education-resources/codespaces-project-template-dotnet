@@ -293,7 +293,7 @@ En el encabezado de tu sitio tienes enlaces a cada siguiente sección. Haz clic 
 
 Hagamos una mejor experiencia de usuario para que el usuario tenga una idea de lo que está sucediendo y hacia dónde está navegando en la página.
 
-1. Abra `/src/BlazorApp/wwwroot/css/app.css`, que es la hoja de estilo para su aplicación de cartera. Necesitamos agregar un estilo para `html`. Si observa, verá que ahora los estilos `html` y `body` se están configurando juntos, así que agreguemos el siguiente fragmento de css para configurar el desplazamiento del elemento `html`:
+1. Abre `/src/BlazorApp/wwwroot/css/app.css`, Hagamos una mejor experiencia de usuario para que el usuario tenga una idea de lo que está sucediendo y hacia dónde está navegando en la página. Necesitamos agregar un estilo para `html`. Si observas, verá que ahora los estilos `html` y `body` se están configurando juntos, así que agreguemos el siguiente fragmento de css para configurar el desplazamiento del elemento `html`:
 
     ```css
     html {
