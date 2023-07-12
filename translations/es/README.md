@@ -39,7 +39,7 @@ En esta plantilla podrás "elegir tu propia aventura": tenemos una aplicación w
 
 ## 🗃️ .NET (Blazor) Plantilla de Portafolio
 
-Este repositorio es una plantilla de GitHub para crear una aplicación web frontend de portafolio personal de .NET utilizando el framework Blazor WebAssembly. El objetivo es brindarle una plantilla para que pueda utilizar de inmediato para crear su propio sitio web a través de Codespaces.
+Este repositorio es una plantilla de GitHub para crear una aplicación web frontend de portafolio personal de .NET utilizando el framework Blazor WebAssembly. El objetivo es darte una plantilla que puedas utilizarla inmediatamente para crear tu propia página web a través de Codespaces.
 
 El repositorio contiene lo siguiente:
 
