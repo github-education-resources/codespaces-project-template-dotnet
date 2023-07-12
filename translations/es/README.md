@@ -47,7 +47,7 @@ El repositorio contiene lo siguiente:
    - `.devcontainer/Dockerfile`: archivo de configuración utilizado por Codespaces para determinar el sistema operativo y otros detalles.
    - `.devcontainer/devcontainer.json`: archivo de configuración utilizado por Codespaces para configurar la configuración del código de Visual Studio, como la habilitación de extensiones adicionales.
    - `.devcontainer/post-create.sh`: archivo de configuración utilizado por Codespaces para instalar herramientas adicionales, como PowerShell.
-* `/src`: Proyecto Blazor WebAssembly para construir su sitio de portafolio.
+* `/src`: Proyecto Blazor WebAssembly para construir tu portafolio web.
 * `.editorconfig`: Configuración para [EditorConfig](https://editorconfig.org/) que ayuda a mantener estilos de codificación consistentes en Codespaces.
 * `global.json`: Configuración para la aplicación Blazor WebAssembly para evitar el uso de la versión .NET pre-lanzada.
 * `swa-cli.config.json`: Configuración para [Azure SWA CLI](https://azure.github.io/static-web-apps-cli/) para ejecutar la aplicación Blazor WebAssembly en Codespaces.
