@@ -77,7 +77,7 @@ Tu entorno de desarrollo está listo para que pueda comenzar. Basado en nuestra 
 
      <img src="./LucioMSP/codespaces-project-template-dotnet/blob/main/images/codespaces-initializing.png" alt="Codespaces initializing" style="width: 600px;"/>
     
-5. Cuando termine, verá que sus Codespaces se cargan con una sección de terminal en la parte inferior. Aquí verá la ejecución de `dotnet restore && dotnet build`. Cuando termine, volverá al indicador de terminal donde puede ejecutar la aplicación web ejecutando: `swa start`.
+5. Cuando haya terminado, verás que tu Codespace comenzará con una sección de terminal en la parte inferior. Codespaces instalará todas las extensiones requeridas en tu contenedor, luego verás npm install ejecutando. Aquí veras `dotnet restore && dotnet build` ejecutandose. Cuando termine, volverás al terminal prompt donde puedes ejecutar la aplicación web con solo escribir: `swa start`.
 
     Cuando se inicie la aplicación web, verá un mensaje que le indicará que se inició correctamente en el puerto 4280, y puede abrir ese sitio dentro de su navegador:
 
