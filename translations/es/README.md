@@ -27,7 +27,7 @@ En esta plantilla podrás "elegir tu propia aventura": tenemos una aplicación w
 1. Haga clic en el botón **Código**
 1. Haga clic en **Crear Codespace en el botón principal**
 1. [Personalice el sitio de su portafolio](#-personalice-su-sitio-en-4-pasos)
-1. [Implemente su sitio](#-implemente-su-aplicación-web)
+1. [Sube tu Portafolio a la nube](#-sube-tu-portafolio-a-la-nube)
 
 <details>
     <summary><b>🎥 Para obtener más información sobre Codespaces, ve nuestros tutoriales.</b></summary>
