@@ -121,7 +121,7 @@ Este portafolio web incluye 3 imágenes: un fondo para la sección superior, un 
 
 Un par de sitios posibles para encontrar fotos son [Pixabay](https://pixabay.com/) y [Unsplash](https://unsplash.com/). Fotos, ilustraciones, vectores, ¡tú eliges! Cuando encuentres tus imágenes, guarda cada una en `/src/BlazorApp/wwwroot/images` con un nombre de archivo corto y significativo.
 
-Abra `/src/BlazorApp/wwwroot/sample-data/heroimages.json` y actualice las imágenes con sus preferidas, así como el texto alternativo para cada imagen:
+Abre `/src/BlazorApp/wwwroot/sample-data/heroimages.json` y actualiza tus imágenes preferidas, así como el texto alternativo para cada imagen:
 
 ```jsonc
 [
