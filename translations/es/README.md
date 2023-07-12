@@ -87,7 +87,7 @@ Tu entorno de desarrollo está listo para que pueda comenzar. Basado en nuestra 
 
 ## ✨ Personalice su sitio en 4-pasos
 
-Este proyecto está construido para ser fácilmente personalizable. Cada sección del sitio es un componente separado y su información debe configurarse en un solo lugar. Esto no es solo para facilitar la actualización, sino para que pueda ver cómo se pasan los valores prop a los componentes de React.
+Este proyecto está diseñado para ser fácilmente personalizable. Cada sección del sitio es un componente separado, y tu información debe establecerse en un solo lugar. Esto no es solo para facilitar la actualización, sino para que puedas ver cómo se pasan los valores a diferentes secciones de tu portafolio web.```
 
 Para cada paso, abra el proyecto en Codespaces, luego puede realizar y confirmar sus cambios dentro de sus Codespaces.
 
