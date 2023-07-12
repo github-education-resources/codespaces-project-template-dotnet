@@ -113,7 +113,7 @@ Abra `/src/BlazorApp/wwwroot/sample-data/siteproperties.json`. Este es un objeto
 ```
 Actualice el nombre y el título que deseas mostrar en la parte superior de tu portafolio.
 
-_Valores opcionales_ son la dirección de correo electrónico y las cuentas sociales. Estos se utilizan en el componente `Footer (Pie de página)`. Si algún elemento no está incluido en la lista o se establece en una cadena vacía (""), no mostrará el icono ni el enlace.
+Optional values (valores opcionales) son la dirección de correo electrónico y redes sociales. Estos se utilizan en el componente 'Pie de página'. Si algún elemento no está incluido en la lista, o establecido en una cadena vacía (""), no mostrará el ícono ni el enlace.
 
 ### 2️⃣ Actualizar imágenes
 
