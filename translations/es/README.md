@@ -161,7 +161,7 @@ La sección "Acerca de" ayuda a brindar a las personas un poco más de informaci
 
 Esta sección para actualizar es el portafolio, donde resalta los elementos en los que ha trabajado. Estos serían artículos, videos, diseños de logotipos, proyectos de GitHub, ¡cualquier cosa que lo destaque!
 
-Abra `/src/BlazorApp/wwwroot/sample-data/projects.json` que es una matriz JSON. Cada elemento que desee resaltar necesita: título, descripción y URL.
+Abre `/src/BlazorApp/wwwroot/sample-data/projects.json` que es una matriz JSON. Cada elemento que desee resaltar necesita: título, descripción y URL.
 
 El diseño de la muestra tiene 4, pero el número que incluya depende de usted.
 
