@@ -57,7 +57,7 @@ El repositorio contiene lo siguiente:
 
 ## 🚀 Comenzando
 
-Este proyecto de sitio de portafolio está lleno de datos de muestra para que pueda abrir Codespaces inmediatamente, verlo en ejecución e implementarlo en cualquier momento.
+Este portafolio web está lleno de datos de ejemplo para que puedas abrirlo inmediatamente en Codespaces, verlo en ejecución y subirlo a la nube en cualquier momento.
 
 Su entorno de desarrollo está listo para que comience. Basado en nuestra [plantilla de .NET CodesPaces](https://github.com/education/codespaces-teaching-template-dotnet), aquí está lo que ya está configurado y listo para que use:
 
