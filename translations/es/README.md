@@ -372,7 +372,7 @@ En tu Codespace, tu aplicación con tu portafolio debe estar ejecutándose y vol
 
 > #### Aplicación de navegador Codespaces
 >
-> Si está utilizando Edge o Chrome, verá una opción para instalar la aplicación Codespaces cuando inicie su Codespaces. La aplicación Codespaces le permite iniciar sus Codespaces dentro de la aplicación para que pueda trabajar fuera del navegador. Busque el icono de la aplicación e instale la ventana emergente para probarla.
+> Si estás utilizando Edge o Chrome, verás una opción para instalar la aplicación Codespaces cuando inicies tu Codespace. La aplicación Codespaces te permite iniciar tu Codespace dentro de la aplicación para que puedas trabajar fuera del navegador. Busca el icono de la aplicación e instálalo con la ventana emergente para probarla.
 >
 > <img src="../../images/codespaces-app.png" alt="Aplicación de navegador Codespaces" style="width: 400px;"/>
 
