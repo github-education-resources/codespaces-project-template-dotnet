@@ -153,7 +153,7 @@ Abre `/src/BlazorApp/wwwroot/sample-data/heroimages.json` y actualiza tus imáge
 La sección "Acerca de" ayuda a brindar a las personas un poco más de información sobre tus habilidades y pasiones. Abre `/src/BlazorApp/wwwroot/sample-data/aboutme.json` y actualiza estas 3 propiedades:
 
 * `descripción`: frase corta o dos que te describen a ti mismo, objetivo profesional y/o pasiones
-* `skillsList`: un [array](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array) de sus habilidades para enumerar en el sitio, puede ser tantas o tan pocas como desee
+* `skillsList`: un [array](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array) de tus habilidades para enumerar en la página web, puede ser tantas o tan pocas como desees.
 * `detailOrQuote`: bloque más largo para que agregues más detalles sobre ti, o incluso una cita que te guste
 
 
