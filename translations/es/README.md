@@ -79,7 +79,7 @@ Tu entorno de desarrollo está listo para que pueda comenzar. Basado en nuestra 
     
 5. Cuando haya terminado, verás que tu Codespace comenzará con una sección de terminal en la parte inferior. Codespaces instalará todas las extensiones requeridas en tu contenedor, luego verás npm install ejecutando. Aquí veras `dotnet restore && dotnet build` ejecutandose. Cuando termine, volverás al terminal prompt donde puedes ejecutar la aplicación web con solo escribir: `swa start`.
 
-    Cuando se inicie la aplicación web, verá un mensaje que le indicará que se inició correctamente en el puerto 4280, y puede abrir ese sitio dentro de su navegador:
+    Cuando se inicie la aplicación web, verá un mensaje que le indicará que se inició correctamente en el puerto 4280, y puede abrir ese sitio dentro de tu navegador:
 
     <img src="../../images/app-running-in-codespaces.png" alt="La aplicación web se inició en el puerto 4280" style="width: 340px;"/>
 
