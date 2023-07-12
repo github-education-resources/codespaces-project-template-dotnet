@@ -243,7 +243,7 @@ En tu repositorio de GitHub:
 
      <img src="../../images/deploy-to-ghpages-03.png" alt="Visite GitHub Pages" style="width: 600px;" />
 
-> 🤩 **Bonificación**: [Configure un dominio personalizado para su sitio de páginas de GitHub](https://docs.github.com/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site)
+> 🤩 **Bonus**: [Configure un dominio personalizado para su sitio de páginas de GitHub](https://docs.github.com/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site)
 
 <br />
 
