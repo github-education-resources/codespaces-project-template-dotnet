@@ -205,7 +205,7 @@ Necesitarás cuentas de Azure y GitHub para implementar la aplicación web. Si a
 * [Cree una cuenta de Azure para estudiantes (no se requiere tarjeta de crédito)](https://azure.microsoft.com/free/students/?WT.mc_id=dotnet-82024-juyoo)
 * [Crear una nueva cuenta de Azure](https://azure.microsoft.com/free/?WT.mc_id=dotnet-82024-juyoo)
 
-Con su proyecto abierto en Codespaces:
+Con tu proyecto abierto en Codespaces:
 
 1. Haga clic en el icono de Azure en la barra lateral izquierda. Inicie sesión si aún no lo ha hecho y, si es nuevo en Azure, siga las indicaciones para crear su cuenta.
 1. En el menú de Azure, haga clic en el signo "➕" y luego seleccione "Crear aplicación web estática".
