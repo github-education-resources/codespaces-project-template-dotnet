@@ -73,7 +73,7 @@ Tu entorno de desarrollo está listo para que pueda comenzar. Basado en nuestra 
 
      <img src="https://docs.github.com/assets/cb-138303/images/help/codespaces/new-codespace-button.png" alt="Crear codespace" style="width:270px;"/>
     
-4. Espere mientras GitHub inicializa Codespaces.
+4. Espera mientras GitHub inicializa el Codespace.
 
      <img src="./LucioMSP/codespaces-project-template-dotnet/blob/main/images/codespaces-initializing.png" alt="Codespaces initializing" style="width: 600px;"/>
     
