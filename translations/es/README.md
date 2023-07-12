@@ -237,7 +237,7 @@ En tu repositorio de GitHub:
 1. Asegure la visibilidad de sus Páginas de GitHub (Github Pages) este en **Público (Public)**.
 1. Ejecute un flujo de trabajo de GitHub Action insertando código o invocándolo manualmente.
 
-     <img src="./images/deploy-to-ghpages-02.png" alt="Invocar GitHub Actions" style="width: 600px;" />
+     <img src="../../images/deploy-to-ghpages-02.png" alt="Invocar GitHub Actions" style="width: 600px;" />
 
 1. Visite sus GitHub Pages (Páginas de GitHub).
 
