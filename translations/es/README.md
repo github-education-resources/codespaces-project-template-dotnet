@@ -13,7 +13,7 @@ En este repositorio de plantillas tenemos el entorno de desarrollo y el conjunto
 
 ## Acerca de esta plantilla de portafolio
 
-En este portafolio de plantillas "elige tu propia aventura", tenemos una aplicación web basada en [Blazor](https://dotnet.microsoft.com/apps/aspnet/web-apps/blazor?WT.mc_id=dotnet-82024-juyoo) lista para que la personalice e implemente fácilmente usando solo su navegador web.
+En esta plantilla podrás "elegir tu propia aventura": tenemos una aplicación web basada en [Blazor](https://dotnet.microsoft.com/apps/aspnet/web-apps/blazor?WT.mc_id=dotnet-82024-juyoo) lista para que puedas personalizarla e implementarla fácilmente utilizando solo tu navegador web.
 
 ![Aplicación web de perfil de Blazor WebAssembly](./images/blazorwasm-portfolio-site.gif "Aplicación web de perfil de Blazor WebAssembly")
 
