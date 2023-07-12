@@ -210,7 +210,7 @@ Con tu proyecto abierto en Codespaces:
 1. Haga clic en el icono de Azure en la barra lateral izquierda. Inicie sesión si aún no lo ha hecho y, si es nuevo en Azure, siga las indicaciones para crear su cuenta.
 1. En el menú de Azure, haga clic en el signo "➕" y luego seleccione "Crear aplicación web estática".
 
-    <img src="./images/deploy-to-azure.png" alt="Crear aplicación web estática" style="width: 300px;" />
+    <img src="../../images/deploy-to-azure.png" alt="Crear aplicación web estática" style="width: 300px;" />
 
 1. Si no ha iniciado sesión en GitHub, se le pedirá que inicie sesión. Si tiene algún cambio de archivo pendiente, se le pedirá que confirme esos cambios.
 1. Configure la información de su aplicación cuando se le solicite:
