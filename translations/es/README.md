@@ -59,7 +59,7 @@ El repositorio contiene lo siguiente:
 
 Este portafolio web está lleno de datos de ejemplo para que puedas abrirlo inmediatamente en Codespaces, verlo en ejecución y subirlo a la nube en cualquier momento.
 
-Su entorno de desarrollo está listo para que comience. Basado en nuestra [plantilla de .NET CodesPaces](https://github.com/education/codespaces-teaching-template-dotnet), aquí está lo que ya está configurado y listo para que use:
+Tu entorno de desarrollo está listo para que pueda comenzar. Basado en nuestra [plantilla de .NET CodesPaces](https://github.com/education/codespaces-teaching-template-dotnet), esto es lo que ya está configurado y listo para su uso:
 
 * Simple [Blazor WebAssembly](https://dotnet.microsoft.com/apps/aspnet/web-apps/blazor?wt.mc_id=dotnet-82024-juyoo) Aplicación con componentes para cada sección del sitio de portafolio
 * [SWA CLI](https://azure.github.io/static-web-apps-cli/) en su lugar para construir su sitio cuando se implementa
