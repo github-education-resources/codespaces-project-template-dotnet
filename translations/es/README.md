@@ -304,7 +304,7 @@ Tu sitio ya debería estar ejecutándose en tu Codespace, y el cambio se volver�
 
 ### 3. Animar foto de escritorio
 
-Las animaciones son una forma en que puede agregar fácilmente algo de movimiento a los elementos de su página para aumentar la interactividad del usuario y resaltar los elementos que desea asegurarse de que noten. Vamos a animar la foto del escritorio en la sección de portafolio.
+Las animaciones son una forma de agregar fácilmente algo de movimiento a los elementos de tu página para aumentar la interactividad del usuario y resaltar los elementos que deseas que se noten. Vamos a animar la foto de escritorio en la sección de portafolio.
 
 1. Abra la hoja de estilo de su sitio, `/src/BlazorApp/wwwroot/css/app.css` dentro de sus Codespaces. Agregue la secuencia de animación agregando una definición `@keyframes` para deslizar desde la izquierda:
 
