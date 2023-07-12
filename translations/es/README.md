@@ -357,7 +357,7 @@ Por ejemplo, agreguemos una sección de educación a su sitio de cartera.
     <Education />
     ```
 
-En sus Codespaces, su aplicación de cartera debería estar ejecutándose y recargará su sitio con los cambios.
+En tu Codespace, tu aplicación con tu portafolio debe estar ejecutándose y volverá a cargar tu sitio web con los cambios.
 
 
 <br />
