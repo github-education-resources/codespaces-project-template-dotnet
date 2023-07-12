@@ -117,7 +117,7 @@ Optional values (valores opcionales) son la dirección de correo electrónico y 
 
 ### 2️⃣ Actualizar imágenes
 
-Este sitio de cartera incluye 3 imágenes: fondo de la sección superior, fondo "Acerca de mí" y sección de cartera (escritorio). Estas pueden ser cualquier imagen de tamaño **paisaje** que elijas de tu propia colección, o que tengas una licencia que te permita usar sin atribución.
+Este portafolio web incluye 3 imágenes: un fondo para la sección superior, un fondo para la sección "Sobre mí" y uno para la sección de portafolio (escritorio). Estas pueden ser cualquier imagen de tamaño horizontal a tu elección de tu propia colección, o que tenga una licencia que le permita usar sin atribución.
 
 Un par de sitios posibles para encontrar fotos son [Pixabay](https://pixabay.com/) y [Unsplash](https://unsplash.com/). Fotos, ilustraciones, vectores, ¡tú eliges! Cuando encuentres tus imágenes, guarda cada una en `/src/BlazorApp/wwwroot/images` con un nombre de archivo corto y significativo.
 
