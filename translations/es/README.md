@@ -289,7 +289,7 @@ Para encontrar el identificador único de una extensión:
 
 ### 2. Actualizar para desplazarse suavemente a una sección
 
-En el encabezado de su sitio tiene enlaces a cada sección a continuación. Haga clic en uno de estos enlaces y observe cómo se desplaza la página hasta esa sección. No es realmente un pergamino, ¿verdad?
+En el encabezado de tu sitio tienes enlaces a cada siguiente sección. Haz clic en uno de estos enlaces y observa cómo se desplaza por la página hasta esa sección. No es realmente un desplazamiento, ¿verdad?
 
 Hagamos de esto una mejor experiencia para el usuario ralentizándolo para que el usuario tenga una idea de lo que está sucediendo y hacia dónde está navegando en la página.
 
