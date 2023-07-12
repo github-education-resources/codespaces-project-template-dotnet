@@ -194,7 +194,7 @@ El diseño base tiene 4, pero el número depende de usted.
 
 ## 🏃 Implementa tu aplicación web
 
-Project incluye la configuración necesaria para implementar **gratis** en ambas [Azure Static Web Apps](https://azure.microsoft.com/products/app-service/static/?WT.mc_id=dotnet-82024-juyoo) y [Páginas de GitHub](https://pages.github.com/)</a>.
+El proyecto incluye la configuración necesaria para implementar **gratis** en [Azure Static Web Apps](https://azure.microsoft.com/products/app-service/static/?WT.mc_id=dotnet-82024-juyoo) o [GitHub Pages](https://pages.github.com/). Las instrucciones para ambas se encuentran a continuación:
 
 ### Aplicaciones web estáticas de Azure
 
