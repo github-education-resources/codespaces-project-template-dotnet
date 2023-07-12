@@ -119,7 +119,7 @@ _Valores opcionales_ son la dirección de correo electrónico y las cuentas soci
 
 Este sitio de cartera incluye 3 imágenes: fondo de la sección superior, fondo "Acerca de mí" y sección de cartera (escritorio). Estas pueden ser cualquier imagen de tamaño **paisaje** que elijas de tu propia colección, o que tengas una licencia que te permita usar sin atribución.
 
-Un par de sitios posibles para encontrar fotos son [Pixabay](https://pixabay.com/) y [Unsplash](https://unsplash.com). Fotos, ilustraciones, vectores, ¡tú eliges! Cuando encuentre sus imágenes, guarde cada una en `/src/BlazorApp/wwwroot/images` con un nombre de archivo breve y significativo.
+Un par de sitios posibles para encontrar fotos son [Pixabay](https://pixabay.com/) y [Unsplash](https://unsplash.com/). Fotos, ilustraciones, vectores, ¡tú eliges! Cuando encuentres tus imágenes, guarda cada una en `/src/BlazorApp/wwwroot/images` con un nombre de archivo corto y significativo.
 
 Abra `/src/BlazorApp/wwwroot/sample-data/heroimages.json` y actualice las imágenes con sus preferidas, así como el texto alternativo para cada imagen:
 
