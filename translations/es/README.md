@@ -319,7 +319,7 @@ Las animaciones son una forma en que puede agregar fácilmente algo de movimient
     }
     ```
     
-    1. Ahora que hemos definido nuestra secuencia de animación `slideInLeft` podemos decirle a nuestra foto de escritorio que se anime con esa secuencia. Abra `/src/BlazorApp/Components/Portfolio.razor` y localice la etiqueta `img`. Verá que utiliza CSS en línea para configurar su estilo. Dentro de su definición de estilo, agregue lo siguiente:
+    1. Ahora que hemos definido nuestra secuencia de animación `slideInLeft` podemos decirle a nuestra foto de escritorio que se anime con esa secuencia. Abre `/src/BlazorApp/Components/Portfolio.razor` y localiza la etiqueta `img`. Verás que utiliza inline CSS para establecer su estilo. Dentro de su definición de estilo, agrega lo siguiente:
     
         ```css
         animation: 1s ease-out 0s 1 slideInLeft;
