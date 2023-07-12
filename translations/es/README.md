@@ -225,7 +225,7 @@ Con tu proyecto abierto en Codespaces:
 
 ### Páginas de GitHub
 
-[Las GitHub Pages (Páginas de GitHub)](https://pages.github.com/) le permite alojar sitios web directamente desde su repositorio de GitHub. Este proyecto ya está configurado para que pueda implementar su cartera en las GitHub Pages con pasos mínimos.
+[Las GitHub Pages (Páginas de GitHub)](https://pages.github.com/) te permite alojar sitios web directamente desde tu repositorio de GitHub. Este proyecto ya está configurado para que puedas subir tu portafolio en GitHub Pages con muy pocos pasos.
 
 En tu repositorio de GitHub:
 
