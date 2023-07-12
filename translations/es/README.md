@@ -91,7 +91,7 @@ Este proyecto está diseñado para ser fácilmente personalizable. Cada sección
 
 Para cada paso, abra el proyecto en Codespaces, luego puede realizar y confirmar sus cambios dentro de sus Codespaces.
 
-> Consulte [Uso del control de código fuente en sus espacios de código](https://docs.github.com/codespaces/developing-in-codespaces/using-source-control-in-your-codespace) para obtener más instrucciones sobre el control de código fuente de Codespaces
+> Consulta el [uso del control de código fuente en tu codespace](https://docs.github.com/en/codespaces/developing-in-codespaces/using-source-control-in-your-codespace) para obtener más instrucciones sobre el control de código fuente de Codespaces.
 
 ### 1️⃣ Agrega tus datos y cuentas de redes sociales
 
