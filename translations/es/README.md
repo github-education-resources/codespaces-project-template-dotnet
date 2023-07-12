@@ -300,7 +300,7 @@ Hagamos una mejor experiencia de usuario para que el usuario tenga una idea de l
       scroll-behavior: smooth;
     }
     ```
-Su sitio ya debería estar ejecutándose en sus Codespaces, y el cambio se volverá a cargar en la página automáticamente. Haga clic en un enlace en el encabezado superior para ver el desplazamiento suave en acción.
+Tu sitio ya debería estar ejecutándose en tu Codespace, y el cambio se volverá a cargar en la página automáticamente. Haz click en un link en el encabezado superior para ver el desplazamiento suave en acción.
 
 ### 3. Animar foto de escritorio
 
