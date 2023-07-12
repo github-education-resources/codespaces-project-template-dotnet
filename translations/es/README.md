@@ -330,7 +330,7 @@ Las animaciones son una forma de agregar fácilmente algo de movimiento a los el
     <img src="@(hero.Src)" style="height: 90%; width: 100%; object-fit: cover; animation: 1s ease-out 0s 1 slideInLeft;" alt="@(hero.Alt)" />
     ```
 
-Su sitio ya debería estar ejecutándose en sus Codespaces, y el cambio se volverá a cargar en la página automáticamente. Desplácese hacia arriba y hacia abajo en la página y observe cómo se desliza la foto de su escritorio en la página.
+Tu sitio web ya debería estar ejecutándose en tu Codespace, y el cambio se volverá a cargar en la página automáticamente. Desplázate hacia arriba y hacia abajo en la página y observa cómo la foto de tu escritorio se desliza sobre la página.
 
 > 🤩 **Bonificación**: Flecha de desplazamiento hacia abajo animada
 
