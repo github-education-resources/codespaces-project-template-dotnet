@@ -221,7 +221,7 @@ Con su proyecto abierto en Codespaces:
      1. **Ubicación de salida**: ingrese `wwwroot`
 1. Cuando termine, verá una notificación en la parte inferior de su pantalla y se agregará un nuevo flujo de trabajo de GitHub Action a su proyecto. Si hace clic en "Abrir acción en GitHub", verá la acción que se creó para usted y que se está ejecutando actualmente.
 
-> 🤩 **Bonificación**: [Configure un dominio personalizado para su aplicación web estática de Azure](https://docs.github.com/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site)
+> 🤩 **Extra**: [Configure un dominio personalizado para su aplicación web estática de Azure](https://docs.github.com/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site)
 
 ### Páginas de GitHub
 
