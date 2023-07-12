@@ -89,7 +89,7 @@ Tu entorno de desarrollo está listo para que pueda comenzar. Basado en nuestra 
 
 Este proyecto está diseñado para ser fácilmente personalizable. Cada sección del sitio es un componente separado, y tu información debe establecerse en un solo lugar. Esto no es solo para facilitar la actualización, sino para que puedas ver cómo se pasan los valores a diferentes secciones de tu portafolio web.```
 
-Para cada paso, abra el proyecto en Codespaces, luego puede realizar y confirmar sus cambios dentro de sus Codespaces.
+Para cada paso, abre el proyecto en Codespaces, luego puedes realizar y confirmar cambios mientras estás dentro de tu Codespace.
 
 > Consulta el [uso del control de código fuente en tu codespace](https://docs.github.com/en/codespaces/developing-in-codespaces/using-source-control-in-your-codespace) para obtener más instrucciones sobre el control de código fuente de Codespaces.
 
