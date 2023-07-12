@@ -81,7 +81,7 @@ Su entorno de desarrollo está listo para que comience. Basado en nuestra [plant
 
     Cuando se inicie la aplicación web, verá un mensaje que le indicará que se inició correctamente en el puerto 4280, y puede abrir ese sitio dentro de su navegador:
 
-    <img src="./images/app-running-in-codespaces.png" alt="La aplicación web se inició en el puerto 4280" style="width: 340px;"/>
+    <img src="../../images/app-running-in-codespaces.png" alt="La aplicación web se inició en el puerto 4280" style="width: 340px;"/>
 
 <br />
 
