@@ -378,6 +378,6 @@ En sus Codespaces, su aplicación de cartera debería estar ejecutándose y reca
 
 <br />
 
-## 🔎 ¿Encontró un problema o tiene una idea para mejorar?
+## 🔎 ¿Encontraste un problema o tienes una idea para mejorar?
 
 Ayúdanos a mejorar este repositorio de plantillas [informándonos y abriendo un problema](/../../issues/new).
