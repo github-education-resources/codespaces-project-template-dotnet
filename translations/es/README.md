@@ -258,7 +258,7 @@ A continuación se presentan 4 formas adicionales en las que puede continuar per
 
 ### 1. Personaliza tus Codespaces
 
-Su entorno viene con extensiones preinstaladas. Puede cambiar con qué extensiones comienza su entorno Codespaces, así es como:
+Tu entorno viene con extensiones preinstaladas. Puedes cambiar con qué extensiones comienza tu entorno de Codespaces, aquí te mostramos cómo:
 
 1. Abra el archivo _.devcontainer/devcontainer.json_ y localice el siguiente elemento JSON **extensiones**
 
