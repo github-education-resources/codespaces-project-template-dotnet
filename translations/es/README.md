@@ -336,7 +336,7 @@ Tu sitio web ya debería estar ejecutándose en tu Codespace, y el cambio se vol
 
 ### 4. Agregar una nueva sección
 
-Comenzamos con algunas secciones básicas para su sitio de cartera, pero tiene libertad creativa para personalizarlo y agregar nuevas secciones relevantes para lo que desea en su sitio.
+Comenzamos con algunas secciones básicas para tu portafolio web, pero tienes libertad creativa para hacerlo tuyo y agregar nuevas secciones relevantes para lo que deseas en tu página.
 
 Por ejemplo, agreguemos una sección de educación a su sitio de cartera.
 
