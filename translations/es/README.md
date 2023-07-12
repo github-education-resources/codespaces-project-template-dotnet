@@ -163,7 +163,7 @@ Esta sección para actualizar es el portafolio, donde resalta los elementos en l
 
 Abre `/src/BlazorApp/wwwroot/sample-data/projects.json` que es una matriz JSON. Cada elemento que desee resaltar necesita: título, descripción y URL.
 
-El diseño de la muestra tiene 4, pero el número que incluya depende de usted.
+El diseño base tiene 4, pero el número depende de usted.
 
 ```jsonc
 [
