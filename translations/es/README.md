@@ -30,7 +30,7 @@ En esta plantilla podrás "elegir tu propia aventura": tenemos una aplicación w
 1. [Implemente su sitio](#-implemente-su-aplicación-web)
 
 <details>
-    <summary><b>🎥 Para obtener más información sobre Codespaces, vea nuestra serie de tutoriales en video</b></summary>
+    <summary><b>🎥 Para obtener más información sobre Codespaces, ve nuestros tutoriales.</b></summary>
    
 [![Tutorial de Codespaces](https://img.youtube.com/vi/ozuDPmcC1io/0.jpg)](https://aka.ms/CodespacesVideoTutorial "Tutorial de Codespaces")
 </details>
