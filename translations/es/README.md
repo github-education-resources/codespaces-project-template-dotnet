@@ -338,7 +338,7 @@ Tu sitio web ya debería estar ejecutándose en tu Codespace, y el cambio se vol
 
 Comenzamos con algunas secciones básicas para tu portafolio web, pero tienes libertad creativa para hacerlo tuyo y agregar nuevas secciones relevantes para lo que deseas en tu página.
 
-Por ejemplo, agreguemos una sección de educación a su sitio de cartera.
+Por ejemplo, agreguemos una sección de educación a tu portafolio.
 
 1. Cree un nuevo componente para la sección dentro de la carpeta `Components (Componentes)`. Agrega un nuevo archivo llamado `Education.razor`.
 
