@@ -75,7 +75,7 @@ Tu entorno de desarrollo está listo para que pueda comenzar. Basado en nuestra 
     
 4. Espera mientras GitHub inicializa el Codespace.
 
-     <img src="./LucioMSP/codespaces-project-template-dotnet/blob/main/images/codespaces-initializing.png" alt="Codespaces initializing" style="width: 600px;"/>
+     <img src="../../codespaces-initializing.png" alt="Codespaces initializing" style="width: 600px;"/>
     
 5. Cuando haya terminado, verás que tu Codespace comenzará con una sección de terminal en la parte inferior. Codespaces instalará todas las extensiones requeridas en tu contenedor, luego verás npm install ejecutando. Aquí veras `dotnet restore && dotnet build` ejecutandose. Cuando termine, volverás al terminal prompt donde puedes ejecutar la aplicación web con solo escribir: `swa start`.
 
