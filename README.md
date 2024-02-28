@@ -6,10 +6,10 @@ _Create, customize and deploy your own portfolio website in minutes._ ✨
 
 In this template repository we have the development environment and base set and ready to go. So that you can immediately launch the Codespaces to customize with no setup.
 
-* **Who is this for?** __Anyone__ looking to create a portfolio site, learn web development, or test out Codespaces.
-* **How much experience do you need?** __Zero__. You decide how much you want to customize based on your experience, and time available.
-* **Tools needed:** _None_. No need to install anything! All you need is a web browser.
-* **Prerequisites:** _None_. This template includes your development environment and deployable web app for you to create your own site.
+- **Who is this for?** __Anyone__ looking to create a portfolio site, learn web development, or test out Codespaces.
+- **How much experience do you need?** __Zero__. You decide how much you want to customize based on your experience, and time available.
+- **Tools needed:** _None_. No need to install anything! All you need is a web browser.
+- **Prerequisites:** _None_. This template includes your development environment and deployable web app for you to create your own site.
 
 ## About this portfolio template
 
@@ -44,15 +44,15 @@ This repo is a GitHub template to build a .NET personal portfolio frontend web a
 
 The repo contains the following:
 
-* `/.devcontainer`
-  * `.devcontainer/Dockerfile`: Configuration file used by Codespaces to determine operating system and other details.
-  * `.devcontainer/devcontainer.json`: Configuration file used by Codespaces to configure Visual Studio Code settings, such as the enabling of additional extensions.
-  * `.devcontainer/on-create.sh`: Configuration file used by Codespaces to install additional tools, such as PowerShell.
-* `/src`: Blazor WebAssembly project to build your portfolio site.
-* `.editorconfig`: Settings for [EditorConfig](https://editorconfig.org/) that helps maintain consistent coding styles in Codespaces.
-* `global.json`: Settings for the Blazor WebAssembly app to avoid using pre-released .NET version.
-* `swa-cli.config.json`: Settings for [Azure SWA CLI](https://azure.github.io/static-web-apps-cli/) to run the Blazor WebAssembly app on your Codespaces.
-* `MyPortfolio.sln`: The solution file that contains the Blazor WebAssembly application project.
+- `/.devcontainer`
+  - `.devcontainer/Dockerfile`: Configuration file used by Codespaces to determine operating system and other details.
+  - `.devcontainer/devcontainer.json`: Configuration file used by Codespaces to configure Visual Studio Code settings, such as the enabling of additional extensions.
+  - `.devcontainer/on-create.sh`: Configuration file used by Codespaces to install additional tools, such as PowerShell.
+- `/src`: Blazor WebAssembly project to build your portfolio site.
+- `.editorconfig`: Settings for [EditorConfig](https://editorconfig.org/) that helps maintain consistent coding styles in Codespaces.
+- `global.json`: Settings for the Blazor WebAssembly app to avoid using pre-released .NET version.
+- `swa-cli.config.json`: Settings for [Azure SWA CLI](https://azure.github.io/static-web-apps-cli/) to run the Blazor WebAssembly app on your Codespaces.
+- `MyPortfolio.sln`: The solution file that contains the Blazor WebAssembly application project.
 
 <br />
 
@@ -62,9 +62,9 @@ This portfolio site project is filled with sample data so that you can immediate
 
 Your development environment is all set for you to start. Based on our [.NET Codespaces Template](https://github.com/education/codespaces-teaching-template-dotnet), here is what's already setup and ready for you to use:
 
-* Simple [Blazor WebAssembly](https://dotnet.microsoft.com/apps/aspnet/web-apps/blazor?WT.mc_id=dotnet-82024-juyoo) application with components for each section of the portfolio site
-* [SWA CLI](https://azure.github.io/static-web-apps-cli/) in place to build your site when deploying
-* Code linting and formatting using [EditorConfig](https://editorconfig.org/) for code consistency.
+- Simple [Blazor WebAssembly](https://dotnet.microsoft.com/apps/aspnet/web-apps/blazor?WT.mc_id=dotnet-82024-juyoo) application with components for each section of the portfolio site
+- [SWA CLI](https://azure.github.io/static-web-apps-cli/) in place to build your site when deploying
+- Code linting and formatting using [EditorConfig](https://editorconfig.org/) for code consistency.
 
 ### Create your portfolio
 
@@ -88,9 +88,9 @@ Your development environment is all set for you to start. Based on our [.NET Cod
 
 ## ✨ Customize your site in 4 steps
 
-This project is built to be easily customizable. Each section of the site is a separate component, and your information needs to be set in only one spot. This is not only for ease of updating, but so you can see how prop values are passed to React components.
+This project is built to be easily customizable. Each section of the site is a separate component, and your information needs to be set in only one spot. This is not only for ease of updating, but so you can see how values are passed to Blazor components.
 
-For each step, open the project in Codespaces, then you can make and commit your changes while within your Codespaces. 
+For each step, open the project in Codespaces, then you can make and commit your changes while within your Codespaces.
 
 > See [Using source control in your codespaces](https://docs.github.com/codespaces/developing-in-codespaces/using-source-control-in-your-codespace) for more Codespaces source control how-tos
 
