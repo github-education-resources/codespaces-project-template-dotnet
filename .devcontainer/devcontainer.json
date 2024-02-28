@@ -5,8 +5,7 @@
     "dockerfile": "./Dockerfile",
     "context": ".",
     "args": {
-      // version: 7.0, 7.0-bullseye-slim, 7.0-jammy, 6.0, 6.0-bullseye-slim, 6.0-jammy, 6.0-focal
-      "VARIANT": "7.0"
+      "VARIANT": "8.0-jammy"
     }
   },
 
@@ -19,9 +18,16 @@
   ],
 
   "features": {
+    // .NET SDK
+    "ghcr.io/devcontainers/features/dotnet:latest": {
+      "version": "6.0",
+      "additionalVersions": "7.0"
+    },
+
     // Azure CLI
     "ghcr.io/devcontainers/features/azure-cli:latest": {
-      "version": "latest"
+      "version": "latest",
+      "extensions": "account,alias,deploy-to-azure,functionapp,staticwebapp,subscription,webapp"
     },
 
     // GitHub CLI
@@ -31,7 +37,6 @@
 
     // node.js
     "ghcr.io/devcontainers/features/node:latest": {
-      // version: 'latest', 'lts', '18', '16', '14'
       "version": "lts",
       "nodeGypDependencies": true,
       "nvmInstallPath": "/usr/local/share/nvm"
@@ -60,8 +65,7 @@
       "extensions": [
     	  "GitHub.copilot",
     	  "GitHub.copilot-chat",
-    	  "GitHub.copilot-labs",
-        "ms-dotnettools.csharp",
+        "ms-dotnettools.csdevkit",
     	  "ms-vscode.PowerShell",
     	  "ms-vscode.vscode-node-azure-pack",
     	  "VisualStudioExptTeam.vscodeintellicode"
