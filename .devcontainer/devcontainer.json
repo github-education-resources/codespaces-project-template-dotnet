@@ -11,7 +11,7 @@
 
   // Use 'forwardPorts' to make a list of ports inside the container available locally.
   "forwardPorts": [
-    // ASP.NET Core Web/API App, Blazor App
+    // ASP.NET Blazor App
     5000, 5001,
     // Azure Static Web Apps
     4280
@@ -63,13 +63,13 @@
     "vscode": {
       // Add the IDs of extensions you want installed when the container is created.
       "extensions": [
-    	  "GitHub.copilot",
-    	  "GitHub.copilot-chat",
+        "GitHub.copilot",
+        "GitHub.copilot-chat",
         "ms-dotnettools.csdevkit",
-    	  "ms-vscode.PowerShell",
-    	  "ms-vscode.vscode-node-azure-pack",
-    	  "VisualStudioExptTeam.vscodeintellicode"
-    	],
+        "ms-vscode.PowerShell",
+        "ms-vscode.vscode-node-azure-pack",
+        "VisualStudioExptTeam.vscodeintellicode"
+      ],
       "settings": {
         // Uncomment if you want to disable the minimap view
         // "editor.minimap.enabled": false,
