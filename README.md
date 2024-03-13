@@ -1,86 +1,89 @@
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?hide_repo_select=true&ref=main&repo=education/codespaces-project-template-dotnet) 
 
-# .NET (Blazor) Portfolio Site with GitHub Codespaces
+# GitHub Codespaces로 닷넷 (Blazor) 포트폴리오 사이트 만들기 
 
-_Create, customize and deploy your own portfolio website in minutes._ ✨
+_몇 분만에 자기만의 포트폴리오 사이트를 생성, 커스텀, 그리고 배포까지 할 수 있습니다_ ✨
 
-In this template repository we have the development environment and base set and ready to go. So that you can immediately launch the Codespaces to customize with no setup.
+이 템플릿 레포지토리에는 개발 환경과 기본 양식 있어 바로 시작할 수 있습니다. Codespaces를 즉시 실행해서 환경 셋팅 과정없이 포트폴리오 사이트 양식을 커스텀할 수 있습니다.
 
-- **Who is this for?** __Anyone__ looking to create a portfolio site, learn web development, or test out Codespaces.
-- **How much experience do you need?** __Zero__. You decide how much you want to customize based on your experience, and time available.
-- **Tools needed:** _None_. No need to install anything! All you need is a web browser.
-- **Prerequisites:** _None_. This template includes your development environment and deployable web app for you to create your own site.
 
-## About this portfolio template
+- **누구를 대상으로 하나요?** __모두__ 포트폴리오 사이트를 만들고자 하거나, 웹 개발을 배우고 싶거나, 코드스페이스를 사용해보고 싶은 모든 사람들을 대상입니다.
+- **관련 경험이 있어야 하나요?** __필요 없음__. 경험과 가능한 시간에 따라 포트폴리오 사이트 양식 커스텀을 어느 정도할지 결정핧핧 수 있습니다.
+- **필요한 준비물 :** _없음_. 설치해야 하는 것이 없습니다! 웹 브라우저(Edge, Chrome 등)만 있으면 됩니다.
+- **전제 조건:** _없음_. 이 템플릿에는 자신만의 포트폴리오 사이트를 만들 수 있는 개발 환경과 배포 가능한 웹 앱이 포함되어 있습니다.
 
-In this "choose your own adventure" template portfolio, we have a [Blazor](https://dotnet.microsoft.com/apps/aspnet/web-apps/blazor?WT.mc_id=dotnet-82024-juyoo) based web application ready for you to easily customize and deploy using only your web browser.  
+## 포트폴리오 사이트 양식에 대해서
+
+    
+이 "choose your own adventure" 템플릿 포트폴리오에는 웹 브라우저만 사용하여 쉽게 사용자 정의하고 배포할 수 있는, [Blazor](https://dotnet.microsoft.com/apps/aspnet/web-apps/blazor?WT.mc_id=dotnet-82024-juyoo) 웹 어플리케이션이 있습니다.
 
 ![Blazor WebAssembly profile web application](./images/blazorwasm-portfolio-site.gif "Blazor WebAssembly profile web application")
 
-### Quick Start
+### 빠르게 시작하기
 
-1. Click the **Use this Template** button
+1.  **Use this Template** 버튼을 클릭합니다.
 
    [![Use this Template](/images/template-button.svg)](https://github.com/education/codespaces-project-template-dotnet/generate)
 
-1. Select the repository owner (e.g. your GitHub account)
-1. Enter a unique name for your new repository
-1. Click the **Code** button
-1. Click **Create Codespace on main** button
-1. [Customize your portfolio site](#-customize-your-site-in-4-steps)
-1. [Deploy your site](#-deploy-your-web-application)
+1. 레포지토리 소유자를 선택합니다. (예시: 자신의 GitHub 계정)
+1. 새 저장소의 고유한 이름을 입력합니다.
+1. **Code** 버튼을 클릭합니다.
+1. **Create Codespace on main** 버튼을 클릭합니다.
+1. [포트폴리오 사이트 커스텀하기](#-customize-your-site-in-4-steps)
+1. [사이트 배포하기](#-deploy-your-web-application)
 
 <details>
-   <summary><b>🎥 To learn more about Codespaces, watch our video tutorial series</b></summary>
+   <summary><b>🎥 Codespaces에 대해 자세히 알아보기 위해 튜토리얼 영상 시리즈를 시청하실 수 있습니다.</b></summary>
 
    [![Codespaces Tutorial](https://img.youtube.com/vi/ozuDPmcC1io/0.jpg)](https://aka.ms/CodespacesVideoTutorial "Codespaces Tutorial")
 </details>
 
 <br />
 
-## 🗃️ .NET (Blazor) Portfolio template
+## 🗃️ 닷넷 (블레이저) 포트폴리오 양식
 
-This repo is a GitHub template to build a .NET personal portfolio frontend web application using the Blazor WebAssembly framework. The goal is to give you a template to you can immediately utilize to create your own website through Codespaces.
 
-The repo contains the following:
+이 레포지토리는 Blazor WebAssembly 프레임워크를 사용하여 닷넷 개인 포트폴리오 프런트엔드 웹 애플리케이션을 빌드하기 위한 GitHub 양식입니다. Codespaces를 통해 자신만의 웹사이트를 만드는 데 바로 활용할 수 있는 양식 제공을 목표로 합니다.
+
+이 레포지토리는 다음 내용을 담고 있습니다:
 
 - `/.devcontainer`
-  - `.devcontainer/Dockerfile`: Configuration file used by Codespaces to determine operating system and other details.
+  - `.devcontainer/Dockerfile`: 운영 체제 및 기타 세부 정보를 결정하기 위해 Codespaces에서 사용하는 구성 파일
   - `.devcontainer/devcontainer.json`: Configuration file used by Codespaces to configure Visual Studio Code settings, such as the enabling of additional extensions.
-  - `.devcontainer/on-create.sh`: Configuration file used by Codespaces to install additional tools, such as PowerShell.
-- `/src`: Blazor WebAssembly project to build your portfolio site.
-- `.editorconfig`: Settings for [EditorConfig](https://editorconfig.org/) that helps maintain consistent coding styles in Codespaces.
-- `global.json`: Settings for the Blazor WebAssembly app to avoid using pre-released .NET version.
-- `swa-cli.config.json`: Settings for [Azure SWA CLI](https://azure.github.io/static-web-apps-cli/) to run the Blazor WebAssembly app on your Codespaces.
-- `MyPortfolio.sln`: The solution file that contains the Blazor WebAssembly application project.
+  - `.devcontainer/on-create.sh`: 추가 확장 활성화와 같은 Visual Studio Code 설정을 구성하기 위해 Codespaces에서 사용하는 구성 파일
+- `/src`: 포트폴리오 사이트를 구축하기 위한 Blazor WebAssembly 프로젝트
+- `.editorconfig`: Codespaces에서 일관된 코딩 스타일을 유지하는 데 도움이 되는 [EditorConfig](https://editorconfig.org/)에 대한 설정
+- `global.json`: 사전 출시된 .NET 버전을 사용하지 않도록 Blazor WebAssembly 앱 설정을 위한 json 파일
+- `swa-cli.config.json`: Codespaces에서 Blazor WebAssembly 앱을 실행하기 위한 [Azure SWA CLI](https://azure.github.io/static-web-apps-cli/)에 대한 설정
+- `MyPortfolio.sln`: Blazor WebAssembly 애플리케이션 프로젝트가 포함된 솔루션 파일
 
 <br />
 
-## 🚀 Getting started
+## 🚀 시작하기
 
-This portfolio site project is filled with sample data so that you can immediately open Codespaces, see it running, and deploy at any point.
+이 포트폴리오 사이트 프로젝트는 샘플 데이터로 채워져 있어, 바로 Codespaces를 열어 실행을 확인하고 언제든지 배포할 수 있습니다.
 
-Your development environment is all set for you to start. Based on our [.NET Codespaces Template](https://github.com/education/codespaces-teaching-template-dotnet), here is what's already setup and ready for you to use:
+시작하기 위한 개발 환경이 모두 마련되어 있습니다. [닷넷 Codespaces 템플릿](https://github.com/education/codespaces-teaching-template-dotnet)을 기반으로 이미 설정된 사용할 수 있는 항목:
 
-- Simple [Blazor WebAssembly](https://dotnet.microsoft.com/apps/aspnet/web-apps/blazor?WT.mc_id=dotnet-82024-juyoo) application with components for each section of the portfolio site
-- [SWA CLI](https://azure.github.io/static-web-apps-cli/) in place to build your site when deploying
-- Code linting and formatting using [EditorConfig](https://editorconfig.org/) for code consistency.
+- 포트폴리오 사이트의 각 섹션에 대한 구성 요소가 포함된 간단한 [블레이저 WebAssembly](https://dotnet.microsoft.com/apps/aspnet/web-apps/blazor?WT.mc_id=dotnet-82024-juyoo) 애플리케이션
+- 배포 시 사이트를 구축하기 위한 [SWA CLI](https://azure.github.io/static-web-apps-cli/)
+- 코드 일관성을 위해 [EditorConfig](https://editorconfig.org/)를 사용한 코드 린팅 및 형식 지정.
 
-### Create your portfolio
+### 자신만의 포트폴리오 생성하기
 
-1. Create a repository from this template. Use this [create repo link](https://github.com/education/codespaces-teaching-template-dotnet/generate). Select the repository owner, provide a name, a description if you'd like and if you'd like the new repository to be public or private.
-1. Navigate to the main page of the newly created repository.
-1. Under the repository name, use the Code drop-down menu, and in the Codespaces tab, select "Create codespace on main".
+1. 이 템플릿에서 저장소를 만듭니다. 이 [저장소 링크 생성](https://github.com/education/codespaces-teaching-template-dotnet/generate)을 사용하시면 됩니다. 리포지토리 소유자를 선택하고, 원하는 경우 이름과 설명을 제공하고, 새 레포지토리를 공개 또는 비공개 중 무엇으로 지정할 것인지 입력합니다.
+1. 새로 생성된 저장소의 메인 페이지로 이동합니다.
+1. 레포지토리 이름 아래에서 코드 드롭다운 메뉴를 사용하고 Codespaces 탭에서 "Create codespace on main"을 선택합니다.
 
     <img src="./images/new-codespace-button.png" alt="Create codespace" style="width:270px;"/>
 
-1. Wait as GitHub initializes the Codespaces.
+1. GitHub에서 Codespaces를 초기화하는 것을 기다립니다.
 
     <img src="./images/codespaces-initializing.png" alt="Codespaces initializing" style="width: 600px;"/>
 
-1. When complete you will see your Codespaces load with a terminal section at the bottom. Here you will see `dotnet restore && dotnet build` executing. When complete you will return to the terminal prompt where you can run the web application by executing: `swa start`.
+1. 완료되면 하단에 터미널 섹션과 함께 Codespaces 로드가 표시됩니다. 여기서 `dotnet Restore && dotnet build`가 실행되는 것을 볼 수 있습니다. 완료되면 `swa start`를 실행하여 웹 애플리케이션을 실행할 수 있는 터미널 프롬프트로 돌아갑니다.
 
-   When the web application is started you will see a prompt telling you it started successfully on port 4280, and you can open that site within your browser:
+   웹 애플리케이션이 시작되면 포트 4280에서 성공적으로 시작되었음을 알리는 메시지가 표시되고 브라우저 내에서 해당 사이트를 열 수 있습니다. :
 
    <img src="./images/app-running-in-codespaces.png" alt="Web application started on port 4280" style="width: 340px;"/>
 
