@@ -267,7 +267,6 @@ On your GitHub repository:
 
 환경에는 미리 설치된 확장 프로그램이 포함되어 있습니다. Codespaces 환경에서 시작할 때 어떤 확장 프로그램을 사용할지 변경할 수 있습니다. 다음과 같이 진행합니다:
 
-
 1. 파일 .devcontainer/devcontainer.json 을 열고 다음 JSON 요소 extensions 을 찾습니다. **extensions**
 
     ```jsonc
@@ -304,7 +303,6 @@ On your GitHub repository:
 
 사용자가 무슨 일이 일어나고 있는지, 페이지에서 어디로 이동하는지를 알 수 있도록 이것을 더 나은 사용자 경험으로 만들어봅시다.
 
-
 1. `/src/BlazorApp/wwwroot/css/app.css`를 엽니다. 우리는 html에 대한 스타일을 추가해야 합니다. 지금 살펴보면 현재 html 및 body 스타일이 함께 설정되어 있습니다. 따라서 다음 CSS 스니펫을 추가하여 html 요소의 스크롤을 설정합시다:
 
     ```css
@@ -322,7 +320,6 @@ On your GitHub repository:
 애니메이션은 페이지의 요소에 동작을 추가하여 사용자 상호작용을 증가시키고 강조하고자 하는 항목을 주목할 수 있도록 하는 방법입니다. 이번에는 포트폴리오 섹션의 책상 사진에 애니메이션을 추가해 봅시다.
 
 1. Codespaces 내에서 사이트의 스타일시트인 `/src/BlazorApp/wwwroot/css/app.css`을 엽니다. `@keyframes` 정의를 추가하여 왼쪽에서 슬라이드하는 애니메이션 시퀀스를 추가해봅시다:
-
 
     ```css
     @keyframes slideInLeft {
