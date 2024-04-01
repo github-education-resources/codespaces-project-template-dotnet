@@ -155,9 +155,9 @@ Open `/src/BlazorApp/wwwroot/sample-data/heroimages.json` and update images with
 
 The about section helps to give people a bit more information about your skills and passions. Open `/src/BlazorApp/wwwroot/sample-data/aboutme.json` and update those 3 properties:
 
-* `description`: short sentence or two describing yourself, career goal, and/or passions
-* `skillsList`: an [array](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array) of your skills to list on the site, can be as many or little as you wish
-* `detailOrQuote`: longer block for you to add more detail about yourself, or even a quote you like
+- `description`: short sentence or two describing yourself, career goal, and/or passions
+- `skillsList`: an [array](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array) of your skills to list on the site, can be as many or little as you wish
+- `detailOrQuote`: longer block for you to add more detail about yourself, or even a quote you like
 
 ### 4️⃣ Add items you've worked on and detail text
 
@@ -204,8 +204,8 @@ Project includes the setup needed for you to deploy **free** to both [Azure Stat
 
 You'll need both Azure and GitHub accounts to deploy your web application. If you don't yet have an Azure account you can create it from within during the deploy process, or from below links:
 
-* [Create a (no Credit Card required) Azure For Students account](https://azure.microsoft.com/free/students/?WT.mc_id=dotnet-82024-juyoo)
-* [Create a new Azure account](https://azure.microsoft.com/free/?WT.mc_id=dotnet-82024-juyoo)
+- [Create a (no Credit Card required) Azure For Students account](https://azure.microsoft.com/free/students/?WT.mc_id=dotnet-82024-juyoo)
+- [Create a new Azure account](https://azure.microsoft.com/free/?WT.mc_id=dotnet-82024-juyoo)
 
 With your project open in Codespaces:
 
@@ -285,8 +285,8 @@ Your environment comes with preinstalled extensions. You can change which extens
 
 To find the unique identifier of an extension:
 
-* Navigate to the extension's web page, like so [https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow&WT.mc_id=dotnet-82024-juyoo)
-* Locate the _Unique Identifier_ field under **More info** section on your right side.
+- Navigate to the extension's web page, like so [https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow&WT.mc_id=dotnet-82024-juyoo)
+- Locate the _Unique Identifier_ field under **More info** section on your right side.
 
 > 💡 Learn more here, <https://docs.github.com/codespaces/customizing-your-codespace/personalizing-github-codespaces-for-your-account>
 
@@ -367,11 +367,11 @@ In your Codespaces, your portfolio application should be running and will reload
 
 ## 📚 Resources
 
-* [GitHub Codespaces docs overview](https://docs.github.com/codespaces/overview)
-* [GitHub Codespaces guides](https://docs.github.com/codespaces/guides)
-* [Use dev containers locally with VS Code and Docker](https://github.com/microsoft/vscode-remote-try-dotnet#vs-code-dev-containers)
-* [Get started with Blazor](https://learn.microsoft.com/training/paths/build-web-apps-with-blazor/?WT.mc_id=dotnet-82024-juyoo)
-* [Web Development for Beginners](https://github.com/microsoft/Web-Dev-For-Beginners)
+- [GitHub Codespaces docs overview](https://docs.github.com/codespaces/overview)
+- [GitHub Codespaces guides](https://docs.github.com/codespaces/guides)
+- [Use dev containers locally with VS Code and Docker](https://github.com/microsoft/vscode-remote-try-dotnet#vs-code-dev-containers)
+- [Get started with Blazor](https://learn.microsoft.com/training/paths/build-web-apps-with-blazor/?WT.mc_id=dotnet-82024-juyoo)
+- [Web Development for Beginners](https://github.com/microsoft/Web-Dev-For-Beginners)
 
 > #### Codespaces Browser App
 >
