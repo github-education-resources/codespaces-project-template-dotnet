@@ -1,106 +1,101 @@
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?hide_repo_select=true&ref=main&repo=education/codespaces-project-template-dotnet) 
 
-# GitHub Codespaces로 닷넷 (Blazor) 포트폴리오 사이트 만들기 
+# GitHub Codespaces로 .NET Blazor 포트폴리오 사이트 만들기
 
-_몇 분만에 자기만의 포트폴리오 사이트를 생성, 커스텀, 그리고 배포까지 할 수 있습니다_ ✨
+_단 몇 분 만에 개인 포트폴리오 웹사이트를 만들고 수정해서 배포해 보세요._ ✨
 
-이 템플릿 리포지토리에는 개발 환경과 기본 양식 있어 바로 시작할 수 있습니다. Codespaces를 즉시 실행해서 환경 셋팅 과정없이 포트폴리오 사이트 양식을 커스텀할 수 있습니다.
+이 템플릿 리포지토리는 곧바로 사용할 수 있는 기본 코드 세트와 개발 환경을 갖추고 있습니다. 따라서 별다른 설정 없이도 곧바로 Codespaces를 실행해 웹사이트 코드를 수정할 수 있습니다.
 
+- **누가 이 리포지토리를 쓸 수 있나요?** __누구든 사용할 수 있습니다__. 포트폴리오 사이트를 만들고 싶은 __누구나__, 웹 개발을 배우고 싶은 __누구나__, Codespaces를 테스트해 보고 싶은 __누구나__ 쓸 수 있습니다.
+- **경력이 필요한가요?** __필요 없습니다__. 경험이 있으면 있는대로 없으면 없는대로, 시간이 있으면 있는대로 없으면 없는대로 원하는 만큼 수정해서 쓰면 됩니다.
+- **개발 도구가 필요한가요?** _필요 없습니다_. 아무것도 설치할 필요가 없습니다. 웹 브라우저만 있으면 됩니다.
+- **전제 조건이 있나요?** _없습니다_. 이 템플릿은 자신의 포트폴리오 웹사이트를 제작해서 배포할 때 까지 필요한 모든 개발 환경을 준비해 뒀습니다.
 
-- **누구를 대상으로 하나요?** __모두__ 포트폴리오 사이트를 만들고자 하거나, 웹 개발을 배우고 싶거나, 코드스페이스를 사용해보고 싶은 모든 사람들을 대상입니다.
-- **관련 경험이 있어야 하나요?** __필요 없음__. 경험과 가능한 시간에 따라 포트폴리오 사이트 양식 커스텀을 어느 정도할지 결정핧핧 수 있습니다.
-- **필요한 준비물 :** _없음_. 설치해야 하는 것이 없습니다! 웹 브라우저(Edge, Chrome 등)만 있으면 됩니다.
-- **전제 조건:** _없음_. 이 템플릿에는 자신만의 포트폴리오 사이트를 만들 수 있는 개발 환경과 배포 가능한 웹 앱이 포함되어 있습니다.
+## 이 포트폴리오 템플릿은 ...
 
-## 포트폴리오 사이트 양식에 대해서
-
-    
-이 "choose your own adventure" 템플릿 포트폴리오에는 웹 브라우저만 사용하여 쉽게 사용자 정의하고 배포할 수 있는, [Blazor](https://dotnet.microsoft.com/apps/aspnet/web-apps/blazor?WT.mc_id=dotnet-82024-juyoo) 웹 어플리케이션이 있습니다.
+이 "choose your own adventure" 포트폴리오 템플릿에는 [Blazor](https://dotnet.microsoft.com/apps/aspnet/web-apps/blazor?WT.mc_id=dotnet-82024-juyoo) 기반의 웹 애플리케이션이 들어있어, 웹 브라우저만을 이용해 쉽게 수정하고 배포할 수 있습니다.
 
 ![Blazor WebAssembly profile web application](./images/blazorwasm-portfolio-site.gif "Blazor WebAssembly profile web application")
 
 ### 빠르게 시작하기
 
-1.  **Use this Template** 버튼을 클릭합니다.
-
-   [![Use this Template](/images/template-button.svg)](https://github.com/education/codespaces-project-template-dotnet/generate)
-
+1. **Use this Template** 버튼을 클릭합니다. <br> [![Use this Template](/images/template-button.svg)](https://github.com/education/codespaces-project-template-dotnet/generate)
 1. 리포지토리 소유자를 선택합니다. (예시: 자신의 GitHub 계정)
-1. 새 저장소의 고유한 이름을 입력합니다.
+1. 새 리포지토리의 이름을 입력합니다.
 1. **Code** 버튼을 클릭합니다.
 1. **Create Codespace on main** 버튼을 클릭합니다.
-1. [포트폴리오 사이트 커스텀하기](#-customize-your-site-in-4-steps)
-1. [사이트 배포하기](#-deploy-your-web-application)
+1. [포트폴리오 사이트를 수정합니다](#-customize-your-site-in-4-steps).
+1. [포트폴리오 사이트를 배포합니다](#-deploy-your-web-application).
 
 <details>
-   <summary><b>🎥 Codespaces에 대해 자세히 알아보기 위해 튜토리얼 영상 시리즈를 시청하실 수 있습니다.</b></summary>
+   <summary><b>🎥 Codespaces에 대해 자세히 알아보고 싶다면 아래 비디오 튜토리얼을 시청해 보세요.</b></summary>
 
    [![Codespaces Tutorial](https://img.youtube.com/vi/ozuDPmcC1io/0.jpg)](https://aka.ms/CodespacesVideoTutorial "Codespaces Tutorial")
 </details>
 
+
 <br />
 
-## 🗃️ 닷넷 (블레이저) 포트폴리오 양식
+## 🗃️ .NET Blazor 포트폴리오 템플릿
 
+이 리포지토리는 Blazor WebAssembly 프레임워크를 사용하여 .NET 기반의 개인 포트폴리오용 프론트엔드 웹 애플리케이션을 만들기 위한 GitHub 템플릿 리포지토리입니다. Codespaces를 통해 개인 웹사이트를 만드는 데 있어서 곧바로 활용할 수 있는 템플릿을 제공하고자 함입니다.
 
-이 리포지토리는 Blazor WebAssembly 프레임워크를 사용하여 닷넷 개인 포트폴리오 프런트엔드 웹 애플리케이션을 빌드하기 위한 GitHub 양식입니다. Codespaces를 통해 자신만의 웹사이트를 만드는 데 바로 활용할 수 있는 양식 제공을 목표로 합니다.
-
-이 리포지토리는 다음 내용을 담고 있습니다:
+이 리포지토리는 아래와 같은 내용을 포함합니다 :
 
 - `/.devcontainer`
-  - `.devcontainer/Dockerfile`: 운영 체제 및 기타 세부 정보를 결정하기 위해 Codespaces에서 사용하는 구성 파일
-  - `.devcontainer/devcontainer.json`: Configuration file used by Codespaces to configure Visual Studio Code settings, such as the enabling of additional extensions.
-  - `.devcontainer/on-create.sh`: 추가 확장 활성화와 같은 Visual Studio Code 설정을 구성하기 위해 Codespaces에서 사용하는 구성 파일
+  - `.devcontainer/Dockerfile`: Codespaces가 사용하는 컨테이너 구성 파일로, 운영 체제 및 기타 세부 정보를 담고 있음
+  - `.devcontainer/devcontainer.json`: Codespaces가 사용하는 Visual Studio Code 환경 설정을 위한 파일로, 추가 익스텐션 정보 등을 담고 있음
+  - `.devcontainer/on-create.sh`: Codespaces가 사용하는 추가적인 스크립트 파일로, 파워셸과 같은 추가적인 도구 설치 정보를 담고 있음
 - `/src`: 포트폴리오 사이트를 구축하기 위한 Blazor WebAssembly 프로젝트
-- `.editorconfig`: Codespaces에서 일관된 코딩 스타일을 유지하는 데 도움이 되는 [EditorConfig](https://editorconfig.org/)에 대한 설정
-- `global.json`: 사전 출시된 .NET 버전을 사용하지 않도록 Blazor WebAssembly 앱 설정을 위한 json 파일
-- `swa-cli.config.json`: Codespaces에서 Blazor WebAssembly 앱을 실행하기 위한 [Azure SWA CLI](https://azure.github.io/static-web-apps-cli/)에 대한 설정
-- `MyPortfolio.sln`: Blazor WebAssembly 애플리케이션 프로젝트가 포함된 솔루션 파일
+- `.editorconfig`: Codespaces에서 일관성 있는 코딩 스타일을 유지하는 데 유용한 [EditorConfig](https://editorconfig.org/) 설정 파일
+- `global.json`: Blazor WebAssembly 프로젝트에서 .NET의 프리뷰 버전 대신 정식 버전만 사용할 수 있도록 설정하는 파일
+- `swa-cli.config.json`: Codespaces에서 Blazor WebAssembly 앱을 [Azure SWA CLI](https://azure.github.io/static-web-apps-cli/)로 실행할 때 사용하는 설정 파일
+- `MyPortfolio.sln`: Blazor WebAssembly 애플리케이션 프로젝트를 포함한 솔루션 파일
 
 <br />
 
 ## 🚀 시작하기
 
-이 포트폴리오 사이트 프로젝트는 샘플 데이터로 채워져 있어, 바로 Codespaces를 열어 실행을 확인하고 언제든지 배포할 수 있습니다.
+이 포트폴리오 사이트 프로젝트는 샘플 데이터가 이미 있어, 바로 Codespaces를 열어 웹 앱을 실행시킬 수 있는지 확인하고, 언제든 배포 가능합니다.
 
-시작하기 위한 개발 환경이 모두 마련되어 있습니다. [닷넷 Codespaces 템플릿](https://github.com/education/codespaces-teaching-template-dotnet)을 기반으로 이미 설정된 사용할 수 있는 항목:
+시작할 때 필요한 개발 환경을 모두 마련해 두었습니다 [.NET Codespaces 템플릿](https://github.com/education/codespaces-teaching-template-dotnet)을 기반으로 이미 사용할 수 있는 항목:
 
-- 포트폴리오 사이트의 각 섹션에 대한 구성 요소가 포함된 간단한 [블레이저 WebAssembly](https://dotnet.microsoft.com/apps/aspnet/web-apps/blazor?WT.mc_id=dotnet-82024-juyoo) 애플리케이션
+- 포트폴리오 사이트의 각 섹션에 대한 구성 요소를 포함한 간단한 [Blazor WebAssembly](https://dotnet.microsoft.com/apps/aspnet/web-apps/blazor?WT.mc_id=dotnet-82024-juyoo) 애플리케이션
 - 배포 시 사이트를 구축하기 위한 [SWA CLI](https://azure.github.io/static-web-apps-cli/)
-- 코드 일관성을 위해 [EditorConfig](https://editorconfig.org/)를 사용한 코드 린팅 및 형식 지정.
+- 코드 일관성을 위해 [EditorConfig](https://editorconfig.org/)를 사용한 코드 린팅 및 형식 지정
 
-### 자신만의 포트폴리오 생성하기
+### 개인 포트폴리오 생성하기
 
 
-1. 이 템플릿에서 저장소를 만듭니다. 이 [저장소 링크 생성](https://github.com/education/codespaces-teaching-template-dotnet/generate)을 사용하시면 됩니다. 리포지토리 소유자를 선택하고, 원하는 경우 이름과 설명을 제공하고, 새 리리포지토리를 공개 또는 비공개 중 무엇으로 지정할 것인지 입력합니다.
-1. 새로 생성된 저장소의 메인 페이지로 이동합니다.
-1. 리포지토리 이름 아래에서 코드 드롭다운 메뉴를 사용하고 Codespaces 탭에서 "Create codespace on main"을 선택합니다.
+1. 이 템플릿에서 리포지토리를 만듭니다. 이 [리포지토리 생성하기](https://github.com/education/codespaces-teaching-template-dotnet/generate)를 사용합니다. 리포지토리 소유자를 선택하고 원하는 경우 이름과 설명을 작성합니다. 새 리포지토리를 공개 또는 비공개로 지정합니다.
+1. 새로 생성한 리포지토리의 메인 페이지로 이동합니다.
+1. 리포지토리 이름 아래에 있는 코드 드롭다운 메뉴를 클릭하고 Codespaces 탭에서 "Create codespace on main"을 클릭합니다.
 
     <img src="./images/new-codespace-button.png" alt="Create codespace" style="width:270px;"/>
 
-1. GitHub에서 Codespaces를 초기화하는 것을 기다립니다.
+1. GitHub에서 Codespaces의 초기화 과정을 기다립니다.
 
     <img src="./images/codespaces-initializing.png" alt="Codespaces initializing" style="width: 600px;"/>
 
-1. 완료되면 하단에 터미널 섹션과 함께 Codespaces 로드가 표시됩니다. 여기서 `dotnet Restore && dotnet build`가 실행되는 것을 볼 수 있습니다. 완료되면 `swa start`를 실행하여 웹 애플리케이션을 실행할 수 있는 터미널 프롬프트로 돌아갑니다.
+1. 초기화가 끝나면 하단에 터미널 섹션과 함께 Codespaces가 나타납니다. 여기서 `dotnet restore && dotnet build` 명령어를 실행 중인 것이 보입니다. 실행이 끝나면 `swa start` 명령어를 통해 웹 애플리케이션을 실행할 수 있는 터미널 프롬프트로 돌아갑니다.
 
-   웹 애플리케이션이 시작되면 포트 4280에서 성공적으로 시작되었음을 알리는 메시지가 표시되고 브라우저 내에서 해당 사이트를 열 수 있습니다. :
+   웹 애플리케이션을 실행하면 **Your application running on port 4280 is available.**라는 메시지가 나타나고 브라우저 내에서 해당 사이트를 열 수 있습니다. 
 
    <img src="./images/app-running-in-codespaces.png" alt="Web application started on port 4280" style="width: 340px;"/>
 
 <br />
 
-## ✨ Customize your site in 4 steps
+## ✨ 네 단계에 걸쳐 사이트 수정하기
 
-This project is built to be easily customizable. Each section of the site is a separate component, and your information needs to be set in only one spot. This is not only for ease of updating, but so you can see how values are passed to Blazor components.
+이 프로젝트는 원하는 대로 쉽게 수정할 수 있습니다. 사이트의 각 섹션은 별도의 컴포넌트이며, 사용자의 정보는 한 곳에만 저장해야 합니다. 이렇게 함으로써 업데이트를 쉽게 할 수 있고, 어떤 방식으로 Blazor 컴포넌트에 값을 전달하는지 확인할 수 있습니다.
+  
+각 단계별로 Codespaces에서 프로젝트를 연 다음 내용을 변경하고 변경 사항을 커밋할 수 있습니다.
 
-For each step, open the project in Codespaces, then you can make and commit your changes while within your Codespaces.
+> 자세한 Codespaces 소스 코드 제어 방법은 [Codespaces에서 소스 코드 제어 사용하기](https://docs.github.com/codespaces/developing-in-codespaces/using-source-control-in-your-codespace)를 참조하세요.
 
-> See [Using source control in your codespaces](https://docs.github.com/codespaces/developing-in-codespaces/using-source-control-in-your-codespace) for more Codespaces source control how-tos
+### 1️⃣ 세부 정보 및 소셜 미디어 계정 추가하기
 
-### 1️⃣ Add your details and social media accounts
-
-Open `/src/BlazorApp/wwwroot/sample-data/siteproperties.json`. This is a JSON object that hold the key value pairs needed to customize your name, title, email, and social media accounts.
+ `/src/BlazorApp/wwwroot/sample-data/siteproperties.json` 파일을 열고 JSON 개체에서 필요한 키와 그 키에 해당하는 값을 수정합니다. 이름, 제목, 이메일 및 소셜 미디어 계정을 사용자가 원하는 대로 수정하세요.  
 
 ```jsonc
 {
@@ -117,17 +112,17 @@ Open `/src/BlazorApp/wwwroot/sample-data/siteproperties.json`. This is a JSON ob
 };
 ```
 
-Update to the name and title you'd like displayed at the top of your site.
+사이트 상단에 보이는 이름과 제목을 원하는 대로 수정하세요.
 
-_Optional values_ are email address and social accounts. These are used in the `Footer` component. If any item is not included in the list or set to an empty string ("") it will not display the icon and link.
+이메일 주소와 소셜 계정 입력은 _선택 사항_ 이고, `Footer` 컴포넌트에 쓰입니다. 이들을 작성하지 않거나 빈 문자열("")로 설정하면 해당 아이콘과 링크가 나타나지지 않습니다.
 
-### 2️⃣ Update images
+### 2️⃣ 이미지 변경하기
 
-This portfolio site includes 3 images: top section background, "About me" background and portfolio section (desk). These can be any **landscape** sized images of your choosing from your own collection, or found that have a license allowing you to use without attribution.
+이 포트폴리오 사이트에는 세 가지 이미지가 있습니다: 상단 섹션 배경, "About me" 섹션 배경, 포트폴리오 섹션(책상 사진). 이 기본 세 가지 이미지들 대신 저작권 문제 없이 자유롭게 사용할 수 있는 이미지나 자신이 소유하고 있는 이미지 중 **가로 형태**의 이미지를 넣으면 됩니다.
 
-A couple possible sites to find photos are [Pixabay](https://pixabay.com/) and [Unsplash](https://unsplash.com). Photos, illustrations, vectors, your choice! When you find your images, save each one to `/src/BlazorApp/wwwroot/images` with a short, meaningful file name.
+[Pixabay](https://pixabay.com/) 또는 [Unsplash](https://unsplash.com) 같은 사이트에서 사진을 찾을 수 있습니다. 사진, 일러스트, 벡터 이미지 등 원하는 이미지를 찾으면 각각을 `/src/BlazorApp/wwwroot/images` 에 간결하고 의미 있는 파일명으로 저장합니다.
 
-Open `/src/BlazorApp/wwwroot/sample-data/heroimages.json` and update images with your preferred ones, as well as the alt text for each image:
+`/src/BlazorApp/wwwroot/sample-data/heroimages.json` 을 열어 각 이미지의 `alt` 텍스트를 수정하세요:
 
 ```jsonc
 [
@@ -155,21 +150,21 @@ Open `/src/BlazorApp/wwwroot/sample-data/heroimages.json` and update images with
 ]
 ```
 
-### 3️⃣ Add your "about me"
+### 3️⃣ "about me" 추가하기
 
-The about section helps to give people a bit more information about your skills and passions. Open `/src/BlazorApp/wwwroot/sample-data/aboutme.json` and update those 3 properties:
+"about me" 섹션은 사람들에게 여러분의 기술과 관심사에 대한 정보를 제공하기 좋습니다. `/src/BlazorApp/wwwroot/sample-data/aboutme.json` 을 열고 다음 세 가지 속성을 수정하세요: 
 
-* `description`: short sentence or two describing yourself, career goal, and/or passions
-* `skillsList`: an [array](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array) of your skills to list on the site, can be as many or little as you wish
-* `detailOrQuote`: longer block for you to add more detail about yourself, or even a quote you like
+* `description`: 자신, 직업 목표 및 관심사에 대한 짧은 하나 또는 두 문장
+* `skillsList`: 사이트에 나열할 기술 [목록](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array)은 원하는 만큼 작성
+* `detailOrQuote`: 자신과 관련한 더 많은 세부 정보를 추가하거나 좋아하는 명언을 넣을 수 있는 긴 블록
 
-### 4️⃣ Add items you've worked on and detail text
+### 4️⃣ 작업한 프로젝트를 추가하고 세부 텍스트 입력하기
 
-This section to update is portfolio, where you highlight items you've worked on. These would be articles, videos, logo designs, GitHub projects, anything that highlights you!
+이 섹션은 여러분이 작업한 프로젝트를 강조하는 포트폴리오입니다. 기사, 비디오, 로고 디자인, GitHub 프로젝트 등 자신을 부각하는 내용으로 구성할 수 있습니다!
 
-Open `/src/BlazorApp/wwwroot/sample-data/projects.json` that is a JSON array. Each item you want to highlight needs: title, description, and URL.
+`/src/BlazorApp/wwwroot/sample-data/projects.json` 파일 내 JSON 배열의 항목에는 **제목, 설명, URL** 이 필요합니다.
 
-The sample design has 4, but the number you include is up to you.
+예시 내용에는 네 개의 항목만 있지만, 항목 수는 자유롭게 선택하면 됩니다.
 
 ```jsonc
 [
@@ -198,76 +193,75 @@ The sample design has 4, but the number you include is up to you.
 
 <br/>
 
-## 🏃 Deploy your web application
+## 🏃 웹 애플리케이션 배포하기
 
-Project includes the setup needed for you to deploy **free** to both [Azure Static Web Apps](https://azure.microsoft.com/products/app-service/static/?WT.mc_id=dotnet-82024-juyoo) and [GitHub Pages](https://pages.github.com/)</a>.
+이 프로젝트는 **무료**로 [Azure 정적 웹앱](https://azure.microsoft.com/products/app-service/static/?WT.mc_id=dotnet-82024-juyoo) 및 [GitHub Pages](https://pages.github.com/)</a>에 배포할 수 있습니다.
 
-### Azure Static Web Apps
+### Azure 정적 웹앱
 
-[Azure Static Web Apps](https://azure.microsoft.com/products/app-service/static/?WT.mc_id=dotnet-82024-juyoo) is Microsoft's hosting solution for static sites (or sites that are rendered in the user's browser, not on a server) through Azure. This service provides additional opportunities to expand your site through Azure Functions, authentication, staging versions and more.
+[Azure 정적 웹앱](https://azure.microsoft.com/products/app-service/static/?WT.mc_id=dotnet-82024-juyoo)은 Microsoft의 정적 사이트(또는 서버가 아닌 사용자의 브라우저에서 직접 보이는 사이트)를 위한 호스팅 솔루션입니다. 이 서비스는 Azure Functions, 인증, 스테이징 버전 등 Azure를 통해 사이트를 확장할 수 있습니다.
 
-You'll need both Azure and GitHub accounts to deploy your web application. If you don't yet have an Azure account you can create it from within during the deploy process, or from below links:
+웹 애플리케이션을 배포하려면 Azure 계정과 GitHub 계정이 모두 필요합니다. Azure 계정이 아직 없다면, 배포 과정 중에 생성하거나 아래 링크에서 생성하세요 :
 
-* [Create a (no Credit Card required) Azure For Students account](https://azure.microsoft.com/free/students/?WT.mc_id=dotnet-82024-juyoo)
-* [Create a new Azure account](https://azure.microsoft.com/free/?WT.mc_id=dotnet-82024-juyoo)
+- [학생용 Azure 계정 만들기(신용 카드 필요 없음)](https://azure.microsoft.com/free/students/?WT.mc_id=dotnet-82024-juyoo)
+- [새로운 Azure 계정 만들기](https://azure.microsoft.com/free/?WT.mc_id=dotnet-82024-juyoo)
 
-With your project open in Codespaces:
-
-1. Click Azure icon in the left sidebar. Log in if you are not already, and if new to Azure, follow the prompts to create your account.
-1. From Azure menu click "➕" sign and then choose "Create Static Web App".
+1. Codespaces에서 프로젝트를 엽니다.  
+1. 왼쪽 사이드바의 Azure 아이콘을 클릭합니다. 아직 로그인하지 않았다면 로그인하고, Azure를 처음 사용하는 경우 안내에 따라 계정을 만듭니다.
+1. Azure 메뉴에서 "➕" 기호를 누른 다음 "Create Static Web App"을 선택합니다.
 
    <img src="./images/deploy-to-azure.png" alt="Create Static Web App" style="width: 300px;" />
 
-1. If you are not logged into GitHub you will be prompted to log in. If you have any pending file changes you will then be prompted to commit those changes.
-1. Set you application information when prompted:
-    1. **Name for Static Web App**: enter the name for the Static Web App. Default to your GitHub repository name.
-    1. **Region**: pick the one closest to your region
-    1. **Project structure**: select "Blazor"
-    1. **Location of application code**: enter `/src/BlazorApp`
-    1. **Output location**: enter `wwwroot`
-1. When complete you will see notification at the bottom of your screen, and a new GitHub Action workflow will be added to your project. If you click "Open Action in GitHub" you will see the action that was created for you, and it is currently running.
+1. GitHub에 로그인하지 않은 경우 로그인하라는 안내가 나타납니다. 아직 변경 사항을 커밋하지 않았을 경우, 커밋 요청 메시지가 보입니다.
+1. 애플리케이션 정보를 입력할 때:
+    1. **Name for Static Web App**: 정적 웹앱의 이름을 입력합니다. 기본값은 GitHub 리포지토리 이름입니다.
+    1. **Region**: 여러분의 지역에서 가장 가까운 곳을 고릅니다.
+    1. **Project structure**: "Blazor"를 선택합니다.
+    1. **Location of application code**: `/src/BlazorApp` 을 입력합니다.
+    1. **Output location**: `wwwroot` 를 입력합니다.
+1. 입력이 끝나면 화면 하단에 알림이 나타나고, 새로운 GitHub Action 워크플로 파일이 프로젝트에 만들어집니다. "Open Action in GitHub"을 클릭하면 방금 만들어진 작업이 보이고, 현재 실행 중인 것을 확인할 수 있습니다.
 
-> 🤩 **Bonus**: [Setup a custom domain for your Azure Static Web App](https://learn.microsoft.com/shows/azure-tips-and-tricks-static-web-apps/how-to-set-up-a-custom-domain-name-in-azure-static-web-apps-10-of-16--azure-tips-and-tricks-static-w/?WT.mc_id=dotnet-82024-juyoo)
+> 🤩 **보너스** : [Azure 정적 웹앱에 사용자가 원하는 도메인을 추가하기](https://learn.microsoft.com/shows/azure-tips-and-tricks-static-web-apps/how-to-set-up-a-custom-domain-name-in-azure-static-web-apps-10-of-16--azure-tips-and-tricks-static-w/?WT.mc_id=dotnet-82024-juyoo)
 
 ### GitHub Pages
 
-[GitHub Pages](https://pages.github.com/) allows you to host websites directly from your GitHub repository. This project is already set up for you to get your portfolio deployed to GitHub pages with minimal steps.
+[GitHub Pages](https://pages.github.com/)를 사용하면 GitHub 리포지토리에서 웹사이트를 직접 호스팅할 수 있습니다. 이 프로젝트의 포트폴리오 앱을 GitHub Pages에 간편하게 배포해 보세요.  
+  
+GitHub 리포지토리에서:  
 
-On your GitHub repository:
-
-1. Go to the "Settings" tab and navigate to the "Pages" menu.
-1. Under the _Build and deployment_ section, select the source to **GitHub Actions**.
+1. "Settings" 탭으로 이동하고 "Pages" 메뉴로 이동합니다.
+1. _Build and deployment_ 부분에서, source를 **GitHub Actions**으로 선택합니다.
 
     <img src="./images/deploy-to-ghpages-01.png" alt="Choose GitHub Actions for deployment to GitHub Pages" style="width: 600px;" />
 
-1. Ensure your GitHub Pages visibility to **Public**.
-1. Run a GitHub Action workflow by pushing code or manually invoke it.
+1. GitHub Pages의 visibility를 **Public**으로 설정합니다.
+1. 코드를 푸시하거나 수동으로 호출하여 GitHub Action 워크플로를 실행합니다.
 
     <img src="./images/deploy-to-ghpages-02.png" alt="Invoke GitHub Actions" style="width: 600px;" />
 
-1. Visit your GitHub Pages.
+1. GitHub Pages에 접속합니다.
 
     <img src="./images/deploy-to-ghpages-03.png" alt="Visit GitHub Pages" style="width: 600px;" />
 
-> 🤩 **Bonus**: [Setup a custom domain for your GitHub pages site](https://docs.github.com/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site)
+> 🤩 **보너스**: [GitHub Pages에 사용자가 원하는 도메인을 추가하기](https://docs.github.com/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site)
 
 <br />
 
 
 ## 🏆 도전과제
 
-아래는 포트폴리오 사이트를 사용자 정의하고 Codespaces, CSS, HTML 및 JavaScript를 익힐 수 있는 추가적인 방법 4가지입니다.
+추가적으로 아래 네 가지 방법을 통해 포트폴리오 사이트를 수정하고 Codespaces, CSS, HTML 및 JavaScript를 익힐 수 있습니다.
 
-  1. [코드스페이스 사용자 정의하기](#1-customize-your-codespaces)
-  1. [부드럽게 섹션으로 이동하기](#2-update-to-smooth-scroll-to-a-section)
+  1. [Codespaces 작업 환경 설정하기](#1-customize-your-codespaces)
+  1. [섹션 이동에 부드러운 스크롤 효과 적용하기](#2-update-to-smooth-scroll-to-a-section)
   1. [책상 사진에 애니메이션 추가하기](#3-animate-desk-photo)
   1. [새로운 섹션 추가하기](#4-add-a-new-section)
 
-### 1. Codespaces 사용자 정의하기
+### 1. Codespaces 작업 환경 설정하기
 
-환경에는 미리 설치된 확장 프로그램이 포함되어 있습니다. Codespaces 환경에서 시작할 때 어떤 확장 프로그램을 사용할지 변경할 수 있습니다. 다음과 같이 진행합니다:
+`.devcontainer/devcontainer.json`에는 Codespaces 환경 구성에 필요한 확장 프로그램 정보가 담겨 있습니다. Codespaces를 시작할 때 원하는 확장 프로그램을 추가하거나 변경할 수 있습니다. 아래 과정에 따라 진행하세요:
 
-1. 파일 .devcontainer/devcontainer.json 을 열고 다음 JSON 요소 extensions 을 찾습니다. **extensions**
+1. 파일 `.devcontainer/devcontainer.json` 을 열고 **extensions** 속성을 찾습니다.
 
     ```jsonc
     "extensions": [
@@ -280,30 +274,31 @@ On your GitHub repository:
     ]
     ```
 
-1. `indent-rainbow` 확장 프로그램을 추가해 봅시다.  이를 위해 **extensions** 목록으로 이동하여 다음을 추가합니다:
+1. **extensions** 항목으로 이동하여 `indent-rainbow` 확장 프로그램을 추가하세요:
 
     ```jsonc
     "oderwat.indent-rainbow"
     ```
   
-   위에서 수행한 것은 indent-rainbow의 고유 식별자를 추가한 것입니다. 이렇게 함으로써 Codespaces가 시작할 때 이 확장 프로그램이 사전 설치되어야 함을 알 수 있습니다.
+   위와 같은 방식으로 [indent-rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow&WT.mc_id=dotnet-82024-juyoo)의 고유 식별자를 추가했습니다. Codespaces 초기화 과정에서 자동으로 이 확장 프로그램을 설치할 것입니다.
 
-확장 프로그램의 고유 식별자를 찾기:
+확장 프로그램의 고유 식별자를 찾아 보세요:
 
-* 다음과 같은 확장 프로그램의 웹 페이지로 이동합니다. [https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow&WT.mc_id=dotnet-82024-juyoo)
-* 오른쪽의 **More info** 섹션 아래에서 고유 식별자 필드를 찾습니다.
+* 이 링크를 통해 확장 프로그램의 웹 페이지로 이동합니다.  [https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow&WT.mc_id=dotnet-82024-juyoo)
+* 오른쪽의 **More info** 섹션 아래에 고유 식별자 필드를 배치합니다.
 
-> 💡 이곳에서 더 배울 수 있습니다. <https://docs.github.com/codespaces/customizing-your-codespace/personalizing-github-codespaces-for-your-account>
+> 💡 이와 관련한 더 많은 정보가 필요하다면, 여기를 참조하세요.
+> <https://docs.github.com/codespaces/customizing-your-codespace/personalizing-github-codespaces-for-your-account>
 
 
 
-### 2. 부드럽게 섹션으로 이동하기
+### 2. 섹션 이동에 부드러운 스크롤 효과 적용하기
 
-사이트 헤더에는 아래의 각 섹션에 대한 링크가 있습니다. 이 링크 중 하나를 클릭하면 페이지가 해당 섹션으로 스크롤됩니다. 스크롤이라기보다는 바로 이동되는 것처럼 보입니다.
+포트폴리오 사이트 헤더에는 아래 섹션으로 이동하는 링크가 있습니다. 이 링크를 클릭하면 해당 섹션으로 페이지가 스크롤해서 이동합니다. 하지만, 부드럽게 이동하는 것 같진 않죠?
 
-사용자가 무슨 일이 일어나고 있는지, 페이지에서 어디로 이동하는지를 알 수 있도록 이것을 더 나은 사용자 경험으로 만들어봅시다.
+스크롤 속도 조절을 통해 사용자 경험을 향상시켜 봅시다. 그렇게 함으로써 사용자는 페이지에서 무슨 일이 일어나고 있는지 또는 페이지의 어느 부분으로 이동하고 있는지 알 수 있습니다.
 
-1. `/src/BlazorApp/wwwroot/css/app.css`를 엽니다. 우리는 html에 대한 스타일을 추가해야 합니다. 지금 살펴보면 현재 html 및 body 스타일이 함께 설정되어 있습니다. 따라서 다음 CSS 스니펫을 추가하여 html 요소의 스크롤을 설정합시다:
+1. `/src/BlazorApp/wwwroot/css/app.css`를 엽니다. 이 파일은 포트폴리오 애플리케이션을 위한 스타일시트입니다. `html` 태그에 대한 스타일을 추가합시다. 코드를 보면 현재 `html`과 `body` 스타일을 함께 설정한 것이 보입니다. 따라서 `html`요소의 스크롤하는 방식을 설정하기 위해 아래 CSS 스니펫을 추가하세요:
 
     ```css
     html {
@@ -311,15 +306,15 @@ On your GitHub repository:
     }
     ```
 
-이미 Codespaces에서 사이트가 실행 중이며 변경 사항이 페이지에 자동으로 다시 로드될 것입니다. 상단 헤더의 링크를 클릭하여 부드러운 스크롤이 작동하는 것을 확인할 수 있습니다.
+포트폴리오 사이트가 Codespaces에서 실행 중입니다. 덕분에 포트폴리오 사이트에 변경 사항이 생길 때마다 이를 자동으로 반영합니다. 상단 헤더의 링크를 클릭해서 부드러운 스크롤 효과를 확인하세요.
 
 
 
-### 3. 책상 사진에 애니메이션 추가
+### 3. 책상 사진에 애니메이션 추가하기
+  
+애니메이션으로 페이지 요소를 움직여서 사용자 상호작용을 높이고 특정 항목을 강조할 수 있습니다. 포트폴리오 섹션의 책상 사진에 애니메이션을 추가하세요.
 
-애니메이션은 페이지의 요소에 동작을 추가하여 사용자 상호작용을 증가시키고 강조하고자 하는 항목을 주목할 수 있도록 하는 방법입니다. 이번에는 포트폴리오 섹션의 책상 사진에 애니메이션을 추가해 봅시다.
-
-1. Codespaces 내에서 사이트의 스타일시트인 `/src/BlazorApp/wwwroot/css/app.css`을 엽니다. `@keyframes` 정의를 추가하여 왼쪽에서 슬라이드하는 애니메이션 시퀀스를 추가해봅시다:
+1. 포트폴리오 사이트의 스타일시트인 `/src/BlazorApp/wwwroot/css/app.css`를 Codespaces 내에서 엽니다. 그리고 `@keyframes` 정의를 추가해서 왼쪽에서 슬라이드하는 애니메이션 시퀀스를 추가하세요:
 
     ```css
     @keyframes slideInLeft {
@@ -332,33 +327,33 @@ On your GitHub repository:
     }
     ```
 
-1. 이제 `slideInLeft` 애니메이션 시퀀스를 정의했으므로, 책상 사진에 해당 시퀀스로 자신을 애니메이트하도록 지시할 수 있습니다. `/src/BlazorApp/Components/Portfolio.razor`를 열고 `img` 태그를 찾으세요. 인라인 CSS를 사용하여 스타일을 설정합니다. 그 스타일 정의 내에 다음을 추가해봅시다:
+1. 이제 `slideInLeft` 애니메이션 시퀀스를 정의했으므로, 책상 사진이 시퀀스대로 동작하게끔 합니다. `/src/BlazorApp/Components/Portfolio.razor`를 열고 `img` 태그를 찾습니다. 이 태그를 꾸미기 위해 인라인 CSS를 사용합니다. 스타일 정의 내에 다음을 추가하세요:
 
     ```css
     animation: 1s ease-out 0s 1 slideInLeft;
     ```
 
-    이미지 태그는 다음과 같아야 합니다:
+    이미지 태그는 아래와 같아야 합니다:
 
     ```html
     <img src="@(hero.Src)" style="height: 90%; width: 100%; object-fit: cover; animation: 1s ease-out 0s 1 slideInLeft;" alt="@(hero.Alt)" />
     ```
 
-이미 Codespaces에서 사이트가 실행 중이며 변경 사항이 페이지에 자동으로 다시 로드될 것입니다. 페이지를 위아래로 스크롤하여 책상 사진이 페이지에 슬라이드되는 것을 관찰할 수 있습니다.
+포트폴리오 사이트가 Codespaces에서 실행 중입니다. 덕분에 포트폴리오 사이트에 변경 사항이 생길 때마다 이를 자동으로 반영합니다. 페이지를 위아래로 스크롤하여 책상 사진이 미끄러지듯 움직이는 것을 확인하세요.  
 
-> 🤩 **추가 사항**: 스크롤 다운 화살표도 애니메이션을 추가할 수 있습니다.
+> 🤩 **추가 사항**: 스크롤 다운 화살표에 동작 추가하기
 
 
 
 ### 4. 새로운 섹션 추가하기
 
-포트폴리오 사이트에 몇 가지 기본 섹션을 시작했지만, 여러분은 자신만의 창의적인 자유를 가지고 여러분의 사이트에 추가하고 싶은 새로운 섹션을 추가할 수 있습니다.
+앞선 과정을 통해 기본으로 주어진 섹션만으로 포트폴리오 사이트를 만들었습니다. 더 담고 싶은 내용이 있다면 포트폴리오 사이트에 섹션을 추가해 보세요.
 
-예를 들어, 포트폴리오 사이트에 교육 섹션을 추가해 보겠습니다.
+예를 들어서 포트폴리오 사이트에 교육 섹션을 추가하겠습니다.
 
-1. `Components` 폴더 내에 새로운 섹션을 위한 새 컴포넌트를 만듭니다. `Education.razor`라는 새 파일을 추가합니다.
+1. `Components` 폴더 내에 새 섹션을 위한 새 컴포넌트를 생성합니다. `Education.razor`라는 새 파일을 추가합니다.
 
-1. `Education.razor` 에 컴포넌트 기능과 포함하고자 하는 정보를 추가해봅시다:
+1. `Education.razor` 파일에 아래 내용을 추가하세요:
 
     ```razor
     <section class="light" id="portfolio">
@@ -366,33 +361,33 @@ On your GitHub repository:
     </section>
     ```
 
-1. `Index.razor`에 페이지 내에서 렌더링되길 원하는 위치에 Education 컴포넌트를 추가해봅시다:
+1. `Index.razor` 파일을 열고 페이지 내에서 보이길 원하는 위치에 Education 컴포넌트를 추가하세요:
 
     ```razor
     <Education />
     ```
 
-여러분의 Codespaces에서 포트폴리오 애플리케이션이 실행 중이어야 하며 변경 사항이 사이트에 자동으로 다시 로드될 것입니다.
+포트폴리오 사이트가 Codespaces에서 실행 중입니다. 덕분에 포트폴리오 사이트에 변경 사항이 생길 때마다 이를 자동으로 반영합니다.
 
 <br />
 
 
-## 📚 Resources
+## 📚 참고 자료
 
 * [GitHub Codespaces 문서 개요](https://docs.github.com/codespaces/overview)
 * [GitHub Codespaces 가이드](https://docs.github.com/codespaces/guides)
-* [VS Code와 Docker를 사용하여 로컬에서 dev containers 사용하기](https://github.com/microsoft/vscode-remote-try-dotnet#vs-code-dev-containers)
+* [VS Code와 Docker를 이용하여 로컬에서 dev containers 사용하기](https://github.com/microsoft/vscode-remote-try-dotnet#vs-code-dev-containers)
 * [Blazor 시작하기](https://learn.microsoft.com/training/paths/build-web-apps-with-blazor/?WT.mc_id=dotnet-82024-juyoo)
 * [초보자를 위한 웹 개발](https://github.com/microsoft/Web-Dev-For-Beginners)
 
 > #### Codespaces 브라우저 앱
 >
-> Edge 또는 Chrome을 사용하는 경우 Codespaces를 시작할 때 Codespaces 앱을 설치할 수 있는 옵션이 표시됩니다. Codespaces 앱을 사용하면 브라우저 외부에서 작업할 수 있도록 Codespaces를 앱 내에서 시작할 수 있습니다. 앱 아이콘과 설치 팝업을 찾아서 시도할 수 있습니다.
+> Edge 또는 Chrome을 사용하는 경우, Codespaces를 시작할 때 Codespaces 앱을 설치할 수 있는 옵션이 나타납니다. Codespaces 앱을 사용하면, 브라우저 외부에서 작업할 수 있습니다. 앱 아이콘을 찾아보고 팝업 창으로 Codespaces 앱을 설치해 보세요.
 >
 > <img src="./images/codespaces-app.png" alt="Codespaces browser app" style="width: 400px;"/>
 
 <br />
 
-## 🔎 문제를 발견하거나 개선 아이디어가 있나요?
+## 🔎 문제를 발견했거나 개선하기 원하는 내용이 있나요?
 
-[우리에게 알려주고 이슈를 오픈](/../../issues/new)해서 이 템플릿 저장소를 더 나은 방향으로 만드는 데 도와 줄 수 있습니다!
+[GitHub Issue 열기](/../../issues/new)로 이 템플릿 리포지토리에 기여하세요!
