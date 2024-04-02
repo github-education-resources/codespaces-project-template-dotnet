@@ -15,11 +15,11 @@ _단 몇 분 만에 개인 포트폴리오 웹사이트를 만들고 수정해�
 
 이 "choose your own adventure" 포트폴리오 템플릿에는 [Blazor](https://dotnet.microsoft.com/apps/aspnet/web-apps/blazor?WT.mc_id=dotnet-82024-juyoo) 기반의 웹 애플리케이션이 들어있어, 웹 브라우저만을 이용해 쉽게 수정하고 배포할 수 있습니다.
 
-![Blazor WebAssembly profile web application](./images/blazorwasm-portfolio-site.gif "Blazor WebAssembly profile web application")
+![Blazor WebAssembly profile web application](../../images/blazorwasm-portfolio-site.gif "Blazor WebAssembly profile web application")
 
 ### 빠르게 시작하기
 
-1. **Use this Template** 버튼을 클릭합니다. <br> [![Use this Template](/images/template-button.svg)](https://github.com/education/codespaces-project-template-dotnet/generate)
+1. **Use this Template** 버튼을 클릭합니다. <br> [![Use this Template](../../images/template-button.svg)](https://github.com/education/codespaces-project-template-dotnet/generate)
 1. 리포지토리 소유자를 선택합니다. (예시: 자신의 GitHub 계정)
 1. 새 리포지토리의 이름을 입력합니다.
 1. **Code** 버튼을 클릭합니다.
@@ -71,17 +71,17 @@ _단 몇 분 만에 개인 포트폴리오 웹사이트를 만들고 수정해�
 1. 새로 생성한 리포지토리의 메인 페이지로 이동합니다.
 1. 리포지토리 이름 아래에 있는 코드 드롭다운 메뉴를 클릭하고 Codespaces 탭에서 "Create codespace on main"을 클릭합니다.
 
-    <img src="./images/new-codespace-button.png" alt="Create codespace" style="width:270px;"/>
+    <img src="../../images/new-codespace-button.png" alt="Create codespace" style="width:270px;"/>
 
 1. GitHub에서 Codespaces의 초기화 과정을 기다립니다.
 
-    <img src="./images/codespaces-initializing.png" alt="Codespaces initializing" style="width: 600px;"/>
+    <img src="../../images/codespaces-initializing.png" alt="Codespaces initializing" style="width: 600px;"/>
 
 1. 초기화가 끝나면 하단에 터미널 섹션과 함께 Codespaces가 나타납니다. 여기서 `dotnet restore && dotnet build` 명령어를 실행 중인 것이 보입니다. 실행이 끝나면 `swa start` 명령어를 통해 웹 애플리케이션을 실행할 수 있는 터미널 프롬프트로 돌아갑니다.
 
    웹 애플리케이션을 실행하면 **Your application running on port 4280 is available.**라는 메시지가 나타나고 브라우저 내에서 해당 사이트를 열 수 있습니다. 
 
-   <img src="./images/app-running-in-codespaces.png" alt="Web application started on port 4280" style="width: 340px;"/>
+   <img src="../../images/app-running-in-codespaces.png" alt="Web application started on port 4280" style="width: 340px;"/>
 
 <br />
 
@@ -210,7 +210,7 @@ _단 몇 분 만에 개인 포트폴리오 웹사이트를 만들고 수정해�
 1. 왼쪽 사이드바의 Azure 아이콘을 클릭합니다. 아직 로그인하지 않았다면 로그인하고, Azure를 처음 사용하는 경우 안내에 따라 계정을 만듭니다.
 1. Azure 메뉴에서 "➕" 기호를 누른 다음 "Create Static Web App"을 선택합니다.
 
-   <img src="./images/deploy-to-azure.png" alt="Create Static Web App" style="width: 300px;" />
+   <img src="../../images/deploy-to-azure.png" alt="Create Static Web App" style="width: 300px;" />
 
 1. GitHub에 로그인하지 않은 경우 로그인하라는 안내가 나타납니다. 아직 변경 사항을 커밋하지 않았을 경우, 커밋 요청 메시지가 보입니다.
 1. 애플리케이션 정보를 입력할 때:
@@ -232,16 +232,16 @@ GitHub 리포지토리에서:
 1. "Settings" 탭으로 이동하고 "Pages" 메뉴로 이동합니다.
 1. _Build and deployment_ 부분에서, source를 **GitHub Actions**으로 선택합니다.
 
-    <img src="./images/deploy-to-ghpages-01.png" alt="Choose GitHub Actions for deployment to GitHub Pages" style="width: 600px;" />
+    <img src="../../images/deploy-to-ghpages-01.png" alt="Choose GitHub Actions for deployment to GitHub Pages" style="width: 600px;" />
 
 1. GitHub Pages의 visibility를 **Public**으로 설정합니다.
 1. 코드를 푸시하거나 수동으로 호출하여 GitHub Action 워크플로를 실행합니다.
 
-    <img src="./images/deploy-to-ghpages-02.png" alt="Invoke GitHub Actions" style="width: 600px;" />
+    <img src="../../images/deploy-to-ghpages-02.png" alt="Invoke GitHub Actions" style="width: 600px;" />
 
 1. GitHub Pages에 접속합니다.
 
-    <img src="./images/deploy-to-ghpages-03.png" alt="Visit GitHub Pages" style="width: 600px;" />
+    <img src="../../images/deploy-to-ghpages-03.png" alt="Visit GitHub Pages" style="width: 600px;" />
 
 > 🤩 **보너스**: [GitHub Pages에 사용자가 원하는 도메인을 추가하기](https://docs.github.com/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site)
 
@@ -384,7 +384,7 @@ GitHub 리포지토리에서:
 >
 > Edge 또는 Chrome을 사용하는 경우, Codespaces를 시작할 때 Codespaces 앱을 설치할 수 있는 옵션이 나타납니다. Codespaces 앱을 사용하면, 브라우저 외부에서 작업할 수 있습니다. 앱 아이콘을 찾아보고 팝업 창으로 Codespaces 앱을 설치해 보세요.
 >
-> <img src="./images/codespaces-app.png" alt="Codespaces browser app" style="width: 400px;"/>
+> <img src="../../images/codespaces-app.png" alt="Codespaces browser app" style="width: 400px;"/>
 
 <br />
 
