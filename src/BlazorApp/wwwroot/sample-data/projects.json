@@ -1,22 +1,22 @@
 [
   {
-    "title": "10 Things To Know About Azure Static Web Apps 🎉",
-    "description": "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    "url": "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i"
+    "title": "LLM Image Analysis App",
+    "description": "A Next.js application that uses Google Generative AI (Gemini model) to analyze uploaded images, providing descriptions, related questions, and keywords in Turkish.",
+    "url": "https://github.com/MSimsek07/llm_image_analysis"
   },
   {
-    "title": "Web Development for Beginners",
-    "description": "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    "url": "https://github.com/microsoft/web-dev-for-beginners"
+    "title": "Simple Scraping Example",
+    "description": "A Jupyter Notebook project for web scraping and analyzing legal questions and answers, featuring synchronous and asynchronous scraping methods.",
+    "url": "https://github.com/MSimsek07/simple_scraping_example"
   },
   {
-    "title": "My Resume Site",
-    "description": "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    "url": "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website"
+    "title": "Poem Generator",
+    "description": "A web application that generates poems based on user prompts using OpenAI's GPT-3.5 model, with a Go backend and Streamlit frontend.",
+    "url": "https://github.com/MSimsek07/poem-generator"
   },
   {
-    "title": "GitHub Codespaces and github.dev",
-    "description": "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    "url": "https://www.youtube.com/watch?v=c3hHhRME_XI"
+    "title": "MLOps Tutorial with Dockerized Flask App",
+    "description": "A project demonstrating CI/CD automation for a Flask app using Docker, PyTest, and GitHub Actions to ensure efficient deployment to Docker Hub.",
+    "url": "https://github.com/MSimsek07/docker_flask"
   }
 ]
