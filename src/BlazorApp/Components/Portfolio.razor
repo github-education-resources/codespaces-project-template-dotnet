@@ -1,5 +1,5 @@
 <section class="light" id="portfolio">
-    <h2>Portfolio</h2>
+    <h2>Projects</h2>
     <div class="portfolio-container">
     @if (projects is null)
     {
@@ -42,6 +42,6 @@
     protected override async Task OnInitializedAsync()
     {
         projects = await Http.GetFromJsonAsync<List<Project>>("sample-data/projects.json");
-        hero = await HeroImageService.GetHeroAsync(img => img.Name is "portfolio");
+        hero = await HeroImageService.GetHeroAsync(img => img.Name is "projects");
     }
 }
