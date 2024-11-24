@@ -1,12 +1,12 @@
 {
-  "description": "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.",
+  "description": "I am a passionate and detail-oriented software developer with experience in Angular, ASP.NET, and SQL. Currently working in a startup environment, I am focused on building full-stack applications and console-based solutions. Eager to learn and grow, I enjoy solving problems and collaborating in fast-paced teams.",
   "skills": [
-    "Web design",
-    "User experience",
-    "Inclusive design",
-    "Focus group testing",
-    "Mobile user interfaces",
-    "Graphic design"
+    "Web development",
+    "AngularJS",
+    "Csharp Programming",
+    "Asp.Net Core",
+    "Python Programming",
+    "Java Programming"
+
   ],
-  "detailOrQuote": "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all."
-}
+  "detailOrQuote": "The best way to predict the future is to create it. — Abraham Lincoln"}
